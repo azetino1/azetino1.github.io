@@ -28,11 +28,7 @@ header, main, footer {
     max-width:400px;
 }
 
-header, footer, footer {
-    text-align: center;
-    background-color:darkblue;
-    color: whitesmoke;
-}
+
 
 header img {
     width: /*  */;
