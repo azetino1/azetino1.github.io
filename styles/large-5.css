@@ -38,14 +38,11 @@ h1, h2, h3 {
 
 
 .imgContainer{
-    float:left;
+    float:middle;
 }
 
 nav {
     float: middle;
 }
 
-img {
-    float: middle;
-}
- 
+
