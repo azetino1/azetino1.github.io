@@ -13,11 +13,16 @@ h2, h3 {
     color: black;
 }
 
-
-
-
 .imgContainer{
     float:left;
 }
 
+.highlow {
+    float: left;
+}
+
+.current{
+    float: left;
+
+}
 
