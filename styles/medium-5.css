@@ -7,8 +7,6 @@ body {
 }
 
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -31,7 +29,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: mediumblue;
 }
 
 h1, h2, h3 {
