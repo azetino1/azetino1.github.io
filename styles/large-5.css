@@ -6,22 +6,6 @@
     font-family: arial, helvetica, sans-serif;
 }
 
-h1, h2, h3 {
-    color: darkblue;
-}
-
-header, main, footer {
-    width: 25em;
-    height: 15em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav {
-    width: 50em;
-    margin-left: auto;
-    margin-right: auto;
-}   
 
 ul {
     list-style-type: none;
@@ -48,3 +32,19 @@ li a:hover {
     background-color: #111;
 }
 
+h1, h2, h3 {
+    color: darkblue;
+}
+
+header, main, footer {
+    width: 25em;
+    height: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}   
