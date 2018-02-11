@@ -41,3 +41,11 @@ h1, h2, h3 {
     float:center;
 }
 
+.highlow {
+    float: left;
+}
+
+.current{
+    float: left;
+
+}    

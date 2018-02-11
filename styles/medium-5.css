@@ -40,6 +40,12 @@ h1, h2, h3 {
 .imgContainer{
     float:left;
 }
+.highlow {
+    float: left;
+}
 
+.current{
+    float: left;
 
-    
+}
+
