@@ -19,9 +19,10 @@ header, footer {
     margin-right: auto;
 }
 
-main {
-float: inherit;
-    
+.imgContainer{
+    float:center;
+}
+
     
 }
 
