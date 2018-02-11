@@ -21,7 +21,7 @@ header, footer {
 
 main {
     
-    position: absolute;
+    position: fixed;
 }
 
 nav {
