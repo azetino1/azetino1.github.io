@@ -36,17 +36,6 @@ h1, h2, h3 {
     color: darkblue;
 }
 
-header, main, footer {
-    width: 50em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav {
-    width: 50em;
-    margin-left: auto;
-    margin-right: auto;
-} 
 
 .imgContainer{
     float:left;
