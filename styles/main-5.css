@@ -13,10 +13,15 @@ h2, h3 {
     color: black;
 }
 
-header, main, footer {
+header, footer {
     width: 50em;
     margin-left: auto;
     margin-right: auto;
+}
+
+main {
+    
+    position: absolute
 }
 
 nav {
