@@ -43,8 +43,30 @@ nav a:hover {
 
 }
 
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: red;
+    overflow: auto;
+}
 
+.town images{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px
+}
 
+.town images img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.info{
+    padding: 15px;
+    text-align: center;
+}
 h1, h3 {
     color: darkblue;
 }
