@@ -27,12 +27,13 @@ li {
 
 nav a {
     display: block;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
     font-size: 17px;
     background: darkblue;
     color: white;
-    padding: 10px;
+    
 }
 
 
@@ -41,6 +42,7 @@ nav a:hover {
     background-color: mediumblue;
 
 }
+
 
 
 h1, h3 {
