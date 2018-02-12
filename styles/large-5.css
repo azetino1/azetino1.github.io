@@ -7,7 +7,7 @@ body {
 }
 
 header { 
-margin: 5px
+margin: 5px;
 }
 
 nav {
@@ -15,6 +15,7 @@ nav {
     width: 100%;
     overflow: auto;
     background-color: darkblue;
+     margin: 5px;
 }
 
 ul {
@@ -29,7 +30,7 @@ li {
 }
 
 nav a {
-    margin: 5px;
+   
     display: block;
     padding: 10px;
     text-decoration: none;
