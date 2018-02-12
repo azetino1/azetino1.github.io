@@ -46,7 +46,7 @@ nav a:hover {
 .container{
     max-width: 1200px;
     margin: auto;
-    background: red;
+    background: white;
     overflow: auto;
 }
 
@@ -67,6 +67,7 @@ nav a:hover {
     padding: 15px;
     text-align: center;
 }
+
 h1, h3 {
     color: darkblue;
 }
