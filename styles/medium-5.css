@@ -54,10 +54,10 @@ nav a:hover {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-   
+     
 }
 
-.town images img{
+.townimages img{
     width: 100%;
     height: auto;
     
@@ -66,8 +66,7 @@ nav a:hover {
 .info{
     padding: 15px;
     text-align: center;
-    float: left;
-}
+    
 
 h1, h3 {
     color: darkblue;
