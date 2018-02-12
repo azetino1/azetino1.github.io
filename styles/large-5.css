@@ -11,7 +11,7 @@ nav {
    list-style-type: none;
     width: 100%;
     overflow: auto;
-    background-color: darkblue;
+    background-color: red;
 }
 
 ul {
@@ -41,6 +41,7 @@ nav a {
 nav a:hover {
     background-color: mediumblue;
 }
+
 
 h1, h3 {
     color: darkblue;
