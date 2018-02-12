@@ -11,7 +11,7 @@ nav {
    list-style-type: none;
     width: 100%;
     overflow: auto;
-    background-color: red;
+    background-color: darkblue;
 }
 
 ul {
@@ -31,6 +31,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     font-size: 17px;
+    background: darkblue;
     color: white;
     padding: 20px 10px;
 }
