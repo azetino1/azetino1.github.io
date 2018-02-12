@@ -6,8 +6,16 @@ body {
     font-family: arial, helvetica, sans-serif;
 }
 
-header img{ 
+header, img{ 
 margin: 5px;
+}
+
+h1, {
+    margin: 5px;
+}
+
+.subheading{
+    margin: 5px;
 }
 
 nav {
