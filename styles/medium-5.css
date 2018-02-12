@@ -32,16 +32,9 @@ li a:hover {
     background-color: mediumblue;
 }
 
-h1, h2, h3 {
+h1, h3 {
     color: darkblue;
 }
 
 
-.imgContainer{
-    float:middle;
-}
-
-nav {
-    float: middle;
-}
 
