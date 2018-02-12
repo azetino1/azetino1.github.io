@@ -35,14 +35,7 @@ nav a {
     color: white;
     padding: 20px 10px;
 }
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px ;
-    text-decoration: none;
-}
+
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
