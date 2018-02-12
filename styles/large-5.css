@@ -2,16 +2,22 @@
 
 {
     margin: 0;
-    padding: 0;
+    background: 0;
     font-family: arial, helvetica, sans-serif;
 }
 
 
+nav {
+   list-style-type: none;
+    width: 100%;
+    overflow: auto;
+    background-color: darkblue;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
     background-color: darkblue;
 }
 
@@ -19,6 +25,17 @@ li {
     float: left;
 }
 
+nav a {
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+}
+}
 li a {
     display: block;
     color: white;
