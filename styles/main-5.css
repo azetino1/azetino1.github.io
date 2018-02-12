@@ -7,39 +7,7 @@ body {
 }
 
 
-nav {
-   list-style-type: none;
-    width: 100%;
-    overflow: auto;
-    background-color: darkblue;
-}
 
-ul {
-   margin: 0;
-   padding: 0;
-   list-style-type: none;
-    background: darkblue;
-}
-
-li {
-    float: left;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    background: darkblue;
-    color: white;
-    padding: 10px;
-}
-
-
-/* Change the link color to #111 (black) on hover */
-nav a:hover {
-    background-color: mediumblue;
-}
 
 
 h1, h3 {
