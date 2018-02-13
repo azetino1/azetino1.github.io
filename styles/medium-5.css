@@ -31,7 +31,7 @@ li {
     float: left;
 }
 
-nav a {
+.nav a {
     display: block;
     padding: 125px;
     text-decoration: none;
