@@ -45,7 +45,7 @@ li {
     float: left;
 }
 
-a:link {
+.nav a{
     color: black;
     width: 125px;
     text-decoration: none;
@@ -65,7 +65,7 @@ a:link {
 }
 
 .container{
-    max-width:1200px;
+    max-width:1250px;
     margin: auto;
     background: white;
     overflow: auto;
