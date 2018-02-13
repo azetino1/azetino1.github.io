@@ -6,6 +6,11 @@ body {
     font-family: arial, helvetica, sans-serif;
 }
 
+header {
+    width: 1100px;
+    height: 350px;
+    margin: auto;
+}
 
 nav {
    list-style-type: none;
