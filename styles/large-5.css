@@ -14,10 +14,10 @@ header {
 
 nav {
    list-style-type: none;
-    width: 100%;
+    width: 1100px;
     overflow: auto;
     background-color: darkblue;
-     margin: 5px;
+     margin: auto;
 }
 
 ul {
