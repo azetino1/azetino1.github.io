@@ -14,7 +14,11 @@ body {
 
 h1{
    text-align: center;
+     color: darkblue;
 }
+h3 {
+  color: darkblue;
+} 
 
 .subheading {
  text-align: center; 
@@ -40,14 +44,17 @@ li {
     float: left;
 }
 
-.nav a {
+.a link {
+   
     display: block;
     padding: 13px;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     background: darkblue;
     color: white;
+    width: 125px;
+    text-transform: uppercase;
     
 }
 
@@ -59,7 +66,7 @@ li {
 }
 
 .container{
-    max-width:1250px;
+    max-width:1100px;
     margin: auto;
     background: white;
     overflow: auto;
@@ -85,9 +92,6 @@ li {
 
     
 
-h1, h3 {
-    color: darkblue;
-}
 
 
 
