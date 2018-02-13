@@ -44,7 +44,7 @@ li {
 
 
 /* Change the link color to #111 (black) on hover */
-nav a:hover {
+.nav a:hover {
     background-color: mediumblue;
   
 }
