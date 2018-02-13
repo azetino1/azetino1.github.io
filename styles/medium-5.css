@@ -13,14 +13,13 @@ body {
 }
 
 h1{
-    margin: auto;
-    overflow: auto;
+   text-align: center;
 }
 
 .subheading {
- margin: auto;
-overflow: auto;   
+ text-align: center; 
 }
+
 
 .nav {
    list-style-type: none;

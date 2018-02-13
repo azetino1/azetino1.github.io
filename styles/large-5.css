@@ -13,13 +13,11 @@ body {
 }
 
 h1{
-    margin: auto;
-    overflow: auto;
+   text-align: center;
 }
 
 .subheading {
- margin: auto;
-overflow: auto;   
+ text-align: center; 
 }
 
 .nav {
@@ -94,10 +92,7 @@ h1, h3 {
     color: darkblue;
 }
 
-h1 
-[
 
-]
 
 
 
