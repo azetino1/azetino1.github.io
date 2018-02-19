@@ -4,9 +4,11 @@
 <meta charset="utf-8">
     
 <body>
+ <p id="currentdate"></p>   
+    
 <script type="text/javascript">
     
-<p id="currentdate"></p>
+
 
 document.getElementById("currentdate").innerHTML = new Date().toDateString();
 </script>
