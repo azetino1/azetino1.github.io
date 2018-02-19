@@ -7,12 +7,12 @@ body {
     font-weight: 400; 
 }
 
-.logo {
+.header {
     width: 1100px;
     height: 350px;
     margin: auto;
 }
-.logo {
+.header {
     float: center;
 }
 
