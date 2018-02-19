@@ -13,6 +13,9 @@ body {
     margin: auto;
 }
 
+.logo{
+    float: center;
+}
 h1{
    text-align: center;
      color: darkblue;

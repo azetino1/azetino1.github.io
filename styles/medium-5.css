@@ -12,6 +12,9 @@ body {
     height: 350px;
     margin: auto;
 }
+.logo {
+    float: center;
+}
 
 h1{
    text-align: center;
