@@ -1,5 +1,12 @@
-<p id="date"></p>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="currentdate"></p>
 
 <script>
-document.getElementById("date").innerHTML = new Date().toDateString();
+document.getElementById("currentdate").innerHTML = new Date().toDateString();
 </script>
+
+</body>
+</html>
