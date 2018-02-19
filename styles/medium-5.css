@@ -3,7 +3,8 @@
 body {
     margin: 0;
     background: 0;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 400; 
 }
 
 .header {
