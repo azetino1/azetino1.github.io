@@ -1,15 +1,12 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-<head>
-<meta charset="utf-8">
-    
+<!DOCTYPE html>
+<html>
 <body>
- <p id="currentdate"></p>   
-    
-<script type="text/javascript">
-    
-    
-document.getElementById("currentdate").innerHTML =today;
+
+<p id="currentdate"></p>
+
+<script>
+var d = new Date();
+document.getElementById("current").innerHTML = d.toDateString();
 </script>
 
 </body>
