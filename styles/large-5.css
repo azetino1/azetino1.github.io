@@ -29,11 +29,7 @@ h3 {
  color: solid black;
 }
 
-.nav button {
-    margin:.2rem 5%;
-    background-color: white;
-    border: none;
-}
+
 .nav {
    list-style-type: none;
     width:1100px;
