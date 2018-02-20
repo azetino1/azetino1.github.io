@@ -2,14 +2,14 @@
 
 body {
     margin: 0;
-    background: 0;
     font-family: 'Merriweather', serif;
     font-weight: 400; 
 }
 .header {
     width: 1100px;
     height: 350px;
-        margin:0;
+    margin: auto;
+    overflow: auto;;
 }
 
 
@@ -59,7 +59,7 @@ li {
 }
 
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to mediumblue (black) on hover */
 .nav a:hover {
     background-color: mediumblue;
   
