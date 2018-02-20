@@ -30,7 +30,9 @@ h3 {
 }
 
 .nav button {
-    
+    margin: .2rem 2%;
+    background-color: azure;
+    border: none;
 }
 .nav {
    list-style-type: none;
