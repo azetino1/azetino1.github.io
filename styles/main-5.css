@@ -1,7 +1,7 @@
 * { margin: 0; box-sizing: border-box; } 
 
 .nav button {
-    margin:.2rem 3%;
+    margin:.2rem 2%;
     background-color: white;
     border: none;
     font-size: 1.6rem;
@@ -20,4 +20,8 @@
 
 .nav ul li a{
     display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    
 }
