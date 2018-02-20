@@ -25,4 +25,6 @@
     color: white;
 }
 
+.nav ul li.active{background-color: mediumblue}
+
 .nav ul li a:hover { background-color: mediumblue}
