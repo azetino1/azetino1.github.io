@@ -78,7 +78,7 @@ li {
     border: 1px solid #ccc;
     float: left;
     width: 390px;
-    
+    overflow: auto;
     
 }
 
