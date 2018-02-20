@@ -23,5 +23,6 @@
     padding: .8rem 2%;
     text-decoration: none;
     color: white;
-    
 }
+
+.nav ul li a:hover { background-color: mediumblue}
