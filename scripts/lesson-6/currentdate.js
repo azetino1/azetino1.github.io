@@ -8,6 +8,7 @@
     
 <script type="text/javascript">
     
+    Funtion currentdate()
 
 
 document.getElementById("currentdate").innerHTML = new Date().toDateString();
