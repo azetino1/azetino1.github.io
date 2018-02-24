@@ -1,0 +1,4 @@
+Function compuWind(){
+    var
+    
+}
