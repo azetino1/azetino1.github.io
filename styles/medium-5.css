@@ -13,3 +13,7 @@
 nav ul li a {border: none;}
 border-right; 1px solid white;
 padding: .8rem 1rem;
+
+grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
