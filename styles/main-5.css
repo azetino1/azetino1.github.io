@@ -40,9 +40,9 @@
 }
 
 .grid div {
-    border: 1px solid rgb(0, 95,1070);
+    border: 1px solid rgb(0, 95,107);
     border-radius: 3px;
-    background-color: rgba(0,95,107,0,9);
+    background-color: rgba(0,95,107,0.8);
     padding: 0.2em;
     color: #fff;
     font-size: 120%;
