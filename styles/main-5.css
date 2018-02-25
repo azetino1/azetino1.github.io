@@ -39,14 +39,14 @@
     overflow: auto;
 }
 
-.grid galleryimages {
+.galleryimages {
     margin: 10px;
     border: 1px solid #ccc;
     float: left;
     width: 390px;
     overflow: auto;
 }
-.grid galleryimages img{
+.galleryimages img{
     width: 100%;
     height: auto;
 
