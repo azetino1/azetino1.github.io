@@ -14,6 +14,20 @@ nav ul li a {border: none;}
 border-right; 1px solid white;
 padding: .8rem 1rem;
 
-grid{
+.grid{
     display: grid;
     grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 100px;
+    grid-auto-flow: 100px;
+    grid-column-gap: 20px;
+}
+
+.grid div {
+    border: 1px solid rgb(0, 95,1070);
+    border-radius: 3px;
+    background-color: rgba(0,95,107,0,9);
+    padding: 0.2em;
+    color: #fff;
+    font-size: 120%;
+    
+}
