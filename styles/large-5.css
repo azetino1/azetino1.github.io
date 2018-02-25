@@ -118,8 +118,8 @@ galleryimages {
     overflow: auto;
 }
 .galleryimages img{
-    width: 100%;
-    height: auto;
+    width: 273px;
+    height: 300px;
 
 }
 
