@@ -20,6 +20,7 @@ padding: .8rem 1rem;
     grid-template-rows: 200px 100px;
     grid-auto-flow: 100px;
     grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
 .grid div {
