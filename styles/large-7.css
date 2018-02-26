@@ -75,7 +75,7 @@ li {
     overflow: auto;
 }
 
-.grid-box {
+.grid-box img{
     border: 1px 
     border-radius: 3px;
     padding: 0.2em;
@@ -85,7 +85,7 @@ li {
     float: left;
     width: 390px;
     overflow: auto;
-
+}
 
 
 
