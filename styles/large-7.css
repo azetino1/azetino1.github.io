@@ -69,6 +69,9 @@ picture-grid{
     
 }
 
+grid-box img{
+    width: 100%;
+}
 
 
 
