@@ -61,9 +61,11 @@ li {
     text-align: center;
 }
     
-grid-box{
-    float: left;
-
+picure-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 1em;
 }
 
 
