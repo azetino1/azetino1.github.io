@@ -1,8 +1,0 @@
-* { margin: 0; box-sizing: border-box; } 
-
-.gallery-grid{
-   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items; center;
-    grid-gap; 1em;
-}
