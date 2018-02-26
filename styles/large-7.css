@@ -82,6 +82,11 @@ grid-box img{
     font-size: 120%;
     border: 1px solid #ccc;
     float: left;
+    width: 390px;
+    overflow: auto;
+    margin: 10px;
+
+
 }
 
 
