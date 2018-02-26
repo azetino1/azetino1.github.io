@@ -61,7 +61,7 @@ li {
     text-align: center;
 }
     
-grid-box {
+picture-grid{
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-auto-rows: 200px 200px;
@@ -78,7 +78,7 @@ grid-box {
     
 }
 
-picture-grid{
+grid-box{
     width: 390px;
     border: 1px 
     border-radius: 3px;
