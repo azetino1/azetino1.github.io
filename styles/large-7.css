@@ -6,6 +6,11 @@ body{
     
 }
 
+h1{
+   text-align: center;
+     color: darkblue;
+}
+
 .nav {
    list-style-type: none;
     width:1100px;
