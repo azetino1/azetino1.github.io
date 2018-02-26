@@ -71,6 +71,17 @@ li {
     
 }
 
+grid-box img{
+    border: 1px 
+    border-radius: 3px;
+    padding: 0.2em;
+    font-size: 120%;
+    border: 1px solid #ccc;
+    float: left;
+width: 390px;
+    overflow: auto;
+margin: 10px;
+
 
 
 
