@@ -31,6 +31,9 @@
 
 .nav ul.hide {display: none;}
 
-.grid{
-   float: left;
+.picture-grid{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items; center;
+    grid-gap; 1em;
 }
