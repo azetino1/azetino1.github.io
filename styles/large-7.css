@@ -54,6 +54,9 @@ li {
 
 }
 
+.clearfix{
+    overflow: auto;
+}
 
 .picture-grid{
     display: grid;
