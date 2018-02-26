@@ -52,7 +52,7 @@ li {
 /* Change the link color to mediumblue) on hover */
 .nav a:hover {
     background-color: mediumblue;
-    font-size: 3em;
+    font-size: 18px;
 
 }
 
