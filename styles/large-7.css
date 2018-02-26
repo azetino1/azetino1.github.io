@@ -63,10 +63,14 @@ li {
     
 picure-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     justify-items: center;
-    grid-gap: 1em;
+    grid-gap: 5px;
+    grid-row-gap: 0px;
 }
 
+grid-box img{
+    width: 100%;
+}
 
 
