@@ -68,7 +68,11 @@ li {
     grid-auto-flow: 100px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    
+    width: 1100px;
+    background: white;
+    margin: auto;
+    overflow: auto;
+
 }
 
 grid-box img{
