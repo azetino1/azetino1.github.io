@@ -61,25 +61,8 @@ li {
     text-align: center;
 }
     
-picture-grid{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-auto-rows: 200px 200px;
-    justify-items: center;
-    grid-auto-flow: 100px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    
-
-    
-}
-
 grid-box{
-    width: 390px;
-    border: 1px 
-    border-radius: 3px;
-    padding: 0.2em;
-  
+    float: left;
 
 }
 
