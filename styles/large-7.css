@@ -61,23 +61,19 @@ li {
     text-align: center;
 }
     
-/* Create two equal columns that floats next to each other */
-.grid-box {
-    float: left;
-    width: 50%;
-    padding: 10px;
+
+.picture-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    grid-row-gap:0px; 
+}    
+
+grid-box img{
+    width: 100;
 }
 
-.grid-box img {
-    margin-top: 12px;
-}
-
-/* Clear floats after the columns */
-.picture-grid:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
 
