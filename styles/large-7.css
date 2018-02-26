@@ -6,9 +6,7 @@ body{
     
 }
 
-.info{
-    padding: 15px;
-    text-align: center;
+
 
 
 .picture-grid{
@@ -36,3 +34,7 @@ body{
     overflow: auto;
 
 }
+
+.info{
+    padding: 15px;
+    text-align: center;
