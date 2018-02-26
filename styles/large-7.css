@@ -72,9 +72,10 @@ li {
     
 }    
 
-grid-box{
-    
-    
+grid-box img{
+    width: auto;
+    height:auto;
+        
 }
 
 
