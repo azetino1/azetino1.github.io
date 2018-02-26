@@ -79,11 +79,7 @@ grid-box{
     border: 1px 
     border-radius: 3px;
     padding: 0.2em;
-    font-size: 120%;
-    border: 1px solid #ccc;
-    float: left;
-    overflow: auto;
-    margin: 10px;
+  
 
 }
 
