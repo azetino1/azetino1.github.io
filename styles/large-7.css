@@ -58,7 +58,7 @@ li {
 
 .info{
     padding: 15px;
-    text-align: auto;
+    text-align: left;
 }
     
 .picure-grid{
@@ -68,19 +68,12 @@ li {
     grid-auto-rows: 100px;
     grid-gap: 20px;
     
-
 }
 
-.grid-box {
-    margin: 10px;
-    border: 1px solid #ccc;
-    width: 390px;
-
-}
 
 .grid-box img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: auto;
 
 }
     
