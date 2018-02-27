@@ -24,12 +24,11 @@
   </head>
   <body>
 
-  <H1>Windchill Calculator</H1>
   Enter Temperature: <input type="text" id='tempinputbox'>
   <br>
   Enter Wind Speed: <input type="text" id='speedinputbox'>
   <br>
-  <button type="button" onclick="doinputoutput()">Wind Chill</button>
+  <button type="button" onclick="doinputoutput()">click for Wind Chill</button>
   <div id="output">
   </div>
   </body>
