@@ -69,6 +69,10 @@ li {
     grid-gap: 20px;
 }
 
+.grid-box img{
+    width: 275px;
+    height: 300px;
+}
 
     
 
