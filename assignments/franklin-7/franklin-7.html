@@ -81,26 +81,23 @@
 
 <script> 
    
-  function doinputoutput() {
-  
-  var temp = document.getElementById("tempinputbox").value;
-  var speed = document.getElementById("speedinputbox").value;
-  var chill = windchill(temp, speed)
-  document.getElementById("output").innerHTML= chill + "°f";
-  }
-  
-  function windchill(tempF, speed) {
-  return 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF
-  *Math.pow(speed, 0.16);
-  }
-  </script>
-  
-  Enter Temperature: <input type="text" id='tempinputbox'>
-  <br>
-  Enter Wind Speed: <input type="text" id='speedinputbox'>
-  <br>
-  <button type="button" onclick="doinputoutput()">Click for Wind Chill</button>
-            <div id="output"></div>
+ function doInputOutput() {
+ var userTemp = parseFloat(document.getElementById('tempInput').value);
+ var userSpeed = parseFloat(document.getElementById('speedInput').value);
+ var chillOut = windChill(userTemp, userSpeed);
+ document.getElementById('outputDiv').innerHTML = chillOut;
+ }
+ 
+ function windChill(tempF, speed) {
+ chillCalc = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF * Math.pow(speed, 0.16)
+ return chillCalc;
+ }
+ </script>
+
+ Temperature:<input type="text" id="tempInput"><br>
+ Wind Speed:<input type="text" id="speedInput"><br>
+ <button type="button" onclick="doInputOutput()">click for Wind Chill</button>
+ <div id="outputDiv"></div>
 <br>    
     <section class="forecast">
       <h3>10 Day Forecast</h3>
