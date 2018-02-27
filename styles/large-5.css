@@ -97,9 +97,22 @@ li {
 
 .info{
     padding: 15px;
-    text-align: center;
+   float: left;
 }
 
+.picure-grid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 3fr 3fr;
+    grid-auto-rows: 100px;
+    grid-gap: 20px;
+    
+}
+
+
+.grid-box img{
+    width: 100%;
+    height: auto;
 
     
 
