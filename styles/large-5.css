@@ -97,7 +97,7 @@ li {
 
 .info{
     padding: 15px;
-   float: left;
+  text-align: inherit;
 }
 
 .picure-grid{
