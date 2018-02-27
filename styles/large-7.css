@@ -76,13 +76,15 @@ li {
 
 .grid-box {
     margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
     width: 390px;
 
 }
 
 .grid-box img{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50%;
 
 }
     
