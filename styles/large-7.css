@@ -70,8 +70,11 @@ li {
 }
 
 .grid-box img{
-    width: 190px;
-    height: 190px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+
 }
 
     
