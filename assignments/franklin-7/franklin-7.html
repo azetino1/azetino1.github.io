@@ -85,7 +85,7 @@
  var userTemp = parseFloat(document.getElementById('tempInput').value);
  var userSpeed = parseFloat(document.getElementById('speedInput').value);
  var chillOut = windChill(userTemp, userSpeed);
- document.getElementById('outputDiv').innerHTML = chillOut;
+ document.getElementById('outputDiv').innerHTML = chill + "°f";
  }
  
  function windChill(tempF, speed) {
