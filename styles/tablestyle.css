@@ -1,6 +1,5 @@
 * { margin: 0; box-sizing: border-box; 
     
-
     
     table, th, td {
         font-family: Ubuntu, sans-serif;
@@ -32,7 +31,7 @@
     tbody tr:nth-child(3) {
         background: #e7ffed;
 }
-    tr:nth-child(4) td:nth-child(1) {
+     tr:nth-child(4) td:nth-child(1) {
         background: #e7ffed;
 } 
      tr:nth-child(4) td:nth-child(2) {
