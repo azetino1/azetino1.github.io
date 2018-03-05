@@ -49,7 +49,9 @@ input.submitBtn{
     box-shadow: 4px 4px 10px #666;
 }
 label input{
-    
+    background-color: aliceblue;
+    padding: .3em .3em .3em .3em 3em;
+    border: solid 1px #b0aaa0;
     background-image:url(/images/ico_validation.png); 
     background-repeat: no-repeat;
     background-position: 4x -11px;
