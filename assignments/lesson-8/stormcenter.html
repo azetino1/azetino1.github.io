@@ -53,14 +53,19 @@
     
 <fielset>
 <legend><span>Storm Severity:</span></legend>
-<label>
-<div class="slider-wrapper">
-  <input type="range" min="0" max="10" value="7" step="1">
-</div>
-
-</label>
+<label for="fader">Volume</label>
+<input type="range" min="0" max="100" value="50" id="fader" 
+	step="1" oninput="outputUpdate(value)">
+<output for="fader" id="volume">50</output>
 </fielset>  
+    
+<script>
+function outputUpdate(vol) {
+document.querySelector('#volume').value = vol;
+}
+</script>
 <br><br>
+    
     
 <fielset>
 <legend><span>Storm Region:</span></legend>
