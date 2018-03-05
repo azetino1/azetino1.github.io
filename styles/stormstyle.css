@@ -1,6 +1,6 @@
 
 
-form#stormreporting{
+form#conference{
     margin: 1em 3%;
 }
 
@@ -19,3 +19,9 @@ legend{
     background-color: #f2eee7;
     border-radius: .4em;
 }
+
+label{
+    display: block;
+    margin: .5em;
+}
+
