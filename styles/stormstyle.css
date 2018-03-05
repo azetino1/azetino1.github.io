@@ -1,9 +1,10 @@
+ 
 form#stormreporting{
     margin: 1em 3%;
 }
 
 fielset{
-    background-color: lightblue
+    background-color: lightblue;
     border-radius: .8em;
     margin: 1.5em 0;
     border: solid 1px blue;
