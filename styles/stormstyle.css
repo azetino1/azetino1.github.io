@@ -27,4 +27,8 @@ label{
 
 label span{
     display: block;
+    font-size: .8em;
+    color: #917a56;
+    padding-top: .9em;
+    padding-bottom: .2em;
 }
