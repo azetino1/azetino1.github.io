@@ -25,3 +25,6 @@ label{
     margin: .5em;
 }
 
+label span{
+    display: block;
+}
