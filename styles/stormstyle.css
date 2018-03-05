@@ -59,6 +59,8 @@ label input{
     width: 90%;
     max-width: 500px;
     background-image: url(/images/ico_validation.png)
+    background-repeat: no-repeat;
+    background-position: 4px -11px;
 }
 input:focus{
     box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
