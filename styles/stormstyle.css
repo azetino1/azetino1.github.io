@@ -68,3 +68,7 @@ input:focus{
 input:required{
     background-position: 4px -61px;
 }
+
+input:focus:invalid{
+    background-position: 4px -111px;
+}
