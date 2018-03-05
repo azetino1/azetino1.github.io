@@ -51,7 +51,7 @@ input.submitBtn{
 label input{
     background-color: #f4f2ef;
     color: #917a56;
-    padding: .1em;
+    padding: .3em .3em 2m;
     border: solid 1px #b0aaa0;
     border-radius: 5px;
     font-size: 1em;
