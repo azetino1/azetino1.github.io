@@ -12,11 +12,11 @@ fieldset{
 }
 
 legend{
-    color: #7d2a35;
+    color: blue;
     margin-left: 0%;
     padding: .5em;
-    border: #917a56 solid 1px;
-    background-color: #f2eee7;
+    border: lightblue solid 1px;
+    background-color: lightblue;
     border-radius: .4em;
     width: 200px;
     text-align: center;
