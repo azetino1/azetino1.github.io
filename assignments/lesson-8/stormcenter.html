@@ -2,7 +2,9 @@
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
-
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Storm Reporting</title>
   <link href="/styles/stormstyle.css" rel="stylesheet">
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="/styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
@@ -46,17 +48,17 @@
 <p> progress:<progress value="1" max="2"></progress></p>
 <form action="thanks.html" name="stormreporting" id="stormreporting">
     
-<fielset>
+<fieldset>
 <legend><span>Personal Information:</span></legend><br>
     <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
 <label><span>Email:</span><input name="Email" type="Email" value="" placeholder="123456@gmail.com" required></label>
 <label><span>phone:</span><input name="phone" type="tel" value="" placeholder="1234567890" pattern="[0-9]{10,20}"required></label>
 <label><span>zipcode:</span><input name="zipcode" type="number" value="" placeholder="12345" pattern="[1-999]{5,10}" required></label>
 <label><span>Storm Date:</span><input name="date" type="date"></label>
-</fielset> 
+</fieldset> 
 
   
-<fielset>
+<fieldset>
 <legend><span>Storm Type:</span></legend>
 <label>
 <input type="text" name="stomType" list="storm names">
@@ -68,17 +70,17 @@
 <option value="Tornado"></option>
 </datalist>
 </label>
-</fielset>  
+</fieldset>  
 
     
     
-<fielset>
+<fieldset>
 <legend><span>Storm Severity:</span></legend>
 <label for="fader"></label>
 <input type="range" min="0" max="10" value="5" id="fader" 
 	step="1" oninput="outputUpdate(value)">
 <output for="fader" id="volume">5</output>
-</fielset>  
+</fieldset>  
     
 <script>
 function outputUpdate(vol) {
@@ -88,7 +90,7 @@ document.querySelector('#volume').value = vol;
 
     
     
-<fielset>
+<fieldset>
 <legend><span>Storm Region:</span></legend>
 <label>
 <select>  
@@ -98,34 +100,34 @@ document.querySelector('#volume').value = vol;
 <option value="Springville">Springfield</option>
 </select>
 </label>
-</fielset>  
+</fieldset>  
 
     
-<fielset>
+<fieldset>
 <legend><span>User In-Danger Level:</span></legend>
 <label>
 <input type="radio" name="option" value="Yes">Yes<br>
 <input type="radio" name="option" value="Maybe">Maybe<br>
 <input type="radio" name="option" value="No">No<br>   
 </label>
-</fielset>  
+</fieldset>  
 
     
-<fielset>
+<fieldset>
 <legend><span>Additional information or Comments:</span></legend>
 <label>  
 <textarea rows="10" cols="100"></textarea>
 </label>
-</fielset>
+</fieldset>
 
     
-<fielset>
+<fieldset>
 <label>
 <input type="submit" value="Send!" class="submitBtn">
 <input name="subjet" type="hidden" value="stormreporting" >
 <input name="redirect" type="hidden" value="thanks.html">
 </label>
-</fielset>
+</fieldset>
        
 </form>
  
