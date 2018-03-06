@@ -50,11 +50,10 @@ input.submitBtn{
 }
 label input{
     background-color: aliceblue;
-    padding: .3em .3em .3em .3em 2em;
+    padding: .5em .5em .5em .5em 5em;
     border: solid 1px #b0aaa0;
     border-radius: 5px;
-    width: 90%;
-    max-width: 500px;
+   
     background-image:url(/images/ico_validation.png); 
     background-repeat: no-repeat;
     background-position: 4px -11px;
