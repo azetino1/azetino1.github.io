@@ -50,7 +50,7 @@ input.submitBtn{
 }
 label input{
     background-color: aliceblue;
-    padding: .3em .3em .3em 2m;
+    padding: .3em .3em .3em 2em;
     border: solid 1px #b0aaa0;
     border-radius: 5px;
     width: 90%;
