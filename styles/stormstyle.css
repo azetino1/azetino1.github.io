@@ -4,12 +4,8 @@ form#stormreporting{
     margin: 1em 3%;
 }
 
-left p {
+p {
    margin: 1em 3%; 
-}
-
-progress {
-    margin: 1em 3%; 
 }
 
 fieldset{
