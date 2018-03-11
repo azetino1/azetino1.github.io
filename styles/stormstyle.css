@@ -16,7 +16,8 @@ legend{
     padding: .5em;
     border: lightblue solid 1px;
     background-color: darkblue;
-}    border-radius: .4em;
+    border-radius: .4em;
+}
 
 
 
@@ -45,6 +46,7 @@ input.submitBtn{
     background-color: darkblue;
     box-shadow: 4px 4px 10px #666;
 }
+
 label input{
     background-color: aliceblue;
     padding: .5em .5em .5em 2em;
