@@ -4,6 +4,9 @@ form#stormreporting{
     margin: 1em 3%;
 }
 
+p progress{
+   margin: 1em 3%; 
+}
 fieldset{
     background-color: #e4dccf;
     border-radius: .8em;
