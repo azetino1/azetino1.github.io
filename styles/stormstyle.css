@@ -14,11 +14,11 @@ fieldset{
 }
 
 legend{
-    color: blue;
+    color: white;
     margin-left: 0%;
     padding: .5em;
     border: lightblue solid 1px;
-    background-color: lightblue;
+    background-color: darkblue;
     border-radius: .4em;
     width: 200px;
     
