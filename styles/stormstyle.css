@@ -7,8 +7,7 @@ fieldset{
     border-radius: .8em;
     margin: 1.5em 0;
     border: #917a56 solid 1px;
-    margin: auto;
-    overflow: auto;
+    width: 50%;
 }
 
 legend{
