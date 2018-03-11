@@ -16,10 +16,9 @@ legend{
     padding: .5em;
     border: lightblue solid 1px;
     background-color: darkblue;
-    border-radius: .4em;
-    width: 200px;
-    margin: .5em 0;
-}
+}    border-radius: .4em;
+
+
 
 label{
     display: block;
