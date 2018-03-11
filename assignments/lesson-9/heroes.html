@@ -28,7 +28,8 @@
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-      var superHeroes = request.response;
+      var superHeroesText = request.response;
+      var superHeroes = JSON.parse(superHeroesTex);
       populateHeader(superHeroes);
       showHeroes(superHeroes);
     }
