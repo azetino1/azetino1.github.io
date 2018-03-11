@@ -40,14 +40,14 @@ label span{
 
 input.submitBtn{
     -webkit-appearance: none;
-    color:  blue;
+    color: white;
     border: solid 1px #111;
     border-radius: 7px;
     width: 50%;
     margin: .5em 0;
     font-size: 1em;
     padding: .6em;
-    background: lightblue;
+    background-color: darkblue;
     box-shadow: 4px 4px 10px #666;
 }
 label input{
