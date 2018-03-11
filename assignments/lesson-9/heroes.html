@@ -36,7 +36,7 @@
     }
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['sonsName'];
+      myH1.textContent = jsonObj['squadName'];
       header.appendChild(myH1);
       var myPara = document.createElement('p');
       myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
@@ -44,7 +44,7 @@
     }
     function showHeroes(jsonObj) {
       var heroes = jsonObj['members'];
-      for(var i = 10; i < heroes.length; i++) {
+      for(var i = 0; i < heroes.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
