@@ -51,8 +51,8 @@
         var myPara3 = document.createElement('p');
         var myList = document.createElement('ul');
         myH2.textContent = towns[i].name;
-        myPara1.textContent = 'City Name: ' + towns[i].secretIdentity;
-        myPara2.textContent = 'Motto: ' + towns[i].age;
+        myPara1.textContent = 'City Name: ' + towns[i].cityName;
+        myPara2.textContent = 'Motto: ' + towns[i].motto;
         myPara3.textContent = 'Year Founded:';
         var cityInfo = towns[i].info;
         for(var j = 0; j < cityInfo.length; j++) {
