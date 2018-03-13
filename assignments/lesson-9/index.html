@@ -36,29 +36,29 @@
     }
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['townName'];
+      myH1.textContent = jsonObj['cityNames'];
       header.appendChild(myH1);
       var myPara = document.createElement('p');
       myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
       header.appendChild(myPara);
     }
-    function showHeroes(jsonObj) {
-      var heroes = jsonObj['cities'];
-      for(var i = 0; i < heroes.length; i++) {
+    function showTowns(jsonObj) {
+      var towns = jsonObj['cities'];
+      for(var i = 0; i < towns.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         var myList = document.createElement('ul');
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-        myPara2.textContent = 'Age: ' + heroes[i].age;
-        myPara3.textContent = 'Superpowers:';
-        var superPowers = heroes[i].powers;
-        for(var j = 0; j < superPowers.length; j++) {
+        myH2.textContent = towns[i].name;
+        myPara1.textContent = 'City Name: ' + towns[i].secretIdentity;
+        myPara2.textContent = 'Motto: ' + towns[i].age;
+        myPara3.textContent = 'Year Founded:';
+        var cityInfo = towns[i].info;
+        for(var j = 0; j < cityInfo.length; j++) {
           var listItem = document.createElement('li');
-          listItem.textContent = superPowers[j];
+          listItem.textContent = cityInfo[j];
           myList.appendChild(listItem);
         }
         myArticle.appendChild(myH2);
