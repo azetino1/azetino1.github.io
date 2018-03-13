@@ -55,7 +55,7 @@
         myPara2.textContent = 'Motto: ' + towns[i].motto;
         myPara3.textContent = 'Year Founded:';
         var yearFounded = towns[i].founded;
-        for(var j = 0; j < yearFounded.length; j++) {
+        for(var j = 0; j <yearFounded.length; j++) {
           var listItem = document.createElement('li');
           listItem.textContent = yearFounded[j];
           myList.appendChild(listItem);
