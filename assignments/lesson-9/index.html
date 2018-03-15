@@ -32,7 +32,7 @@
       var townsText = request.response;
       var towns = JSON.parse(townsText);
       populateHeader(towns);
-      showHeroes(towns);
+      showTowns(towns);
     }
     function populateHeader(jsonObj) {
       var myH1 = document.createElement('h1');
