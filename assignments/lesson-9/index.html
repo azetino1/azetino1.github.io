@@ -56,6 +56,7 @@
         myPara3.textContent = 'Year Founded: ' + towns[i].yearFounded;
         myPara3.textContent = 'Current Population: ' + towns[i].currentPopulation;
         myPara3.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;  
+        myPara3.textContent = 'events:';
         var events = towns[i].events;
         for(var j = 0; j <events.length; j++) {
           var listItem = document.createElement('li');
