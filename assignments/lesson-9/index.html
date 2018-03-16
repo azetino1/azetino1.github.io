@@ -42,7 +42,7 @@
       
     }
     function showTowns(jsonObj) {
-      var towns = jsonObj['events'];
+      var towns = jsonObj['cities'];
       for(var i = 0; i < towns.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
@@ -54,6 +54,13 @@
         myPara1.textContent = 'City Name: ' + towns[i].cityName;
         myPara2.textContent = 'Motto: ' + towns[i].motto;
         myPara3.textContent = 'Year Founded:';
+          
+        var events = towns[i].events;
+        for(var j = 0; j <events.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = yearFounded[j];
+          myList.appendChild(listItem);
+        }
           
         
         myArticle.appendChild(myH2);
