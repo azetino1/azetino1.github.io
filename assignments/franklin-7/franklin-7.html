@@ -60,86 +60,19 @@
     <div class ="info">City of Springfield</div>
     </div>
      
-        <Main>
+  
     <section>
       <h3>Weather Summary</h3>    
-      <div class="highlow">
-        <p>High:89°F</p>  
-        <p>Low:72°F</p>  
-      </div>
-        
-      <div class="current">
-      <h3>Sunny</h3>
-      <img src="/images/sunny.jpg" alt="" width="200" height="273">
-      </div>   
-      <div class="conditions">
-        <p>Precipitation:0%</p>  
-        <p>Wind Speed:5 mph SW</p>  
-      </div>           
-    </section>
-<br>
-
-<script> 
-   
- function doInputOutput() {
- var userTemp = parseFloat(document.getElementById('tempInput').value);
- var userSpeed = parseFloat(document.getElementById('speedInput').value);
- var chillOut = windChill(userTemp, userSpeed);
- document.getElementById('outputDiv').innerHTML = chillOut + "°f";
- }
- 
- function windChill(tempF, speed) {
- chillCalc = 35.74 + 0.6215 * tempF - 35.75 * Math.pow(speed, 0.16) + 0.4275 * tempF * Math.pow(speed, 0.16)
- return chillCalc;
- }
- </script>
-
- Temperature:<input type="text" id="tempInput"><br>
- Wind Speed:<input type="text" id="speedInput"><br>
- <button type="button" onclick="doInputOutput()">click for Wind Chill</button>
- <div id="outputDiv"></div>
-<br>    
-    <section class="forecast">
-      <h3>10 Day Forecast</h3>
-      <table>
-	    <thead>
-          <tr>
-            <th>Day 1</th>
-            <th>Day 2</th>
-            <th>Day 3</th>
-            <th>Day 4</th>
-            <th>Day 5</th>
-            <th>Day 6</th>
-            <th>Day 7</th>
-            <th>Day 8</th>
-            <th>Day 9</th>
-            <th>Day 10</th>
-          </tr>
-		</thead>
-        <tbody>  
-          <tr>
-            <td>89&deg;F</td>
-            <td>87&deg;F</td>
-            <td>78&deg;F</td>
-            <td>75&deg;F</td>
-            <td>72&deg;F</td>
-            <td>72&deg;F</td>
-            <td>79&deg;F</td>
-            <td>83&deg;F</td>
-            <td>85&deg;F</td>
-            <td>89&deg;F</td>
-          </tr>
-		</tbody>
-      </table>
-    </section>
+     <p> Current temperature is <span id="currentTemp"></span>&deg;</p>
       
-    <article>
-      <h3>Franklin Breaks Record</h3>	
-      <p class="town-article">
-        <img src="/images/recordbreaker.png" alt="Town's Article" width="200" height="273">
-      </p>
-		</article>		  
-       </Main>
+      <img id="w_icon" src="" alt=""> <span id="currentWeather"></span>
+      
+      <p> Current wind speed in MPH is <span id="currentWindspeed"></span></p>
+     
+      <p> Current windchill is <span id="currentWindchill"></span></p>
+     
+    </section>	  
+      
 
     
   <footer>
@@ -156,4 +89,5 @@
   <script src="/scripts/lesson-6/currentdate.js"></script>
     
 </body>
+<script type="text/javascript" src="/scripts/lesson-9/wu-weather.js"></script>
 </html>
