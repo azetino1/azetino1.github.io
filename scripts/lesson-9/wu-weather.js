@@ -11,5 +11,7 @@ weatherObject.onload = function(){
 var weatherInfo = JSON.parse(weatherObject.responseText);
     console.log(weatherInfo);
     
+    document.getElementById('currentTemp').innerHTML = weatherInfo.current_observation.temp_f;
+    
 }
     
