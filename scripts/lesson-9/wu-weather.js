@@ -13,6 +13,6 @@ var weatherInfo = JSON.parse(weatherObject.responseText);
     
     document.getElementById('currentWeather').innerHTML = weatherInfo.current_observation.weather;
     document.getElementById('currentTemp').innerHTML = weatherInfo.current_observation.temp_f;
-    
+    document.getElementById('currentWinds').innerHTML = weatherInfo.current_observation.wind_gust_mph;
 }
     
