@@ -17,7 +17,7 @@ var weatherInfo = JSON.parse(weatherObject.responseText);
     document.getElementById('currentWindspeed').innerHTML = weatherInfo.current_observation.wind_gust_mph;
     document.getElementById('currentWindchill').innerHTML = weatherInfo.current_observation.windchill_string;
     document.getElementById('currentHigh').innerHTML = weatherInfo.forecast.txt_forecast.forecastday["0"].fcttext;
-    document.getElementById('currentLow').innerHTML = weatherInfo.forecast.simpleforecast.forecastday["0"].low;
+    document.getElementById('currentLow').innerHTML = weatherInfo.forecast.txt_forecast.forecastday["0"].fcttext;
 
 }  
     
