@@ -2,7 +2,7 @@
 
 var weatherObject = new XMLHttpRequest();
 
-weatherObject.open('GET','http://api.wunderground.com/api/f8686be8191dbc65/conditions/q/NV/Las_Vegas.json',true);
+weatherObject.open('GET','http://api.wunderground.com/api/f8686be8191dbc65/conditions/q/CA/San_Francisco.json',true);
 
 weatherObject.send();
 
