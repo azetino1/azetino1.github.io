@@ -8,7 +8,7 @@ weatherObject.send();
 
 weatherObject.onload = Function(){
     
-    var weatherInfo = Json.parse(weatherObject.responseText);
+    var weatherInfo = JSON.parse(weatherObject.responseText);
     console.log(weatherInfo);
     
 }
