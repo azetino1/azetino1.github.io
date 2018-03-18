@@ -5,10 +5,11 @@ form#storm-form{
 
 fieldset{
     background-color: dodgerblue;
-    border-radius: .8em;
-    margin: 1.5em 0;
-    border: 1px solid darkblue;
-    
+    border-radius: .5em;
+    margin: 1.5em auto;
+    border: 2px solid darkblue;
+    max-width: 500px;
+    padding-left: 6%;
 
 }
 
@@ -18,6 +19,7 @@ legend{
     border: 2px solid darkblue;
     background-color: darkblue;
     border-radius: .4em;
+    padding: .5em;
 }
 
 label{
@@ -29,10 +31,23 @@ label{
 /*to put input fields under instructions/labels and improve visual grouping*/
 label span {
     display: block;
-    font-size: .8em;
+    text-align: left;
+    font-size: 1em;
     color: #ffffff;
     padding-top: .9em;
     padding-bottom: .2em;
+}
+
+.radio-text{
+    display: inline;
+    padding-left: .5em;
+}
+input.radio{
+    padding-bottom: .5em;
+}
+
+fieldset#comments{
+    padding: 1em 2em;
 }
 
 input.submitBtn{
@@ -51,7 +66,6 @@ input.submitBtn{
     
 }
 
-
 label input{
     background-color: #f4f2ef;
     color: #917a56;
@@ -61,7 +75,7 @@ label input{
     font-size: .9em;
     width: 90%;
     max-width: 500px;
-    background-image: url(/images/ico_validation.png);
+    background-image: url(../images/ico_validation.png);
     background-repeat: no-repeat;
     background-position: 4px -11px;
     
@@ -76,7 +90,7 @@ input-required{
 }
 
 input:focus:invalid{
-    background-position:4px -111px;/*shows the yelow circle*/
+    background-position:4px -111px;;/*shows the yelow circle*/
 }
 
 input:required:valid{
@@ -84,3 +98,4 @@ input:required:valid{
     background-position: 4x -161px; /*shows the green check*/
     
 }
+
