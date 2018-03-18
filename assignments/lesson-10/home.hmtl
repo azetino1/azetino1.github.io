@@ -14,11 +14,11 @@
     <!-- normalize useragent/browser defaults -->
     <link href="styles/normalize.css" rel="stylesheet"> 
     <!-- default styles - small/phone views -->
-    <link href="styles/main-5.css" rel="stylesheet">    
+    <link href="styles/main.css" rel="stylesheet">    
     <!-- medium/tablet views -->
-    <link href="styles/medium-5.css" rel="stylesheet">  
+    <link href="styles/medium.css" rel="stylesheet">  
     <!-- large/wide/desktop views -->
-    <link href="styles/large-5.css" rel="stylesheet">    
+    <link href="styles/large.css" rel="stylesheet">    
 
 </head>
     
@@ -98,11 +98,10 @@
     
   <footer>
     <aside>
-        <p><a href="index.html" id="footer-title" class="site-name">Daily Weather</a><br>
-        1234 Weather Rd. <br>
+        <p><a href="index.html" id="footer-title" class="site-name">The Weather Site</a><br>
+        123 Main St. <br>
         Franklin, MN <br>
-        (915) 555-5555<br>
-        info@dailyweather.com<br>
+        (915) 555-5555 <br>
         <a href="mailto:hello@weather.com">hello@weather.com </a><br></p>
     </aside>
     <p class="footer-bar">&copy;2018 All Rights Reserved | Rain or Shine | <span id="currentdate"></span></p>
@@ -110,6 +109,6 @@
     
     <script type="text/javascript" src="scripts/hamburger.js"></script>
     <script type="text/javascript" src="scripts/currentdate.js"></script>
-    <script type="text/javascript" src="scripts/weatherdata.js"></script>
+    <script type="text/javascript" src="scripts/weather-data.js"></script>
 </body>
 </html>
