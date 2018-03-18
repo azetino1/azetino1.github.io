@@ -4,43 +4,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily Weather | Greenville</title>
+  <title>Dailey Weather | Home</title>
   <meta name="author" content="Alvaro Zetino">
-  
+ 
+    
+ 
     <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  
     <!-- normalize useragent/browser defaults -->
     <link href="styles/normalize.css" rel="stylesheet"> 
     <!-- default styles - small/phone views -->
-    <link href="styles/main-5.css" rel="stylesheet">    
+    <link href="/styles/main-5.css" rel="stylesheet">    
     <!-- medium/tablet views -->
-    <link href="styles/medium-5.css" rel="stylesheet">  
+    <link href="/styles/medium-5.css" rel="stylesheet">  
     <!-- large/wide/desktop views -->
-    <link href="styles/large-5.css" rel="stylesheet">    
+    <link href="/styles/large-5.css" rel="stylesheet">    
 
 </head>
     
 <body>
   <header>
-    <img id="site-logo" src="images/sitelogo.png" alt="Rain or Shine logo">
+    <img id="site-logo" src="/images/dailyweatherlogo.jpg" alt="Daily Weather">
     <div class="column">
-        <h1 class="site-name"><span class="blue-shadow">Rain</span> or <span class="orange-shadow">Shine</span></h1>
-        <h2 id="subheading">Your Weather Planning Tool</h2>
+        <h1 class="site-name"><span class="darkblue-shadow">Daily</span> <span class="darkblue-shadow">Weather</span></h1>
+        <h2 id="subheading">The Most Accurate</h2>
     </div>
   </header>
-
-  <!-- site navigation-->
+    
+ 
   <nav>
     <button onclick="toggleNavMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
     	<li><a href="/assignments/lesson-10/home.html">Home</a></li>
-    	<li><a href="/assignments/lesson-10/franklin.html">Franklin</a></li>
-    	<li class="active"><a href="/assignments/lesson-10/greenville.html">Greenville</a></li>
+    	<li class="active"><a href="/assignments/lesson-10/franklin.html">Franklin</a></li>
+    	<li><a href="/assignments/lesson-10/greenville.html">Greenville</a></li>
     	<li><a href="/assignments/lesson-10/springfield.html">Springfield</a></li>
     	<li><a href="/assignments/lesson-10/storm.html">Storm Center</a></li>
     	<li><a href="/assignments/lesson-10/gallery.html">Gallery</a></li>
     </ul>		
   </nav>
-    
   <main>
     <h2><span id="place">City, State</span></h2>
     <figure class="responsive">
@@ -112,18 +113,17 @@
     
   <footer>
     <aside>
-        <p><a href="index.html" id="footer-title" class="site-name">The Weather Site</a><br>
-        123 Main St. <br>
+        <p><a href="index.html" id="footer-title" class="site-name">Daily Weather</a><br>
+        1234 Weather Rd. <br>
         Franklin, MN <br>
-        (915) 555-5555 <br>
-        <a href="mailto:hello@weather.com">hello@weather.com </a><br></p>
+        (123) 123-4567 <br>
+        info@dailyweather.com<br>
     </aside>
-    <p class="footer-bar">&copy;2018 All Rights Reserved | Rain or Shine | <span id="currentdate"></span></p>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Daily Weather | <span id="currentdate"></span></p>
   </footer>
-
-    <script type="text/javascript" src="scripts/hamburger.js"></script>
-    <script type="text/javascript" src="scripts/currentdate.js"></script>
-    <script type="text/javascript" src="scripts/greenville-weather.js"></script>
-
+    
+    <script type="text/javascript" src="/scripts/hamburger.js"></script>
+    <script type="text/javascript" src="/scripts/currentdate.js"></script>
+    <script type="text/javascript" src="/scripts/weather-data.js"></script>
 </body>
 </html>
