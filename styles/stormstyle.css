@@ -81,6 +81,6 @@ input:focus:invalid{
 
 input:required:valid{
     background-color: #fff;
-    background-position: 4x -161px;
+    background-position: 4x -161px; /*shows the green check*/
     
 }
