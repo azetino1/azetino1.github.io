@@ -61,6 +61,6 @@ input.submitBtn{
     margin: .5em auto;
     font-size: 1.3em;
     padding: .6em;
-    background: lightblue; /*for old browsers*/
+    background: blue; /*for old browsers*/
     box-shadow: 4px 4px 10px #666;
 }
