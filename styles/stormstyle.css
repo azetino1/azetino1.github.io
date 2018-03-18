@@ -89,3 +89,7 @@ input-required{
     background-position: 4px -61px; /*shows the red star*/
 }
 
+input:focus:invalid{
+    background-position:4px -111;/*shows the yelow circle*/
+}
+
