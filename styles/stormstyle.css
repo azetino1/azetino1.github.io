@@ -29,23 +29,10 @@ label{
 /*to put input fields under instructions/labels and improve visual grouping*/
 label span {
     display: block;
-    text-align: left;
-    font-size: 1em;
+    font-size: .8em;
     color: #ffffff;
     padding-top: .9em;
     padding-bottom: .2em;
-}
-
-.radio-text{
-    display: inline;
-    padding-left: .5em;
-}
-input.radio{
-    padding-bottom: .5em;
-}
-
-fieldset#comments{
-    padding: 1em 2em;
 }
 
 input.submitBtn{
@@ -63,6 +50,20 @@ input.submitBtn{
     box-shadow: 4px 4px 10px #666;
     
 }
+
+
+.radio-text{
+    display: inline;
+    padding-left: .5em;
+}
+input.radio{
+    padding-bottom: .5em;
+}
+
+fieldset#comments{
+    padding: 1em 2em;
+}
+
 
 label input{
     background-color: #f4f2ef;
