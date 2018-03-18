@@ -107,6 +107,7 @@ li {
   text-align: inherit;
 }
 
+
 .picure-grid{
     display: grid;
     grid-template-columns: repeat(3, minmax(325px, 1fr));
@@ -119,7 +120,7 @@ li {
 .grid-box img{
     width: 100%;
     height: auto;
-    
+}
 
 
 
