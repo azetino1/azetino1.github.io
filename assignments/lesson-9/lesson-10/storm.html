@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rain or Shine | Franklin</title>
+  <meta name="author" content="Autumn Howard">
+  <meta name="description" content="The Franklin city page on the Rain or Shine weather site.">
+    
+  <!-- external style references in the proper cascading order -->   
+    <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css"> 
+    <!-- default styles - small/phone views -->
+    <link href="styles/main.css" rel="stylesheet" type="text/css">    
+    <!-- medium/tablet views -->
+    <link href="styles/medium.css" rel="stylesheet" type="text/css">  
+    <!-- large/wide/desktop views -->
+    <link href="styles/large.css" rel="stylesheet" type="text/css">    
+    <!-- form styles -->
+    <link href="styles/stormstyle.css" rel="stylesheet" type="text/css">    
+
+</head>
+    
+<body>
+  <header>
+    <img id="site-logo" src="images/sitelogo.png" alt="Rain or Shine logo">
+    <div class="column">
+        <h1 class="site-name"><span class="blue-shadow">Rain</span> or <span class="orange-shadow">Shine</span></h1>
+        <h2 id="subheading">Your Weather Planning Tool</h2>
+    </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li class="active"><a href="#">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>Storm Center</h2>
+      
+      <p>Please report any storms or unusual weather events in your travel area.</p>
+
+      <form action="" method="post" encrypt="multipart/form-data" name="stormInfo" id="storm-form">
+    
+    <fieldset>
+        <legend><span>Personal Information</span></legend>
+        <label><span>Full Name:</span><input name="fullname" size="35" type="text" value="" placeholder="John Storm" pattern="[a-zA-Z -._]{5,99}" required></label>
+        <label><span>Email:</span><input name="email" size="35" type="email" value="" placeholder="john@example.com"></label>
+        <label><span>Phone:</span><input name="phone" type="tel" value="" placeholder="1235551234" pattern="[0-9]{10,20}" required></label>
+        <label><span>Zipcode:</span><input name="zipcode" type="number" value="" placeholder="79924" pattern="[1-9 -]{3,20}" required></label>
+    </fieldset>
+          
+    <fieldset>
+        <legend><span>Storm Information</span></legend>
+        <label><span>Storm Date:</span><input name="date" type="date"></label>
+        <label><span>Storm Type:</span>
+        <input type="text" name="type" list="stormType">
+            <datalist id="stormType">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+            </datalist>
+        </label>
+        <label><span>Storm Severity:</span><input name="severity" type="range" min="1" max="10"></label>
+        <label><span>Storm Region:</span>
+        <input type="select" name="type" list="region">
+            <datalist id="region">
+                <option value="Franklin"></option>
+                <option value="Greenville"></option>
+                <option value="Springfield"></option>
+            </datalist>
+        </label>
+        <label><span>Weather danger level:</span>
+            <label><input class="radio" type="radio" name="danger" value="High"><span class="radio-text">High</span></label>
+            <label><input class="radio" type="radio" name="danger" value="Moderate"><span class="radio-text">Moderate</span></label>
+            <label><input class="radio" type="radio" name="danger" value="Low"><span class="radio-text">Low</span></label>
+        </label>
+    </fieldset>
+        
+    <fieldset id="comments">
+        <legend><span>Additional Comments</span></legend>
+        <label><textarea rows="4" cols="50" name="comment" placeholder="Enter text here..."></textarea></label>
+	</fieldset>
+	
+    <div id="button-box">
+    <input type="hidden" name="redirect" value="thanks.html">
+	<input type="submit" value="Submit" class="submitBtn" onclick="window.location='thanks.html'">
+    </div>
+          
+</form>
+  
+  </main>
+    
+  <footer>
+    <aside>
+        <p><a href="index.html" id="footer-title" class="site-name">The Weather Site</a><br>
+        123 Main St. <br>
+        Franklin, MN <br>
+        (915) 555-5555 <br>
+        <a href="mailto:hello@weather.com">hello@weather.com </a><br></p>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Rain or Shine | <span id="currentdate"></span></p>
+  </footer>
+
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+/* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;}  
+
+/* Declare the base font-family - from google font api or other */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu');
+
+body {
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 16px;
+    margin: 20px auto 20px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+header {
+    display: flex; 
+    justify-content: flex-start; 
+    /*overflow: auto;*/
+}
+
+#site-logo { 
+    width: 90px;
+    height: 88px;
+    margin-bottom: 1em;
+}
+
+header.column {
+    flex: 1;
+}
+
+.site-name{
+    font-family: "Comfortaa", "Helvetica", sans-serif;
+    letter-spacing: .03em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Comfortaa", "Helvetica", sans-serif;
+}
+
+h1.site-name {
+    text-align: left;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: .5em;
+    padding-bottom: .1em;
+    margin-left: 10px;
+}
+
+.blue-shadow{
+    text-shadow: 2px 2px #02AAD2;
+}
+
+.orange-shadow{
+    text-shadow: 2px 2px #FFB100;
+}
+
+#subheading {
+    color: #02AAD2;
+    font-size: 1.2em;
+    text-align: left;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #02AAD2;
+    color: white;
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 1.6rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li {
+    background-color: #017792;
+
+}
+
+nav ul li a {
+    display: block;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav ul li a:hover {
+    background-color: #02AAD2;
+}
+
+main h1, h2, h2{
+    font-family: "Comfortaa", "Helvetica", serif;
+}
+
+main figure.responsive { 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main figure.responsive img { 
+    max-width: 100%;
+    min-width: 50%;
+    margin-top: 0;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+figcaption{
+    font-size: .75em;
+    padding: 10px;
+}
+
+section{
+    margin: 0;
+    padding: .5em;
+}
+
+section.forecast {
+     display: none;
+}
+
+article {
+    border: 1.5px solid #015C71;
+    overflow: auto;
+    padding: .75em;
+}
+
+h3.article-title{
+    margin-top: .25em;
+}
+
+article p.text{
+    text-align: left;
+    margin: 0;
+}
+
+article h3{
+    margin: 1em auto 1em auto;
+}
+
+article img {   
+    max-width: 100%;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 0;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 300px;
+width: 300px;
+margin: 0 auto;
+}
+
+.grid figure{
+padding: 10px;
+}
+
+.hover-shadow{
+	box-shadow: 5px 10px 18px #888888;
+}
+
+footer {
+    background-color: #015C71;
+    border-bottom-left-radius: 15px;
+    -moz-border-radius-bottom-left: 15px;
+    -webkit-border-radius-bottom-left: 15px;
+    border-bottom-right-radius: 15px;
+    -moz-border-radius-bottom-right: 15px;
+    -webkit-border-radius-bottom-right: 15px;
+}
+footer aside {
+    background-color: #02AAD2;
+    text-align: center;
+}
+
+/* This structure refers to p elements that are direct children of the footer element */
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+#footer-title{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #FFB100;
+}
+
+footer a:active{
+    color: #015C71;
+}
+
+p.footer-bar{
+    padding-bottom: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.forecast{
+    margin-bottom: 10px;
+}
+
+.town-column{
+    border: 1.5px solid #b7b7b7;
+    padding: .5em;
+    margin-bottom: .5em;
+    line-height: 80%;
+}
+
+a.town-link{
+    text-decoration: none;
+    color: #FFB100;
+    font-size: .9em;
+}
+
+a.town-link:hover{
+    text-decoration: none;
+    color: #017792;
+}
+
+a.town-link:active{
+    text-decoration: none;
+    color: #b7b7b7;
+}

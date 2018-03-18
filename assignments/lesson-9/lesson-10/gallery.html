@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rain or Shine | Franklin</title>
+  <meta name="author" content="Autumn Howard">
+  <meta name="description" content="The Franklin city page on the Rain or Shine weather site.">
+    
+  <!-- external style references in the proper cascading order -->   
+    <!-- Google API font reference -->
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <!-- default styles - small/phone views -->
+    <link href="styles/main.css" rel="stylesheet">    
+    <!-- medium/tablet views -->
+    <link href="styles/medium.css" rel="stylesheet">  
+    <!-- large/wide/desktop views -->
+    <link href="styles/large.css" rel="stylesheet">    
+
+</head>
+    
+<body>
+  <header>
+    <img id="site-logo" src="images/sitelogo.png" alt="Rain or Shine logo">
+    <div class="column">
+        <h1 class="site-name"><span class="blue-shadow">Rain</span> or <span class="orange-shadow">Shine</span></h1>
+        <h2 id="subheading">Your Weather Planning Tool</h2>
+    </div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li class="active"><a href="#">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      <h2>The Gallery</h2>
+    <div class="grid">
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-field.jpg" alt="Clear sky over a field">
+          <figcaption>Franklin enjoys clear, sunny skies almost year-round.</figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-sun.jpg" alt="Bright sunset">
+          <figcaption>A warm sunset over Franklin.</figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-sky.jpg" alt="Cloudy sky">
+          <figcaption>Fluffy cumulus clouds over Greenville.</figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-sea.jpg" alt="Boat in a storm">
+          <figcaption>Waves break during a storm off the Greenville coast. </figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-night.jpg" alt="Starry sunset">
+          <figcaption>The last daylight fades away over Springfield. </figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="images/gallery-road.jpg" alt="Highway to Springfield">
+          <figcaption>The road from Franklin to Springfield.</figcaption>
+      </figure>
+      </div>
+        
+  </main>
+    
+  <footer>
+    <aside>
+        <p><a href="index.html" id="footer-title" class="site-name">The Weather Site</a><br>
+        123 Main St. <br>
+        Franklin, MN <br>
+        (915) 555-5555 <br>
+        <a href="mailto:hello@weather.com">hello@weather.com </a><br></p>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Rain or Shine | <span id="currentdate"></span></p>
+  </footer>
+
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+</body>
+</html>
+
+
+
