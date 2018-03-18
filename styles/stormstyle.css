@@ -84,7 +84,7 @@ input:focus{
     box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
 }
 
-input-required{
+input:required{
     background-position: 4px -61px; /*shows the red star*/
 }
 
