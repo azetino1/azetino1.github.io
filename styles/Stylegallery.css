@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-.picture-grid {
+.picture-box {
 display: grid;
 grid-template-columns: 2fr 2fr 2fr;
 grid-template-rows: 2fr 2fr 2fr;
@@ -9,7 +9,7 @@ grid-column-gap: 20px;
 grid-row-gap: 20px;
 }
 
-.grid-box {
+.grid div {
 border: 1px solid rgb(0,95,107);
 border-radius: 3px;
 background-color: rgba(0,95,107,0.8);
