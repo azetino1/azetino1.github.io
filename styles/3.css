@@ -1,0 +1,47 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    
+    #site-logo { 
+    width: 120px;
+    height: 117px;
+    }
+    
+    nav ul li a {
+        padding: .6rem 1rem
+    }
+    
+    main figure.responsive { 
+        width: 100%; 
+    }
+    
+    header h1{
+        font-size: 3.5em;
+    }
+    
+    p img{
+        text-align: center;
+    }
+    
+    .grid{
+    grid-template-columns: 300px 300px 300px;
+	width: 930px;
+    }
+    
+        #row-one{
+        display: flex;
+    }
+    .story-column{
+        flex: 1;
+        padding: .5em;
+    }
+    
+   #row-two{
+        display: flex;
+    }
+    .town-column{
+        flex: 1;
+        margin: 0 .5em;
+    }
+  
+}
+
