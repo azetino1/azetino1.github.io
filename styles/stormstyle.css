@@ -76,7 +76,11 @@ input-required{
 }
 
 input:focus:invalid{
-    background-color: #fff;
-    background-position:4px -161;/*shows the yelow circle*/
+    background-position:4px -111px;/*shows the yelow circle*/
 }
 
+input:required:valid{
+    background-color: #fff;
+    background-position: 4x -161px;
+    
+}
