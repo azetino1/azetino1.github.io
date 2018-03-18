@@ -1,7 +1,8 @@
 //javaScript
+
 var weatherObject = new XMLHttpRequest();
 
-weatherObject.open('GET','https://api.wunderground.com/api/f8686be8191dbc65/conditions/q/TX/Greenville.json',true);
+weatherObject.open('GET','https://api.wunderground.com/api/f8686be8191dbc65/conditions/forecast/q/TX/Greenville.json',true);
 
 weatherObject.send();
 
@@ -17,6 +18,7 @@ var weatherInfo = JSON.parse(weatherObject.responseText);
     document.getElementById('currentWindchill').innerHTML = weatherInfo.current_observation.windchill_string;
     document.getElementById('currentHigh').innerHTML = weatherInfo.forecast.txt_forecast.forecastday["0"].fcttext;
   
+
 
 }  
     
