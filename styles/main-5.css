@@ -1,9 +1,5 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-/* This wildcard applies to all elements ensuring a box layout model */
 * { box-sizing: border-box;}  
 
-/* Declare the base font-family - from google font api or other */
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu');
 
 body {
@@ -49,16 +45,16 @@ h1.site-name {
     margin-left: 10px;
 }
 
-.blue-shadow{
+.darkblue-shadow{
     text-shadow: 2px 2px #02AAD2;
 }
 
-.orange-shadow{
+.darkblue-shadow{
     text-shadow: 2px 2px #FFB100;
 }
 
 #subheading {
-    color: #02AAD2;
+    color: darkblue;
     font-size: 1.2em;
     text-align: left;
     font-family: "Ubuntu", "Arial", sans-serif;
@@ -67,7 +63,7 @@ h1.site-name {
 }
 
 nav {
-    background-color: #02AAD2;
+    background-color: darkblue;
     color: white;
 }
 
@@ -199,7 +195,7 @@ footer {
     -webkit-border-radius-bottom-right: 15px;
 }
 footer aside {
-    background-color: #02AAD2;
+    background-color: darkblue;
     text-align: center;
 }
 
