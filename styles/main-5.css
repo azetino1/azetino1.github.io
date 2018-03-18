@@ -13,8 +13,11 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
-    text-align: center;
     /*overflow: auto;*/
+}
+
+header img{
+    align-content: center
 }
 
 #site-logo { 
