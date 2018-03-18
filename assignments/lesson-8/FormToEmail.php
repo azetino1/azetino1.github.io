@@ -22,7 +22,7 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 */
 
-$my_email = "azetino@byui.edu";
+$my_email = "alvarozetino@hotmail.com";
 
 /*
 
