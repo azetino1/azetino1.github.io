@@ -1,14 +1,11 @@
 //javaScript
+var requestURL = 'https://api.wunderground.com/api/c68b3124bacf9ecd/conditions/q/TX/Greenville.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL, true);
+request.send();
 
-var weatherObject = new XMLHttpRequest();
-
-weatherObject.open('GET','https://api.wunderground.com/api/c68b3124bacf9ecd/conditions/q/TX/Greenville.json',true);
-
-weatherObject.send();
-
-weatherObject.onload = function(){
-    
-var weatherInfo = JSON.parse(weatherObject.responseText);
+request.onload = function(){
+    var weatherInfo = JSON.parse(request.responseText)
     console.log(weatherInfo);
     
     document.getElementById('currentWeather').innerHTML = weatherInfo.current_observation.weather;
