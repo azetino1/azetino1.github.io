@@ -63,4 +63,8 @@ input.submitBtn{
     padding: .6em;
     background: blue; /*for old browsers*/
     box-shadow: 4px 4px 10px #666;
+    
 }
+
+label input{
+    background-image: url(/images/ico_validation.png);
