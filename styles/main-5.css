@@ -13,6 +13,7 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
+    text-align: center;
     /*overflow: auto;*/
 }
 
@@ -33,6 +34,10 @@ header.column {
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Comfortaa", "Helvetica", sans-serif;
+}
+
+h1, h2{
+    text-align: center;
 }
 
 h1.site-name {
