@@ -52,19 +52,6 @@ input.submitBtn{
 }
 
 
-.radio-text{
-    display: inline;
-    padding-left: .5em;
-}
-input.radio{
-    padding-bottom: .5em;
-}
-
-fieldset#comments{
-    padding: 1em 2em;
-}
-
-
 label input{
     background-color: #f4f2ef;
     color: #917a56;
