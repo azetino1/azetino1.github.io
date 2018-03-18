@@ -221,7 +221,7 @@ footer a:hover{
 }
 
 footer a:active{
-    color: darkblue;
+    color:royalblue;
 }
 
 p.footer-bar{
@@ -249,7 +249,7 @@ a.town-link{
 
 a.town-link:hover{
     text-decoration: none;
-    color: #017792;
+    color: darkblue;
 }
 
 a.town-link:active{
