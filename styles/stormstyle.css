@@ -76,3 +76,6 @@ label input{
     width: 90%;
     max-width: 500px;
     background-image: url(/images/ico_validation.png);
+    background-repeat: no-repeat;
+    background-position: 4px -11px;
+}
