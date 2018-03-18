@@ -98,10 +98,11 @@
     
   <footer>
     <aside>
-        <p><a href="index.html" id="footer-title" class="site-name">The Weather Site</a><br>
-        123 Main St. <br>
+        <p><a href="index.html" id="footer-title" class="site-name">Daily Weather</a><br>
+        1234 Weather Rd. <br>
         Franklin, MN <br>
-        (915) 555-5555 <br>
+        (915) 555-5555<br>
+        info@dailyweather.com<br>
         <a href="mailto:hello@weather.com">hello@weather.com </a><br></p>
     </aside>
     <p class="footer-bar">&copy;2018 All Rights Reserved | Rain or Shine | <span id="currentdate"></span></p>
@@ -109,6 +110,6 @@
     
     <script type="text/javascript" src="scripts/hamburger.js"></script>
     <script type="text/javascript" src="scripts/currentdate.js"></script>
-    <script type="text/javascript" src="scripts/weather-data.js"></script>
+    <script type="text/javascript" src="scripts/weatherdata.js"></script>
 </body>
 </html>
