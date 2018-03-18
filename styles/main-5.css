@@ -46,7 +46,7 @@ h1.site-name {
 }
 
 .darkblue-shadow{
-    text-shadow: 2px 2px #02AAD2;
+    text-shadow: 2px 2px #FFB100;
 }
 
 .darkblue-shadow{
@@ -107,7 +107,7 @@ nav ul li.active a {
 }
 
 nav ul li a:hover {
-    background-color: #02AAD2;
+    background-color: royalblue;
 }
 
 main h1, h2, h2{
@@ -144,7 +144,7 @@ section.forecast {
 }
 
 article {
-    border: 1.5px solid #015C71;
+    border: 1.5px darkblue;
     overflow: auto;
     padding: .75em;
 }
