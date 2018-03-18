@@ -1,79 +1,66 @@
-form#stormreporting{
-    margin: 1em 3%;
-align-content: center;
+form#storm-form{
+    margin:  1em auto;
+    text-align: left;
 }
 
 fieldset{
-    background-color: #e4dccf;
-    border-radius: .8em;
-    margin: 1.5em 0;
-    border: #917a56 solid 1px;
-    width: 50%;
+    background-color: #017792;
+    border-radius: .5em;
+    margin: 1.5em auto;
+    border: 2px solid #02aad2;
+    max-width: 500px;
+    padding-left: 6%;
+
 }
 
 legend{
     color: white;
     margin-left: 6%;
-    padding: .5em;
-    border: lightblue solid 1px;
-    background-color: darkblue;
+    border: 2px solid #017792;
+    background-color: #02aad2;
     border-radius: .4em;
+    padding: .5em;
 }
 
-
-
 label{
+/*input elements are inline by default*/
     display: block;
     margin: .5em;
 }
 
-label span{
+/*to put input fields under instructions/labels and improve visual grouping*/
+label span {
     display: block;
-    font-size: .8em;
-    color: #917a56;
+    text-align: left;
+    font-size: 1em;
+    color: #ffffff;
     padding-top: .9em;
     padding-bottom: .2em;
 }
 
+.radio-text{
+    display: inline;
+    padding-left: .5em;
+}
+input.radio{
+    padding-bottom: .5em;
+}
+
+fieldset#comments{
+    padding: 1em 2em;
+}
+
 input.submitBtn{
+    /*override web kit on some mobile devices*/
     -webkit-appearance: none;
-    color: white;
-    border: solid 1px #111;
-    border-radius: 7px;
+    color: #fff;
+    border: 1px solid #111;
+    border-radius: .4em;
     width: 50%;
-    margin: .5em 0;
-    font-size: 1em;
+    display: block;
+    margin: .5em auto;
+    font-size: 1.3em;
     padding: .6em;
-    background-color: darkblue;
+    background: #FFA700; /*for old browsers*/
     box-shadow: 4px 4px 10px #666;
 }
-
-label input{
-    background-color: aliceblue;
-    padding: .5em .5em .5em 2em;
-    border: solid 1px #b0aaa0;
-    border-radius: 5px;
-    width: 90%;
-    max-width: 500px;
-    background-image:url(/images/ico_validation.png); 
-    background-repeat: no-repeat;
-    background-position: 4px -11px;
-
-}
-        
-input:focus{
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
-}
-
-input:required{
-    background-position: 4px -61px;
-}
-
-input:focus:invalid{
-    background-position: 4px -111px;
-}
-input:required:valid{
-    background-color: gainsboro;
-    background-position: 4px -161px;
-}
-
