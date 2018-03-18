@@ -16,8 +16,8 @@ fieldset{
 legend{
     color: white;
     margin-left: 6%;
-    border: 2px solid #017792;
-    background-color: #02aad2;
+    border: 2px solid darkblue;
+    background-color: darkblue;
     border-radius: .4em;
     padding: .5em;
 }
@@ -61,6 +61,6 @@ input.submitBtn{
     margin: .5em auto;
     font-size: 1.3em;
     padding: .6em;
-    background: #FFA700; /*for old browsers*/
+    background: lightblue; /*for old browsers*/
     box-shadow: 4px 4px 10px #666;
 }
