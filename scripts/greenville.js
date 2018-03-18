@@ -2,7 +2,7 @@
 
 var weatherObject = new XMLHttpRequest();
 
-weatherObject.open('GET','https://api.wunderground.com/api/f8686be8191dbc65/conditions/forecast/q/NC/greenville.json',true);
+weatherObject.open('GET','https://api.wunderground.com/api/f8686be8191dbc65/conditions/forecast/q/NC/Greenville.json',true);
 
 weatherObject.send();
 
