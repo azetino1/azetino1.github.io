@@ -12,7 +12,7 @@ var weatherInfo = JSON.parse(weatherObject.responseText);
     console.log(weatherInfo);
     
     document.getElementById('currentWeather').innerHTML = weatherInfo.current_observation.weather;
-    document.getElementById('currentTemp').innerHTML = weatherInfo.current_observation.temp_f;
+    document.getElementById('currentTemp').innerHTML = weatherInfo.current_observation.temperature_string;
     document.getElementById('w_icon').src = weatherInfo.current_observation.icon_url;
     document.getElementById('currentWindspeed').innerHTML = weatherInfo.current_observation.wind_mph;
     document.getElementById('currentWindchill').innerHTML = weatherInfo.current_observation.windchill_string;
