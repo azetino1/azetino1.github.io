@@ -110,12 +110,12 @@ nav ul li a {
 }
 nav ul li.active a {
     background-color: royalblue;
-    font-size: 25px;
+   
 }
 
 nav ul li a:hover {
     background-color: royalblue;
-   
+    font-size: 25px;
 }
 
 main h1, h2, h2{
