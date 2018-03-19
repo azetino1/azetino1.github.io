@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dailey Weather |Weather Gallery</title>
+  <meta name="author" content="Alvaro Zetino">
+ 
+    
+ 
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <!-- default styles - small/phone views -->
+    <link href="/styles/main-5.css" rel="stylesheet">    
+    <!-- medium/tablet views -->
+    <link href="/styles/medium-5.css" rel="stylesheet">  
+    <!-- large/wide/desktop views -->
+    <link href="/styles/large-5.css" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+    
+<body>
+  <header>
+    <img id="site-logo" src="/images/dailyweatherlogo.jpg" alt="Daily Weather">
+    <div class="column">
+        <h1 class="site-name"><span class="darkblue-shadow">Daily</span> <span class="darkblue-shadow">Weather</span></h1>
+        <h2 id="subheading">The Most Accurate</h2>
+    </div>
+  </header>
+    
+ 
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="/assignments/lesson-10/home.html">Home</a></li>
+    	<li><a href="/assignments/lesson-10/franklin.html">Franklin</a></li>
+    	<li><a href="/assignments/lesson-10/greenville.html">Greenville</a></li>
+    	<li><a href="/assignments/lesson-10/springfield.html">Springfield</a></li>
+    	<li><a href="/assignments/lesson-10/storm.html">Storm Center</a></li>
+        <li class="active"><a href="/assignments/lesson-10/gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      <h2>The Weather Gallery</h2>
+    <div class="grid">
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/beach.jpg" alt="">
+          <figcaption>Sunny day at beach!</figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/rainy.jpg" alt="">
+          <figcaption>Rainy day!</figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/hail.jpg" alt="">
+          <figcaption>Beautiful hail! </figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/snow.jpg" alt="">
+          <figcaption>Snowy day! </figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/windy.jpg" alt="">
+          <figcaption>Windy day! </figcaption>
+      </figure>
+      
+      <figure class="responsive hover-shadow">
+          <img class="gallery-picture" src="/images/lightning.jpg" alt="">
+          <figcaption>Lightning </figcaption>
+      </figure>
+      </div>
+        
+  </main>
+    
+    <footer>
+    <aside>
+        <p><a href="index.html" id="footer-title" class="site-name">Daily Weather</a><br>
+        1234 Weather Rd. <br>
+        Franklin, MN <br>
+        (123) 123-4567 <br>
+        info@dailyweather.com<br>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Daily Weather | <span id="currentdate"></span></p>
+  </footer>
+    
+    <script type="text/javascript" src="/scripts/hamburger.js"></script>
+    <script type="text/javascript" src="/scripts/currentdate.js"></script>
+ 
+</body>
+</html>
+
+
+
