@@ -16,10 +16,6 @@ header {
     /*overflow: auto;*/
 }
 
-header img{
-    align-content: center
-}
-
 #site-logo { 
     width: 90px;
     height: 88px;
@@ -40,12 +36,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Comfortaa", "Helvetica", sans-serif;
 }
 
-h1, h2{
-    text-align: center;
-}
 
 h1.site-name {
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0;
