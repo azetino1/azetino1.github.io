@@ -99,7 +99,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    font-size: 1em;
+    font-size: .5em;
     color: white;
     text-decoration: none;
     padding: .8rem 2%;
