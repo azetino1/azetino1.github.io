@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dailey Weather | Storm</title>
+  <meta name="author" content="Alvaro Zetino">
+ 
+    
+ 
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/normalize.css" rel="stylesheet"> 
+    <!-- default styles - small/phone views -->
+    <link href="/styles/main-5.css" rel="stylesheet">    
+    <!-- medium/tablet views -->
+    <link href="/styles/medium-5.css" rel="stylesheet">  
+    <!-- large/wide/desktop views -->
+    <link href="/styles/large-5.css" rel="stylesheet">  
+    <link href="/styles/stormstyle.css" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    
+
+
+</head>
+    
+<body>
+  <header>
+    <img id="site-logo" src="/images/dailyweatherlogo.jpg" alt="Daily Weather">
+    <div class="column">
+        <h1 class="site-name"><span class="darkblue-shadow">Daily</span> <span class="darkblue-shadow">Weather</span></h1>
+        <h2 id="subheading">The Most Accurate</h2>
+    </div>
+  </header>
+    
+ 
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="/assignments/lesson-10/home.html">Home</a></li>
+    	<li><a href="/assignments/lesson-10/franklin.html">Franklin</a></li>
+    	<li><a href="/assignments/lesson-10/greenville.html">Greenville</a></li>
+    	<li><a href="/assignments/lesson-10/springfield.html">Springfield</a></li>
+        <li class="active"><a href="/assignments/lesson-10/stormcenter.html">Storm Center</a></li>
+        <li><a href="/assignments/lesson-10/gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <div id="content" class="clearfix"></div>
+    <h1>Storm Reporting</h1>
+    
+    <div class="row"></div>
+<div class="left"></div>
+<p>progress:<progress value="1" max="2"></progress></p>
+<form action="thanks.html" name="stormreporting" id="stormreporting">
+
+<fieldset>
+<legend><span>Personal Information:</span></legend>
+    <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
+<label><span>Email:</span><input name="Email" type="Email" value="" placeholder="123456@gmail.com" required></label>
+<label><span>phone:</span><input name="phone" type="tel" value="" placeholder="1234567890" pattern="[0-9]{10,20}" required></label>
+<label><span>zipcode:</span><input name="zipcode" type="number" value="" placeholder="12345" required></label>
+<label><span>Storm Date:</span><input name="date" type="date"></label>
+</fieldset> 
+
+  
+<fieldset>
+<legend><span>Storm Type:</span></legend>
+<label>
+<input type="text" name="weatherType" list="weatherType">
+<datalist id="weatherType">
+<option value="Flash Flood"></option>
+<option value="Hail"></option>
+<option value="Hurricane"></option>
+<option value="Thunderstorm"></option>
+<option value="Tornado"></option>
+</datalist>
+</label>
+</fieldset>  
+
+    
+    
+<fieldset>
+<legend><span>Storm Severity:</span></legend>
+<label for="fader"></label>
+<input type="range" min="0" max="10" value="5" id="fader" 
+	step="1" oninput="outputUpdate(value)">
+<output for="fader" id="volume">5</output>
+</fieldset>  
+    
+<script>
+function outputUpdate(vol) {
+document.querySelector('#volume').value = vol;
+}
+</script>
+
+    
+    
+<fieldset>
+<legend><span>Storm Region:</span></legend>
+<label>
+<select>  
+<option value="Select Region" disabled>Select Region</option>
+<option value="Franklin">Franklin</option>
+<option value="Greenville">Greenville</option>
+<option value="Springville">Springfield</option>
+</select>
+</label>
+</fieldset>  
+
+    
+<fieldset>
+<legend><span>User In-Danger Level:</span></legend>
+<input type="radio" name="option" value="Yes">Yes<br>
+<input type="radio" name="option" value="Maybe">Maybe<br>
+<input type="radio" name="option" value="No">No<br>  
+</fieldset>  
+
+    
+<fieldset>
+<legend><span>Additional information or Comments:</span></legend>
+<label>  
+<textarea rows="10" cols="100"></textarea>
+</label>
+</fieldset>
+   
+    
+<fieldset>
+<label>
+<input type="submit" value="Send!" class="submitBtn">
+<input name="subjet" type="hidden" value="stormreporting" >
+<input name="redirect" type="hidden" value="thanks.html">
+</label>
+</fieldset>
+       
+</form>
+</main>
+</body>
+</html>
