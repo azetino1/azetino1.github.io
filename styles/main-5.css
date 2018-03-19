@@ -70,14 +70,10 @@ nav {
     transition: 
 }
 
-nav a{
-    
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;  
-    transition: 
+nav a:hover {
+    background-color: mediumblue;
+      font-size: 18px;
 }
-
 
 
 nav button{
