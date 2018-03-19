@@ -102,14 +102,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 1rem 2%;
-    border-top: 1px solid rgba(0,0,0,0.3);
-     
+    border-top: 1px solid rgba(0,0,0,0.3);  
     font-size:1em;
     transition: 
  
 }
 nav ul li.active a {
     background-color: royalblue;
+    font-size: 2em;
 }
 
 nav ul li a:hover {
