@@ -193,7 +193,7 @@ padding: 10px;
 }
 
 footer {
-    background-color: none;
+    background-color: white;
     border-bottom-left-radius: 15px;
     -moz-border-radius-bottom-left: 15px;
     -webkit-border-radius-bottom-left: 15px;
@@ -202,7 +202,7 @@ footer {
     -webkit-border-radius-bottom-right: 15px;
 }
 footer aside {
-    background-color: none;
+    background-color: white;
     text-align: center;
     color: black;
 }
