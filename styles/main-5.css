@@ -203,6 +203,7 @@ footer {
 }
 footer aside {
     background-color: darkblue;
+    font-size: .5em;
     text-align: center;
 }
 
