@@ -115,7 +115,7 @@ nav ul li.active a {
 
 nav ul li a:hover {
     background-color: royalblue;
-     
+    font-size: 17px;  
 }
 
 main h1, h2, h2{
