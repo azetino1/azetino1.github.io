@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    display: inline; 
+    display: flex; 
     justify-content: flex-start; 
     /*overflow: auto;*/
 }
@@ -24,6 +24,7 @@ header img{
     width: 90px;
     height: 88px;
     margin-bottom: 1em;
+    display: block;
 }
 
 header.column {
