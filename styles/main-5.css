@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    display: flex; 
+    display: inline; 
     justify-content: flex-start; 
     /*overflow: auto;*/
 }
