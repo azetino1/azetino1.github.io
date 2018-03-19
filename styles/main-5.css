@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 h1.site-name {
-    text-align: center;
+    text-align: left;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0;
@@ -205,8 +205,8 @@ footer aside {
 footer p {
     color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 } 
 
 #footer-title{
