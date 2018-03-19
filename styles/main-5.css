@@ -208,7 +208,7 @@ footer aside {
 
 /* This structure refers to p elements that are direct children of the footer element */
 footer p {
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 15px;
