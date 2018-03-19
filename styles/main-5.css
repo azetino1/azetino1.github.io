@@ -193,7 +193,7 @@ padding: 10px;
 }
 
 footer {
-    background-color: darkblue;
+    background-color: none;
     border-bottom-left-radius: 15px;
     -moz-border-radius-bottom-left: 15px;
     -webkit-border-radius-bottom-left: 15px;
