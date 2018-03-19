@@ -210,8 +210,8 @@ footer aside {
 footer p {
     color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 } 
 
 #footer-title{
@@ -232,7 +232,7 @@ footer a:active{
 }
 
 p.footer-bar{
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     padding-top: 10px;
     margin: 0;
 }
