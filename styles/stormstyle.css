@@ -96,7 +96,7 @@ input:focus{
 }
 
 input:required{
-    background-position:4px -161px; /*shows the red star*/
+    background-position:4px -61px; /*shows the red star*/
 }
 
 input:focus:invalid{
@@ -105,7 +105,7 @@ input:focus:invalid{
 
 input:required:valid{
      background-color: #fff;
-    background-position:4x -61px; /*shows the blue check*/
+    background-position:4x -161px; /*shows the green check*/
     
 }
 
