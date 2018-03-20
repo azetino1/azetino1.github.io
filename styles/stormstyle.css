@@ -92,7 +92,7 @@ label input{
 }
 
 input:focus{
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
+    box-shadow: 1px 1px 4px RGBA(0,0,0,0.5) inset;
 }
 
 input:required{
@@ -103,7 +103,7 @@ input:focus:invalid{
     background-position:4px -111px;/*shows the yelow circle*/
 }
 
-input-required:valid{
+input:required:valid{
     background-color: #fff;
     background-position:4x -161px; /*shows the green check*/
     
