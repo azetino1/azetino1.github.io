@@ -100,12 +100,12 @@ input:required{
 }
 
 input:focus:invalid{
-    background-position:4px -111px;/*shows the yelow circle*/
+    background-position:4px -111px;/*shows the yellow circle*/
 }
 
 input:required:valid{
     background-color: #fff;
-    background-position:4x -161px; /*shows the green check*/
+    background-position:4x -161px; /*shows the blue check*/
     
 }
 
