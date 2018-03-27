@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
 	<link rel="stylesheet" href="css/style.css">
 	<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
 	<script>
-		$(function (){
-            $('input[name="nameVal"]').css('border', '1px solid red');
-        
-		})
-	</script>
+         $(function(){
+             $('input[name="nameVal"]').css('border', 1px solid red);
+         
+         })
+    
+       </script>     
+   
 </head>
 
 <body>
@@ -18,7 +21,7 @@
 	<div class="container">
 		<!-- Header Div containing the Logo & Navigation Links -->
 		<div class="header">
-			<div class="logo"></div>
+			<div class="logo" id="alcoveLogo"></div>
 			<div class="navbar">
 				<ul class="navigation">
 					<li><a href="#">About Us</a></li>
@@ -43,7 +46,7 @@
 							<label>Full Name</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text">
+							<input type="text" name="nameVal">
 						</div>
 					</div>
 
@@ -52,7 +55,7 @@
 							<label>E-Mail</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text">
+							<input type="text" name="emailVal">
 						</div>
 					</div>
 
@@ -61,14 +64,14 @@
 							<label>Phone</label>
 						</div>
 						<div class="FieldHolder">
-							<input type="text">
+							<input type="text" name="phoneNum">
 						</div>
 					</div>
 
 					<div class="FormFieldHolder">
 						<div class="labelHolder"></div>
 						<div class="FieldHolder">
-							<button id="ReqAQuoteBtn">Request A Quote !</button>
+							<button id="ReqAQuoteBtn" data-code="028">Request A Quote !</button>
 						</div>
 					</div>
 				</form>
