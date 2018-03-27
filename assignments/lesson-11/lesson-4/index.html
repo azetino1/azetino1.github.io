@@ -30,10 +30,13 @@
                //inputFields.css('background-color', 'rgb(255, 0, 0)');
         
           //adding new list item in bold
-        $('.coreValues').append("<li><strong> This is brand new !!</strong></li>");
+        //$('.coreValues').append("<li><strong> This is brand new !!</strong></li>");
+          
+        //adding new item list in bold via appendTo
+        //$("<li><strong> This is also great !!</trong><li>").appendTo(".coreValues");
         
-        $("<li><strong> This is also great !!</trong><li>").appendTo(".coreValues");
-        
+        //adding item list all the way on top using prepend
+        $('.coreValues').prepend("<li><strong> This is brand new !!</strong></li>");
         
         
         //   }
