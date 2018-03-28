@@ -8,6 +8,17 @@
 	<script>
 	$(function(){
 		// All jQuery code goes here
+        
+        $('.dropdownMenu > li').hover(function){
+            //mouseover
+            
+            $(this).children("ul").slideDown(200);
+            
+        }, function(){
+            //mouse out
+            $(this).children("ul").slideup(200);
+        
+        })
 
 	})
 	</script>
