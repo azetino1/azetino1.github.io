@@ -29,6 +29,14 @@
                 //set background color to red
                //inputFields.css('background-color', 'rgb(255, 0, 0)');
         
+         //   }
+            
+       // }
+        
+        //Makes fields to turn red upon clicking button
+       // $('#ReqAQuoteBtn').click( toggleStyle );
+
+        
           //adding new list item in bold
         //$('.coreValues').append("<li><strong> This is brand new !!</strong></li>");
           
@@ -36,21 +44,26 @@
         //$("<li><strong> This is also great !!</trong><li>").appendTo(".coreValues");
         
         //adding item list all the way on top using prepend
-        $('.coreValues').prepend("<li><strong> This is brand new !!</strong></li>");
+        //$('.coreValues').prepend("<li><strong> This is brand new !!</strong></li>");
+        
          //adding item list all the way on top using prependTo  
-        $("<li><strong> This is also great !!</trong></li>").prependTo(".coreValues");
+       // $("<li><strong> This is also great !!</trong></li>").prependTo(".coreValues");
     
+            var nameVal = $('input[name="nameVal"]');
+             
+              function FillEmpty(){
+                  if(nameVal.val() == '' ){
+                      nameVal.Val( 'John Doe');
+                      
+                  }
+                      
+              }
+        
+            $('#ReqAQuoteBtn').click( FillEmpty );
+        
+           
+        
        
-        
-        
-        
-        
-        //   }
-            
-       // }
-        
-       // $('#ReqAQuoteBtn').click( toggleStyle );
-
 	})
 	</script>
 </head>
