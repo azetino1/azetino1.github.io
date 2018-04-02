@@ -7,20 +7,21 @@
 	<script src="js/jquery-2.2.1.min.js"></script>
 	<script>
 	$(function(){
-		// All jQuery code goes here
         
-        $('.dropdownMenu > li').hover( function(){
+		// triggers for hover to slide down navigation items
+        //$('.dropdownMenu > li').hover( function(){
+           
             //mouseover
-            
-            $(this).children("ul").slideDown(200);
+          //$(this).children("ul").slideDown(200);
             
         //}, function(){
+            
             //mouse out
             //$(this).children("ul").slideUp(200);
         // })
         
         //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
-        //$('.dropdownMenu > li').hover(function(){
+        $('.dropdownMenu > li').hover(function(){
             $(this).children("ul").slideToggle(200);
             
         })
