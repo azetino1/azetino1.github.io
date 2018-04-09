@@ -56,9 +56,9 @@ h1.site-name {
 }
 
 #subheading {
-    color: darkblue;
+    color: black;
     font-size: 1.2em;
-    text-align: left;
+    text-align: center;
     font-family: "Ubuntu", "Arial", sans-serif;
     margin-top: 0;
     margin-left: 10px;
