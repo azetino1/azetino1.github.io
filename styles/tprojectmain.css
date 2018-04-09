@@ -73,7 +73,7 @@ nav {
 nav button{
     background-color: transparent;
     border: none;
-    color: white;
+    color: #f39a0e;
     padding: 0;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -92,7 +92,7 @@ nav ul.hide {
 }
 
 nav ul li {
-    background-color: darkblue;
+    background-color: black;
 
 }
 
