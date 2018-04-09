@@ -97,7 +97,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: #f39a0e;
+    color: white;
     text-decoration: none;
     padding: 1rem 2%;
     border-top: 1px solid rgba(0,0,0,0.3);  
@@ -106,12 +106,12 @@ nav ul li a {
  
 }
 nav ul li.active a {
-    background-color:#f39a0e;
+    background-color:#f3cb0e;
    
 }
 
 nav ul li a:hover {
-    background-color:#f39a0e;
+    background-color:#f3cb0e;
     font-size: 23px;
 }
 
