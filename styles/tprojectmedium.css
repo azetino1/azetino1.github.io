@@ -15,8 +15,8 @@
     }
     
     nav{
-        background-color: darkblue;
-        border-bottom: 5px darkblue;
+        background-color: black;
+        border-bottom: 5px black;
     }
 /* hide hamburger button*/
     nav button { 
