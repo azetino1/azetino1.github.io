@@ -30,6 +30,8 @@ header.column {
 .site-name{
     font-family: "Comfortaa", "Helvetica", sans-serif;
     letter-spacing: .03em;
+    color: darkblue
+        
 }
 
 h1, h2, h3, h4, h5, h6{
