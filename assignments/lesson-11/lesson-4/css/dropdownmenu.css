@@ -16,11 +16,11 @@ ul {
 	margin:auto;
 	list-style:none;
 	padding:0px;
-	border-top: 4px solid red;
+	border-top: 4px solid orange;
 }
 
 li {
-	width: 190px;
+	width: 120px;
 	height: 48px;
 	float: left;
 	text-align: center;
