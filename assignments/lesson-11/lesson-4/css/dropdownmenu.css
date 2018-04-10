@@ -6,6 +6,9 @@ body, html {
     line-height: 30px;
 }
 
+ul, li{
+    margin:50px;
+}
 
 ul {
 	position:absolute;
