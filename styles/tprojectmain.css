@@ -63,10 +63,7 @@ h1.site-name {
     margin-left: 10px;
 }
 
-nav {
-    color: #f39a0e;
-    
-}
+
 
 
 nav button{
@@ -79,32 +76,6 @@ nav button{
     font-size: 1.6rem;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-}
-
-nav ul.hide {
-    display: none;
-}
-
-nav ul li {
-    background-color: white;
-
-}
-
-nav ul li a {
-    display: block;
-    color:#f39a0e;
-    text-decoration: none;
-    padding: 1rem 2%;
-    border-top: 1px solid rgba(0,0,0,0.3);  
-    font-size:15px;
-    transition: 
- 
-}
 nav ul li.active a {
     background-color:#f3b00e;
    
