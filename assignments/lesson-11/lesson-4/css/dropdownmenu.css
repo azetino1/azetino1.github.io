@@ -6,9 +6,6 @@ body, html {
     line-height: 30px;
 }
 
-li{
-    margin:50px;
-}
 
 ul {
 	position:absolute;
@@ -35,7 +32,7 @@ li {
 	line-height: 3.6;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
 	font-size: 14px;
-	margin: 1px;
+	margin-top: 100px;
 }
 
 li > ul {
