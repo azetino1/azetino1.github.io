@@ -14,35 +14,20 @@
         font-size: 3em;
     }
     
-    nav{
-        background-color: black;
-        border-bottom: 5px black;
-    }
+   
 /* hide hamburger button*/
     nav button { 
         display: none; 
     }  
     
-/*horizontal menu bar*/
-    nav ul {
-        margin-left: 2%;
-    }
+
     
 /*override hide class from smaller menu size*/
     nav ul.hide{
         display: block;
     }
 
-    nav ul li {
-        float: left;
-    }
-
-    nav ul li a {
-        border: none;
-        font-size: 1.2em;
-        text-align: center;
-        padding: .8rem 1rem;
-    }
+   
   
 /* show the 10-day forecast with the medium view and up*/
     section.forecast {
