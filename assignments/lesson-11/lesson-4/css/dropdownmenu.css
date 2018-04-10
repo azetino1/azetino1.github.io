@@ -6,6 +6,10 @@ body,html {
     line-height: 30px;
 }
 
+head{
+    margin-top: auto
+}
+
 ul {
 	position:absolute;
 	top:0px;
