@@ -18,9 +18,9 @@
     <link href="/styles/tprojectlarge.css" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
    
-</head>
+
     
-<body>
+
   <header>
  
  <div class="column">
@@ -30,9 +30,68 @@
 <img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
   </header>
 
+    <script>
+        
+    $(function(){
+        
+		
+        
+        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
+        $('.dropdownMenu > li').hover(function(){
+            $(this).children("ul").slideToggle(200);
+            
+        })
+
+	})
+	</script>
+    
+    </head>
+<body>
+<button onclick="toggleNavMenu()">&#9776;</button>
+<ul id="primaryNav" class="hide">
+<ul class="dropdownMenu" class="hide">>
+		<li>Apples
+			<ul>
+				<li>Jam</li>
+				<li>Pie</li>
+				<li>Cider</li>
+			</ul>
+		</li>
+		<li>Oranges
+			<ul>
+				<li>Squash</li>
+				<li>Chocolate</li>
+			</ul>
+		</li>
+		<li>Peaches
+			<ul>
+				<li>Jam</li>
+				<li>Juice Concentrate</li>
+			</ul>
+		</li>
+		<li>Strawberries
+			<ul>
+				<li>Jam</li>
+				<li>Crush</li>
+				<li>Cake</li>
+			</ul>
+		</li>
+		<li>Kiwi
+			<ul>
+				<li>Crush</li>
+			</ul>
+		</li>
+</ul>
+
+    
+    
+    
+    
+    
+    
   <nav>
-    <button onclick="toggleNavMenu()">&#9776;</button>
-    <ul id="primaryNav" class="hide">
+   <button onclick="toggleNavMenu()">&#9776;</button>
+   <ul id="primaryNav" class="hide">
     	<li class="active"><a href="">Home</a></li>
     	<li><a href="">Adventures Tours</a></li>
     	<li><a href="">Event</a></li>
