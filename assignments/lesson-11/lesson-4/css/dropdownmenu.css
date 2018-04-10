@@ -18,6 +18,7 @@ ul {
 	list-style:none;
 	padding:0px;
 	border-top: 4px solid orange;
+    line-height: 30px;
 }
 
 li {
