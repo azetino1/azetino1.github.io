@@ -6,7 +6,9 @@ body, html {
    
 }
 
-
+body{
+    margin-top: auto;
+}
 ul {
 	position:absolute;
 	top:0px;
