@@ -234,3 +234,12 @@ a.town-link:active{
     text-decoration: none;
     color: #b7b7b7;
 }
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
