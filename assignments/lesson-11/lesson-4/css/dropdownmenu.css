@@ -16,6 +16,7 @@ header{
 	width:940px;
 	height:400px;
     margin:100px;
+    border-bottom:4px solid orange;
 }
 
 ul {
