@@ -9,15 +9,13 @@ body, {
 
 header{
     position:absolute;
-    top:0px;
+	top:0px;
 	bottom:0px;
 	left:0px;
 	right:0px;
-	
-  
-    border-bottom: 4px solid orange;
-    width:940px;
-    height:200px;
+	width:940px;
+	height:555px;
+    margin:auto;
 }
 
 ul {
