@@ -47,7 +47,7 @@ li {
 
 li > ul {
 	position:relative;
-	width:144px;
+	width:145px;
 	clear:both;
 	/* Hide the Submenus */
 	display:none;
