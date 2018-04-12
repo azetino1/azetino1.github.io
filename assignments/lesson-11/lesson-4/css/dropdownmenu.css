@@ -1,3 +1,5 @@
+* { box-sizing: border-box;}  
+
 body, {
     margin:0;
 	width:100%;
@@ -33,7 +35,7 @@ ul {
 }
 
 li {
-	width: 154px;
+	width: 157px;
 	height: 48px;
 	float: left;
 	text-align: center;
