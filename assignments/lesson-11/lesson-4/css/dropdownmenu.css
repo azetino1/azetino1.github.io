@@ -9,6 +9,9 @@ body, {
 
 header{
     position:absolute;
+    
+	left:0px;
+	right:0px;
 	
     margin: 125px;
     border-bottom: 4px solid orange;
