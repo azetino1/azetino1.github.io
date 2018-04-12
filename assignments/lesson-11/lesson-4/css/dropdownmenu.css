@@ -9,6 +9,7 @@ body, {
 
 header{
     margin: 125px;
+    border-bottom: 4px solid orange;
 }
 
 ul {
