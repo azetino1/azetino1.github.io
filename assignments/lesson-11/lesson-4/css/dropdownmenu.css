@@ -7,6 +7,9 @@ body, {
    
 }
 
+header{
+    float: right;
+}
 
 ul {
 	position:absolute;
