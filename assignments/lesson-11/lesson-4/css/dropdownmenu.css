@@ -19,9 +19,15 @@ header{
 	right:0px;  
 }
 
-#row-one{
+
     
-	height:300px;
+	 #row-one{
+        display: flex;
+    }
+    .story-column{
+        flex: 1;
+        padding: .5em;
+    }
    
 
 }
