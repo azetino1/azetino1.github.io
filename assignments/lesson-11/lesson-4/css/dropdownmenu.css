@@ -19,12 +19,13 @@ header{
 	right:0px;  
 }
 
-row-one{
+#row-one{
     
 	height:300px;
    
 
 }
+
 ul {
 	position:absolute;
 	top:0px;
