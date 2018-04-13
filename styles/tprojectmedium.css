@@ -90,11 +90,13 @@
 
     #row-one{
         display: flex;
+        margin:200px;
     }
     
     .story-column{
         flex: 1;
         padding: .5em;
+        margin: 200px;
     }
     
    #town-boxes{

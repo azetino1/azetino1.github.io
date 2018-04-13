@@ -27,10 +27,12 @@
     
         #row-one{
         display: flex;
+            margin: 200;
     }
     .story-column{
         flex: 1;
         padding: .5em;
+        margin: 200;
     }
     
    #row-two{
