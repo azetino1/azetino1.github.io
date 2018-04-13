@@ -89,8 +89,8 @@
     }
 
     #row-one{
-        display:inline-flex;
-        margin:50px;
+        display:flex;
+        
     }
     
     .story-column{
