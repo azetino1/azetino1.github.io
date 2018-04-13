@@ -13,6 +13,7 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
+
     /*overflow: auto;*/
 }
 
@@ -75,16 +76,6 @@ nav button{
     margin-top: 3px;
     margin-bottom: 3px;
     font-size: 1.6rem;
-}
-
-nav ul li.active a {
-    background-color:#f3b00e;
-   
-}
-
-nav ul li a:hover {
-    background-color:#f3b00e;
-    font-size: 23px;
 }
 
 main h1, h2, h2{
