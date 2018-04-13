@@ -13,6 +13,7 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
+    line-height:30px;
 
     /*overflow: auto;*/
 }
