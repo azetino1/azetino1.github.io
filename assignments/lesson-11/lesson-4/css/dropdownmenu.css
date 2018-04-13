@@ -8,7 +8,7 @@ body,html {
     line-height: 30px;
 }
 header{
-    position: absolute;
+    position:relative;
     margin:150px;
 	  
 }
