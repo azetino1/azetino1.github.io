@@ -20,17 +20,15 @@ header{
 }
 
 
-    
-	 #row-one{
+     #row-one{
         display: flex;
     }
     .story-column{
         flex: 1;
         padding: .5em;
     }
-   
 
-}
+
 
 ul {
 	position:absolute;
