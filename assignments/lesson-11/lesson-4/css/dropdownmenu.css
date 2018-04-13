@@ -13,11 +13,6 @@ header{
 	  
 }
 
-
-
-  
-
-
 ul {
 	position:absolute;
 	top:0px;
@@ -25,7 +20,7 @@ ul {
 	left:0px;
 	right:0px;
 	width:940px;
-	height:590px;
+	height:610px;
     margin:auto;
 	list-style:none;
 	padding:0px;
