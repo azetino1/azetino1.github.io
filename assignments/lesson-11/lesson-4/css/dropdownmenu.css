@@ -7,11 +7,6 @@ body,html {
 	overflow: auto;
     line-height: 30px;
 }
-header{
-    position:relative;
-   
-	  
-}
 
 nav ul {
 	position:absolute;
