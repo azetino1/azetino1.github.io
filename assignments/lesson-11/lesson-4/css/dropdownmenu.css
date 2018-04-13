@@ -48,10 +48,4 @@ h4 {
 	padding:0px;
 }
 
- #row-one{
-        display: flex;
-    }
-    .story-column{
-        flex: 1;
-        padding: .5em;
-    }
+ 
