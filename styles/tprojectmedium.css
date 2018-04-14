@@ -89,7 +89,7 @@
     }
 
     #row-one{
-        display:block;
+        display:flex;
         
     }
     
