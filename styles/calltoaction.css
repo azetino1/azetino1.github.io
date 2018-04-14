@@ -65,14 +65,14 @@ input.submitBtn{
     /*override web kit on some mobile devices*/
     -webkit-appearance: none;
     color: #fff;
-    border: 1px solid #111;
+    border: 1px solid orange;
     border-radius: .4em;
     width: 50%;
     display: block;
     margin: .5em auto;
     font-size: 1.3em;
     padding: .6em;
-    background: blue; /*for old browsers*/
+    background: black; /*for old browsers*/
     box-shadow: 4px 4px 10px #666;
     
 }
