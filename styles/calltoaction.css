@@ -26,8 +26,8 @@ fieldset{
 legend{
     color: white;
     margin-left: 6%;
-    border: 2px solid darkblue;
-    background-color: darkblue;
+    border: 2px solid orange;
+    background-color: black;
     border-radius: .4em;
     padding: .5em;
 }
