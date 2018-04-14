@@ -33,6 +33,7 @@
         flex: 1;
         padding: .5em;
         margin:50px;
+        text-align: justify;
     }
     
    #row-two{
