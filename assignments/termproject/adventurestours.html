@@ -97,60 +97,6 @@
 <label><span>zipcode:</span><input name="zipcode" type="number" value="" placeholder="12345" required></label>
 <label><span>Storm Date:</span><input name="date" type="date"></label>
 </fieldset> 
-
-  
-<fieldset>
-<legend><span>Storm Type:</span></legend>
-<label>
-<input type="text" name="weatherType" list="weatherType">
-<datalist id="weatherType">
-<option value="Flash Flood"></option>
-<option value="Hail"></option>
-<option value="Hurricane"></option>
-<option value="Thunderstorm"></option>
-<option value="Tornado"></option>
-</datalist>
-</label>
-</fieldset>  
-
-    
-    
-<fieldset>
-<legend><span>Storm Severity:</span></legend>
-<label for="fader"></label>
-<input type="range" min="0" max="10" value="5" id="fader" 
-	step="1" oninput="outputUpdate(value)">
-<output for="fader" id="volume">5</output>
-</fieldset>  
-    
-<script>
-function outputUpdate(vol) {
-document.querySelector('#volume').value = vol;
-}
-</script>
-
-    
-    
-<fieldset>
-<legend><span>Storm Region:</span></legend>
-<label>
-<select>  
-<option value="Select Region" disabled>Select Region</option>
-<option value="Franklin">Franklin</option>
-<option value="Greenville">Greenville</option>
-<option value="Springville">Springfield</option>
-</select>
-</label>
-</fieldset>  
-
-    
-<fieldset>
-<legend><span>User In-Danger Level:</span></legend>
-<input type="radio" name="option" value="Yes">Yes<br>
-<input type="radio" name="option" value="Maybe">Maybe<br>
-<input type="radio" name="option" value="No">No<br>  
-</fieldset>  
-
     
 <fieldset>
 <legend><span>Additional information or Comments:</span></legend>
