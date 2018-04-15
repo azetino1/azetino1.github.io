@@ -18,7 +18,7 @@ body {
 	left:0px;
 	right:0px;
 	width:940px;
-	height:350px;
+	height:550px;
     margin:auto;
 	list-style:none;
 	padding:0px;
@@ -48,7 +48,8 @@ body {
 }
 
 h4 {
-	
-    text-align: center;
+	margin:0px;
+	padding:0px;
+    
 }
 
