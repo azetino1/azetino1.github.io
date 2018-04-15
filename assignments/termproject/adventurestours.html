@@ -93,31 +93,28 @@
     
 <fieldset>
 <legend><span>Personal Information:</span></legend>
- <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
+    <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
 <label><span>Email:</span><input name="Email" type="Email" value="" placeholder="123456@gmail.com" required></label>
 <label><span>phone:</span><input name="phone" type="tel" value="" placeholder="1234567890" pattern="[0-9]{10,20}" required></label>
-<label><span>Date of Birth:</span><input name="birthdate" type="date" required></label>
-<label><span>State:</span><input name="date" type="state"></label>
-<label><span>Country:</span><input name="date" type="country"></label>
+<label><span>zipcode:</span><input name="zipcode" type="number" value="" placeholder="12345" required></label>
+<label><span>Storm Date:</span><input name="date" type="date"></label>
 </fieldset> 
 
-
-    
+  
 <fieldset>
-<legend><span>Special Accomodations/Comments:</span></legend>
-<label>  
-<textarea rows="10" cols="100"></textarea>
-</label>
-</fieldset>
-   
-    
-<fieldset>
+<legend><span>Storm Type:</span></legend>
 <label>
-<input type="submit" value="Send!" class="submitBtn">
-<input name="subjet" type="hidden" value="registration" >
-<input name="redirect" type="hidden" value="thanks1.html">
+<input type="text" name="weatherType" list="weatherType">
+<datalist id="weatherType">
+<option value="Flash Flood"></option>
+<option value="Hail"></option>
+<option value="Hurricane"></option>
+<option value="Thunderstorm"></option>
+<option value="Tornado"></option>
+</datalist>
 </label>
-</fieldset>
+</fieldset>  
+
 
      <footer>
     <aside>
