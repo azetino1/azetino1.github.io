@@ -9,6 +9,7 @@ h1 { text-align: center; }
 }
 
 #paragragraph-1{
+    display: flex;
    text-align:left;
    font: solid "3"; 
    text-align: justify
