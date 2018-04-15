@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mountain Spoke | Event</title>
+  <meta name="author" content="Alvaro Zetino">
+      
+    <link href="/styles/normalize.css" rel="stylesheet"> 
+   <!-- default styles - small/phone views -->
+    <link href="/styles/tprojectmain.css" rel="stylesheet">    
+    <!-- medium/tablet views -->
+    <link href="/styles/tprojectmedium.css" rel="stylesheet">  
+    <!-- large/wide/desktop views -->
+    <link href="/styles/tprojectlarge.css" rel="stylesheet">   
+    <link href="/styles/calltoaction.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="/assignments/lesson-11/lesson-4/css/dropdownmenu.css">
+	<script src="/assignments/lesson-11/lesson-2/js/jquery-2.2.1.min.js"></script>
+    
+
+	
+ 
+	<script>
+        
+	$(function(){
+        
+        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
+        $('.dropdownMenu > li').hover(function(){
+            $(this).children("ul").slideToggle(200);
+      
+        })
+
+	})
+    </script>
+    
+</head>
+    
+<body>
+    <header>
+ <div class="column">
+     <h1 class="site-name"><span class="shadow">The Mountain</span> <span class="shadow">Spoke</span></h1>  
+     <h2 id="subheading">Love America? Ride a bike.</h2>
+</div>
+<img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
+  </header>
+
+<nav> 
+<button onclick="toggleNavMenu()">&#9776;</button>
+        <ul class="PrimaryNav" class="hide">
+		<li><a href="/assignments/termproject/index2.html">Home</a></li>
+			
+		
+		<li>Adventures Tours
+			<ul>
+				<li>Squash</li>
+				<li>Chocolate</li>
+			</ul>
+		</li>
+		<li>Event
+			<ul>
+				<li>Jam</li>
+				<li>Juice Concentrate</li>
+			</ul>
+		</li>
+		<li>Sales
+			<ul>
+				<li>Jam</li>
+				<li>Crush</li>
+				<li>Cake</li>
+			</ul>
+		</li>
+		<li>Services
+			<ul>
+				<li>Crush</li>
+			</ul>
+		</li>
+        <li> Contact 
+            <ul>
+				<li>Crush</li>
+			</ul>
+    </li>
+    </ul>
+    </nav>
+    
+<main> 
+     <div id="content" class="clearfix"></div>
+    <h1>Storm Reporting</h1>
+    
+    <div class="row"></div>
+<div class="left"></div>
+<p>progress:<progress value="1" max="2"></progress></p>
+<form action="thanks1.html" name="registration" id="registration">
+    
+<fieldset>
+<legend><span>Personal Information:</span></legend>
+ <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
+<label><span>Email:</span><input name="Email" type="Email" value="" placeholder="123456@gmail.com" required></label>
+<label><span>phone:</span><input name="phone" type="tel" value="" placeholder="1234567890" pattern="[0-9]{10,20}" required></label>
+<label><span>Date of Birth:</span><input name="birthdate" type="date" required></label>
+<label><span>State:</span><input name="date" type="state"></label>
+<label><span>Country:</span><input name="date" type="country"></label>
+</fieldset> 
+
+
+    
+<fieldset>
+<legend><span>Special Accomodations/Comments:</span></legend>
+<label>  
+<textarea rows="10" cols="100"></textarea>
+</label>
+</fieldset>
+   
+    
+<fieldset>
+<label>
+<input type="submit" value="Send!" class="submitBtn">
+<input name="subjet" type="hidden" value="registration" >
+<input name="redirect" type="hidden" value="thanks1.html">
+</label>
+</fieldset>
+
+     <footer>
+    <aside>
+        <p><a href="index.html" id="footer-title" class="site-name">The Mountain Spoke</a><br>
+        3950 Valley Commons Dr <br>
+        Bozeman, MT 59715 <br>
+        (208) 123-4567 <br>
+        info@themountainspoke.com<br>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+    
+    <script type="text/javascript" src="/scripts/hamburger.js"></script>
+    <script type="text/javascript" src="/scripts/currentdate.js"></script>
+    
+</form>
+</main> 
+</body> 
+</html>
