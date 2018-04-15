@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mountain Spoke | Event</title>
+  <meta name="author" content="Alvaro Zetino">
+      
+    <link href="/styles/normalize.css" rel="stylesheet"> 
+   <!-- default styles - small/phone views -->
+    <link href="/styles/tprojectmain.css" rel="stylesheet">    
+    <!-- medium/tablet views -->
+    <link href="/styles/tprojectmedium.css" rel="stylesheet">  
+    <!-- large/wide/desktop views -->
+    <link href="/styles/tprojectlarge.css" rel="stylesheet">   
+    <link href="/styles/calltoaction.css" rel="stylesheet"> 
+     <link href="/styles/adventurestours..css" rel="stylesheet"> 
+	
+	<script src="/assignments/lesson-11/lesson-2/js/jquery-2.2.1.min.js"></script>
+    
+
+	
+ 
+	<script>
+        
+	$(function(){
+        
+        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
+        $('.dropdownMenu > li').hover(function(){
+            $(this).children("ul").slideToggle(200);
+      
+        })
+
+	})
+    </script>
+    
+</head>
+    
+<body>
+    <header>
+ <div class="column">
+     <h1 class="site-name"><span class="shadow">The Mountain</span> <span class="shadow">Spoke</span></h1>  
+     <h2 id="subheading">Love America? Ride a bike.</h2>
+</div>
+<img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
+  </header>
+
+<nav> 
+<button onclick="toggleNavMenu()">&#9776;</button>
+        <ul class="dropdownMenu" class="hide">
+		<li><a href="/assignments/termproject/index2.html">Home</a></li>
+        <li><a href="/assignments/termproject/adventurestours.html">Adventures Tours</a>
+            <ul>
+				<li><a href="/assignments/termproject/halfday.html">Half-Day Bike Tour</a>
+                <li><a href="/assignments/termproject/fullday.html">Full-Day Bike Tour</a>
+			</ul>
+            </li>
+        <li><a href="/assignments/termproject/event.html">Event</a></li>
+        <li><a href="/assignments/termproject/sales.html">Sales</a></li>
+			
+		<li><a href="/assignments/termproject/services.html">Services</a></li>
+			
+        <li><a href="/assignments/termproject/contact.html">Contact</a></li>
+      
+    </ul>
+    </nav>
+    
+    <main>
+    
+          <div id="row-one">
+        <div class="story-column">
+            <h2>1/2 Day Mountain Bike Tours</h2>
+            <h4>$140 per person $120 per person with 2 or more people</h4>
+            <br>
+            <p><strong>Who:</strong> This ride is aimed at beginner to intermediate riders<br /><br /><strong style="">Where:</strong> We will ride on gravel USFS roads and some double track with gradual inclines and descents.<br /><br /><strong style="">How Long:</strong> Allow 4 hours for this adventure. Plan on biking for about 2 hours.<br /><strong style=""><br />What is Provided:</strong> Full-suspension mountain bike, helmet, guide, transportation from Canyon Adventures<br /><br /><strong style="">What You Need to Bring</strong>:  Water, backpack (tell us ahead of time if you need to borrow one),  energy bar, extra layer, rain jacket, sunglasses, sunscreen, sturdy  shoes (no sandals).</p>
+        </div>
+         
+
+              
+        <div class="story-column">
+            <figure class="responsive" id="7">
+                <img src="/images/halfday.png" alt=""> 
+                </figure>
+                </div>  
+          </div>    
+    </main>
+    
+     <footer>
+    <aside>
+        <p><a href="index.html" id="footer-title" class="site-name">The Mountain Spoke</a><br>
+        3950 Valley Commons Dr <br>
+        Bozeman, MT 59715 <br>
+        (208) 123-4567 <br>
+        info@themountainspoke.com<br>
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+  </footer>
+    
+    <script type="text/javascript" src="/scripts/hamburger.js"></script>
+    <script type="text/javascript" src="/scripts/currentdate.js"></script>
+    
+
+
+</body> 
+</html>
