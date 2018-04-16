@@ -1,4 +1,4 @@
-function slidedowntoggleMenu(){
+function slidetoggle(){
     //console.log(document.getElementById("dropdownMenu").classList);
-    document.getElementById("dropdownMenu").classList.slideDowntoggle("hide");
+    document.getElementById("dropdownMenu").classList.Toggle("hide");
 }
