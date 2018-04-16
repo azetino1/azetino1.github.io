@@ -73,7 +73,7 @@ nav ul {
 	left:0px;
 	right:0px;
 	width:940px;
-	height:450x;
+	height:400px;
     margin:auto;
 	list-style:none;
 	padding:0px;
@@ -105,10 +105,12 @@ nav ul {
 h4 {
 	margin:0px;
 	padding:0px;
+    
 }
 
-
-
+a {
+   text-decoration: none;
+}
 
 nav button{
     background-color: transparent;
