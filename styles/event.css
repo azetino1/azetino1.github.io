@@ -1,0 +1,110 @@
+@media only screen and (min-width: 37.5em) {
+header, nav { margin: 0 auto; max-width: 600px; }
+h1 { text-align: center; }
+.hamburger { display: none; }
+.navigation { background-color: #333; overflow: hidden; text-align: center; }
+.navigation li { display: inline-block; margin-left: .25rem; }
+.navigation a { display: block; color: #eee; padding: .5rem; text-align: center; text-decoration: none;}
+.navigation a:hover { color: #000; background-color: #777; }
+}
+
+form#storm-form{
+    margin:  1em auto;
+    text-align: left;
+}
+
+fieldset{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: .5em;
+    margin: 1.5em auto;
+    border: 2px solid orange;
+    max-width: 500px;
+    padding-left: 6%;
+
+}
+
+legend{
+    color: white;
+    margin-left: 6%;
+    border: 2px solid orange;
+    background-color: black;
+    border-radius: .4em;
+    padding: .5em;
+}
+
+label{
+/*input elements are inline by default*/
+    display: block;
+    margin: .5em;
+   
+}
+
+/*to put input fields under instructions/labels and improve visual grouping*/
+label span {
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    color: #ffffff;
+    padding-top: .9em;
+    padding-bottom: .2em;
+}
+
+.radio-text{
+    display: inline;
+    padding-left: .5em;
+}
+input.radio{
+    padding-bottom: .5em;
+}
+
+fieldset#comments{
+    padding: 1em 2em;
+}
+
+input.submitBtn{
+    /*override web kit on some mobile devices*/
+    -webkit-appearance: none;
+    color: #fff;
+    border: 1px solid orange;
+    border-radius: .4em;
+    width: 50%;
+    display: block;
+    margin: .5em auto;
+    font-size: 1.3em;
+    padding: .6em;
+    background: black; /*for old browsers*/
+    box-shadow: 4px 4px 10px #666;
+    
+}
+
+label input{
+    background-color: #f4f2ef;
+    color: #917a56;
+    padding: .3em .3em .3em 2em;
+    border: solid 1px #b0aaa0;
+    border-radius: 5px;
+    font-size: .9em;
+    width: 90%;
+    max-width: 500px;
+    background-image: url(../images/ico_validation.png);
+    background-repeat: no-repeat;
+    background-position:4px -11px;
+}
+
+input:focus{
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
+}
+
+input:required{
+    background-position:4px -61px; /*shows the red star*/
+}
+
+input:focus:invalid{
+    background-position:4px -111px;/*shows the yellow circle*/
+}
+
+input:required:valid{
+     background-color: #fff;
+    background-position:4px -161px; /*shows the green check*/
+    
+}
