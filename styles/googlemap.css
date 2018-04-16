@@ -1,0 +1,22 @@
+*{margin: 0;
+padding: 0;
+}
+.header{
+    width:auto;
+    height: 100px;
+    background-color: navy;
+    padding: 10px;
+}
+
+h1{ 
+color: whitesmoke;
+font-size:45px;
+    
+}
+.section{
+    margin: 20px;
+    widows: auto;
+    height: 500px;
+    
+    
+}
