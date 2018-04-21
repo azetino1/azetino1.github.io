@@ -83,7 +83,7 @@ nav ul {
 	left:0px;
 	right:0px;
 	width:940px;
-	height:525px;
+	line-height:auto; 
     margin:auto;
 	list-style:none;
 	padding:0px;
@@ -112,15 +112,6 @@ nav ul {
 	display:none;
 }
 
-nav button{
-    background-color: transparent;
-    border: none;
-    color: white;
-    padding: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    font-size: 1.6rem;
-}
 h4 {
 	margin:0px;
 	padding:0px;
