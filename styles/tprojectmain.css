@@ -112,6 +112,10 @@ nav ul {
 	display:none;
 }
 
+a:hover#dropdownmenu{
+    border-radius: 4px 4px 0 0;
+}
+
 h4 {
 	margin:0px;
 	padding:0px;
