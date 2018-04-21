@@ -112,10 +112,15 @@ nav ul {
 	display:none;
 }
 
-a:hover, dropdownmenu{
-    border-radius: 4px 4px 0 0;
+nav button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 1.6rem;
 }
-
 h4 {
 	margin:0px;
 	padding:0px;
