@@ -1,33 +1,26 @@
-* { 
-    box-sizing: border-box;
-}  
-
-body {
-    font-family: "Ubuntu", "Arial", sans-serif;
-    font-size: 16px;
-    margin: 20px auto 20px auto;
-    max-width: 1000px;
-    text-align: center;
+body,html {
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
 }
 
-
- nav ul {
+ul {
 	position:absolute;
 	top:0px;
 	bottom:0px;
 	left:0px;
 	right:0px;
-	width:940px;
-	height:5000px;
-    margin:auto;
+	width:960px;
+	height:100px;
+	margin:auto;
 	list-style:none;
 	padding:0px;
-	border-top: 4px solid orange;
-    
+	border-top: 4px solid red;
 }
 
- nav li {
-	width: 154px;
+li {
+	width: 190px;
 	height: 48px;
 	float: left;
 	text-align: center;
@@ -36,12 +29,12 @@ body {
 	line-height: 3.6;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.4);
 	font-size: 14px;
-	margin:1px;
+	margin: 1px;
 }
 
- nav li > ul {
+li > ul {
 	position:relative;
-	width:153px;
+	width:190px;
 	clear:both;
 	/* Hide the Submenus */
 	display:none;
@@ -50,6 +43,4 @@ body {
 h4 {
 	margin:0px;
 	padding:0px;
-    
 }
-
