@@ -69,8 +69,8 @@ h1.site-name {
 }
 
 .dropdownMenu {
-     position: absolute;
-     top: 0;
+     position: relative
+   
 
 }
 
