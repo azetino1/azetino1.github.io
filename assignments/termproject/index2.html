@@ -17,20 +17,9 @@
 	<script src="/assignments/lesson-11/lesson-2/js/jquery-2.2.1.min.js"></script>
 
 
-    
+   
 
-	<script>
-        
-	$(function(){
-        
-        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
-        $('.dropdownMenu > li').hover(function(){
-            $(this).children("ul").slideToggle(200);
-      
-        })
-
-	})
-    </script>
+	
     
  </head>
     
@@ -43,6 +32,19 @@
 <img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
   </header>
 
+    <script>
+        
+	$(function(){
+        
+        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
+        $('.dropdownMenu > li').hover(function(){
+            $(this).children("ul").slideToggle(200);
+      
+        })
+
+	})
+    </script> 
+    
 <nav> 
 <button onclick="toggleNavMenu()">&#9776;</button>
         <ul class="dropdownMenu" class="hide">
