@@ -69,8 +69,9 @@ h1.site-name {
 }
 
 .dropdownMenu {
-    
-    float:inherit;
+     position: absolute;
+     top: 100%;
+
 }
 
 nav ul {
