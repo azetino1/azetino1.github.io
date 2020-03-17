@@ -14,10 +14,13 @@ body {
 
 header {
     display: flex; 
-    justify-content: flex-start; 
-    margin-top: 100px;
+    justify-content: flex-start;  
 }
     
+.column{
+    height: 100px;
+}
+
 #site-logo { 
     width: 70px;
     height: 68px;
