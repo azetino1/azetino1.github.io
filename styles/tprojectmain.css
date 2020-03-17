@@ -68,6 +68,10 @@ h1.site-name {
     margin-left: 10px;
 }
 
+.dropdownMenu{
+position: absolute;
+    
+}
 
 nav ul {
     display: hidden;
