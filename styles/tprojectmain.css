@@ -71,7 +71,7 @@ h1.site-name {
 
 nav ul {
     display: hidden;
-	position:absolute;
+	position:relative;
 	top:0px;
 	bottom:0px;
 	left:0px;
