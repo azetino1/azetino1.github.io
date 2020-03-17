@@ -23,7 +23,7 @@ header {
 
 #site-logo { 
     width: 70px;
-    height: 200px;
+    height: 68px;
     margin-bottom: 1em;
     display: block;
    
@@ -32,7 +32,7 @@ header {
 header.column {
     flex: 1;
     text-align: center;
-     
+    height:200px;
    
     
 }
