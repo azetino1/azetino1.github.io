@@ -38,7 +38,7 @@ header.column {
 .site-name{
     font-family: "Comfortaa", "Helvetica", sans-serif,;
     letter-spacing: .03em;   
-    height: 200px;
+    
     
     
     
@@ -84,7 +84,7 @@ nav ul {
 	left:0px;
 	right:0px;
 	width:940px;
-    height:auto;
+    height:200px;
     margin:auto;
 	list-style:none;
 	padding:0px;
