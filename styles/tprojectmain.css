@@ -17,9 +17,7 @@ header {
     justify-content: flex-start;  
 }
     
-.column{
-    height:auto;
-}
+
 
 #site-logo { 
     width: 70px;
