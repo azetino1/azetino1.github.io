@@ -28,6 +28,9 @@ header {
    
 }
 
+.column{
+    height: 100px;
+}
 
 
 header.column {
@@ -42,7 +45,7 @@ header.column {
     font-family: "Comfortaa", "Helvetica", sans-serif,;
     letter-spacing: .03em;    
     height: 100px;
-    position: relative;
+   
 }
 
 
