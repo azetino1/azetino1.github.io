@@ -15,7 +15,7 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
-    clear: both;
+   
  
 
     /*overflow: auto;*/
@@ -78,7 +78,7 @@ nav ul {
 	bottom:0px;
 	left:0px;
 	right:0px;
-	width:auto;
+	width:940px;
     height:auto;
     margin:auto;
 	list-style:none;
