@@ -30,7 +30,7 @@ header {
 header.column {
     flex: 1;
     text-align: center;
-    height: auto;
+    height: 200px;
     
 }
 
