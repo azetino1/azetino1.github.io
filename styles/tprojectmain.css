@@ -15,6 +15,7 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
+    clear: both;
  
 
     /*overflow: auto;*/
