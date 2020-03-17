@@ -24,6 +24,7 @@ header {
     width: 70px;
     height: 68px;
     margin-bottom: 1em;
+    margin-top: 200px;
     display: block;
    
 }
@@ -41,7 +42,7 @@ header.column {
 .site-name{
     font-family: "Comfortaa", "Helvetica", sans-serif,;
     letter-spacing: .03em;    
-    height:100px;
+    height:200px;
 }
 
 
