@@ -16,10 +16,11 @@ header {
     display: flex; 
     justify-content: flex-start;  
     
-    
 }
     
-
+#span{
+    height: 100px;
+}
 
 #site-logo { 
     width: 70px;
