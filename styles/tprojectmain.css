@@ -31,14 +31,17 @@ header {
 header.column {
     flex: 1;
     text-align: center;
-     height:500px;
+     
    
     
 }
 
 .site-name{
     font-family: "Comfortaa", "Helvetica", sans-serif,;
-    letter-spacing: .03em;      
+    letter-spacing: .03em;   
+    height: auto;
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6{
