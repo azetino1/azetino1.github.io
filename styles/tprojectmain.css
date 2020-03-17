@@ -15,11 +15,8 @@ body {
 header {
     display: flex; 
     justify-content: flex-start; 
-   
+    overflow: auto;
     
-
-    /*overflow: auto;*/
-}
 
 #site-logo { 
     width: 70px;
