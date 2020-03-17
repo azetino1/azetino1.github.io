@@ -37,11 +37,11 @@ header.column {
 
 .site-name{
     font-family: "Comfortaa", "Helvetica", sans-serif,;
-    letter-spacing: .03em;   
-    
-    
-    
-    
+    letter-spacing: .03em;      
+}
+
+.site-name.shadow {
+    height: 200px;
 }
 
 h1, h2, h3, h4, h5, h6{
