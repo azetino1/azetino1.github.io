@@ -40,4 +40,8 @@ header img {
 }
 
 footer {
-    font-size: small;}    
+    font-size: small;}  
+
+.hide {
+    display: none;
+}
