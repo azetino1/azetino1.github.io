@@ -2,47 +2,52 @@
 
 @media only screen and (min-width: 37.5em) {
 
-       
 /* hide hamburger button */
 nav button {
     display: none;
 }
 
+/* desktop/tablet horizontal menu */
 #primaryNav,
 #primaryNav.hide {
-    display: flex;
+    display: flex !important;
     justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
+/* main menu items */
 #primaryNav > li {
-    position: relative;
-    width: auto;
+    display: block !important;
+    width: auto !important;
     min-width: 120px;
-    float: none;
+    float: none !important;
+    position: relative;
+    margin: 0;
 }
 
+/* dropdown menus hidden */
 #primaryNav > li > ul {
-    display: none;
+    display: none !important;
+    position: absolute;
+    width: 180px;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
 }
 
+/* dropdowns show on hover */
 #primaryNav > li:hover > ul {
-    display: block;
-    position: absolute;
+    display: block !important;
 }
+
 /* dropdown items */
 #primaryNav > li > ul > li {
-    display: block;
-    width: 100%;
-    background: rgb(240, 240, 240);
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
 }
-
-/* show dropdowns on hover */
-#primaryNav > li:hover > ul {
-   display: block !important;
-    
-}
-
-       
+        
  #site-logo { 
     width: 80px;
     height: 78px;
