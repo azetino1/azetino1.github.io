@@ -14,19 +14,6 @@ nav button {
     display: block;
 }
 
-/* horizontal menu */
-#primaryNav li {
-    display: inline-block;
-    width: 154px;
-    float: none;
-    margin: 0;
-}
-
-/* menu links */
-#primaryNav li a {
-    display: block;
-    padding: 1em;
-}
  #site-logo { 
     width: 80px;
     height: 78px;
