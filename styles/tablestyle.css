@@ -2,38 +2,34 @@
     
     
     table, th, td {
-    
-        font-family: Ubuntu, sans-serif;
-        text-align:center;
-        padding: 10px;
-        width:50%;
-        height:50%;
-        border: 1px solid black;
-        border-collapse: collapse;  
-        margin: auto;
-        
-     }
-    
-    caption{
-        background-color: #7fb9c2;
-        font-size: 1.5em;
-        padding: 15px;
-    }
-    
-    th{
-        background-color: #628ca6;
-        color: white;
-        font-size: .9em;    
-    }
-    
-    tbody tr:nth-child(1) {
-        background: #e7ffed;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
 }
-    tbody tr:nth-child(2) {
-        background: #e7ffed;
+
+caption {
+    background-color: #7fb9c2;
+    font-size: 1.5em;
+    padding: 15px;
 }
-    tbody tr:nth-child(3) {
-        background: #e7ffed;
+
+th {
+    background-color: #628ca6;
+    color: white;
+    font-size: .9em;
+}
+
+tbody tr {
+    background-color: #e7ffed;
+}
+
+tfoot {
+    text-align: center;
+    background-color: #7fb9c2;
+    font-size: .75em;
 }
      tr:nth-child(4) td:nth-child(1) {
         background: #e7ffed;
