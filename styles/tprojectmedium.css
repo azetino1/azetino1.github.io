@@ -38,6 +38,7 @@ nav button {
     padding: 0;
     margin: 0;
     border-top: 4px solid orange;
+    z-index: 10;
 }
 
 /* show dropdowns on hover */
