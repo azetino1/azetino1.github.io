@@ -7,22 +7,7 @@
      nav button {
         display: none;
     }
-
-    #primaryNav {
-        display: block;
-    }
-
-    #primaryNav li {
-        display: inline-block;
-        width: 154px;
-        float: left;
-    }
-
-    #primaryNav.hide {
-        display: block;
-    }
-    
-    
+ 
     #site-logo { 
     width: 80px;
     height: 78px;
@@ -34,14 +19,24 @@
     h1.site-name {
         font-size: 2em;
     }
-    
-    
+      
 /*override hide class from smaller menu size*/
-    nav ul.hide{
+    
+ #primaryNav {
         display: block;
     }
 
-   
+    #primaryNav li {
+        display: inline-block;
+        width: 154px;
+        float: left;
+    }
+    
+/*override hide class from smaller menu size*/
+    #primaryNav.hide {
+        display: block;
+    }
+    
   
 /* show the 10-day forecast with the medium view and up*/
     section.forecast {
