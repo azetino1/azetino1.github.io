@@ -9,7 +9,6 @@ nav button {
 }
 
 /* show menu on tablet/computer */
-#primaryNav,
 #primaryNav.hide {
     display: block;
 }
