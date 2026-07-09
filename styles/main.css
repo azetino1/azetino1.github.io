@@ -45,3 +45,7 @@ footer {
 .hide {
     display: none;
 }
+
+nav button {
+    display: none;
+}
