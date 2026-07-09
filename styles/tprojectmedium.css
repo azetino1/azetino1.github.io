@@ -7,8 +7,32 @@
      nav button {
         display: none;
     }
- 
-    #site-logo { 
+     
+/* show full menu on tablet/computer */
+#primaryNav,
+#primaryNav.hide {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* make menu horizontal */
+#primaryNav li {
+    display: block;
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+/* menu links */
+#primaryNav li a {
+    display: block;
+    padding: 1em;
+}
+ #site-logo { 
     width: 80px;
     height: 78px;
     }
@@ -19,25 +43,8 @@
     h1.site-name {
         font-size: 2em;
     }
-      
-/*override hide class from smaller menu size*/
     
- #primaryNav {
-        display: block;
-    }
 
-    #primaryNav li {
-        display: inline-block;
-        width: 154px;
-        float: left;
-    }
-    
-/*override hide class from smaller menu size*/
-    #primaryNav.hide {
-        display: block;
-    }
-    
-  
 /* show the 10-day forecast with the medium view and up*/
     section.forecast {
         display: block;
