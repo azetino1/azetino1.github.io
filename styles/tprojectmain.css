@@ -89,27 +89,24 @@ nav ul {
     border-top: 4px solid orange;
 }
 
+nav ul.hide {
+    display: none;
+}
+
+nav ul:not(.hide) {
+    display: block;
+}
+
 nav li {
+    display: block;
     width: 100%;
     height: auto;
     float: none;
     text-align: center;
     background: rgb(240, 240, 240);
-    font-family: sans-serif;
     line-height: 3.6;
     font-size: 14px;
     margin: 1px 0;
-}
-
-nav li > ul {
-    position: relative;
-    width: 100%;
-    clear: both;
-    display: none;
-}
-
-.hide {
-    display: none;
 }
 
 h4 {
