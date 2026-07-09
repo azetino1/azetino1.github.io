@@ -8,10 +8,6 @@ nav button {
     display: none;
 }
 
-nav button {
-    display: none;
-}
-
 #primaryNav,
 #primaryNav.hide {
     display: flex;
