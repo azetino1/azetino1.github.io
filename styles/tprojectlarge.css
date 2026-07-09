@@ -16,14 +16,18 @@
         
     }
     
-    p img{
-        text-align: center;
-    }
+    p img {
+    display: block;
+    margin: 0 auto;
+}
     
-    .grid{
-    grid-template-columns: 300px 300px 300px;
-	width: 930px;
-    }
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 15px;
+    width: 930px;
+    margin: 0 auto;
+}
     
         #row-one{
         display:flex;
@@ -46,6 +50,6 @@
         flex: 1;
         margin: 0 .5em;
     }
-   
+}
 
 
