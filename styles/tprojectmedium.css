@@ -2,13 +2,6 @@
 
 @media only screen and (min-width: 37.5em) {
 
-       body {
-        background: yellow !important;
-    }
-
-    ...
-}
-
        
 /* hide hamburger button */
 nav button {
