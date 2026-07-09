@@ -101,12 +101,15 @@ nav li {
     margin: 1px 0;
 }
 
- nav li > ul {
-	position:relative;
-	width:153px;
-	clear:both;
-	/* Hide the Submenus */
-	display:none;
+nav li > ul {
+    position: relative;
+    width: 100%;
+    clear: both;
+    display: none;
+}
+
+.hide {
+    display: none;
 }
 
 h4 {
@@ -200,8 +203,6 @@ margin: 0 auto;
 .grid figure{
 padding: 10px;
 
-
-
 }
 
 footer {
@@ -276,7 +277,4 @@ a.town-link:hover{
 a.town-link:active{
     text-decoration: none;
     color: #b7b7b7;
-}
-.hide {
-    display: none;
 }
