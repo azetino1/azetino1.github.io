@@ -3,28 +3,23 @@
 @media only screen and (min-width: 37.5em) {
 
        
-/* hide hamburger button*/
-     nav button {
-        display: none;
-    }
-     
-/* show full menu on tablet/computer */
+/* hide hamburger button */
+nav button {
+    display: none;
+}
+
+/* show menu on tablet/computer */
 #primaryNav,
 #primaryNav.hide {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-/* make menu horizontal */
-#primaryNav li {
     display: block;
-    width: auto;
+}
+
+/* horizontal menu */
+#primaryNav li {
+    display: inline-block;
+    width: 154px;
     float: none;
     margin: 0;
-    padding: 0;
-    line-height: normal;
 }
 
 /* menu links */
