@@ -8,9 +8,23 @@ nav button {
     display: none;
 }
 
-/* show menu on tablet/computer */
+#primaryNav,
 #primaryNav.hide {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#primaryNav > li {
+    width: auto;
+    min-width: 120px;
+    float: none;
+}
+
+#primaryNav > li > a {
     display: block;
+    padding: 1em .75em;
 }
 
  #site-logo { 
