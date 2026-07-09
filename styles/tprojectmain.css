@@ -277,3 +277,6 @@ a.town-link:active{
     display: none;
 }
 
+#primaryNav li ul {
+    display: none;
+}
