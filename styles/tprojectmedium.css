@@ -1,6 +1,26 @@
 /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
 @media only screen and (min-width: 37.5em) {
+
+       
+/* hide hamburger button*/
+     nav button {
+        display: none;
+    }
+
+    #primaryNav {
+        display: block;
+    }
+
+    #primaryNav li {
+        display: inline-block;
+        width: 154px;
+        float: left;
+    }
+
+    #primaryNav.hide {
+        display: block;
+    }
     
     
     #site-logo { 
@@ -15,12 +35,6 @@
         font-size: 2em;
     }
     
-   
-/* hide hamburger button*/
-    nav button { 
-        display: none; 
-   
-    }
     
 /*override hide class from smaller menu size*/
     nav ul.hide{
