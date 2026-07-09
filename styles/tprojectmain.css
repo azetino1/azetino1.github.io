@@ -275,3 +275,11 @@ a.town-link:active{
     text-decoration: none;
     color: #b7b7b7;
 }
+
+#primaryNav.hide {
+    display: none;
+}
+
+#primaryNav {
+    display: block;
+}
