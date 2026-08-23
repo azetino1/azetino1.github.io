@@ -23,13 +23,21 @@ fieldset{
 
 }
 
-legend{
-    color: white;
-    margin-left: 6%;
-    border: 2px solid orange;
-    background-color: black;
-    border-radius: .4em;
-    padding: .5em;
+#submittingemail legend {
+  color: white;
+  margin: 0 auto;
+  border: 2px solid orange;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  background-color: black;
+  text-align: center;
+}
+
+#submittingemail .submitBtn {
+  display: block;
+  width: auto;
+  min-width: 140px;
+  margin: 1rem auto 0;
 }
 
 label{
