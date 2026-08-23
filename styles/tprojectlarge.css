@@ -1,55 +1,51 @@
 @media only screen and (min-width: 64em) {
-    
-      #site-logo { 
+  #site-logo {
     width: 100px;
     height: 97px;
-    }
-    
-   
-    
-    main figure.responsive { 
-        width: 100%; 
-    }
-    
-    header h1{
-        font-size: 3em;
-        
-    }
-    
-    p img {
+  }
+
+  main figure.responsive {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  p img {
     display: block;
     margin: 0 auto;
-}
-    
-    .grid {
+  }
+
+  .grid {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     gap: 15px;
     width: 930px;
     margin: 0 auto;
-}
-    
-        #row-one{
-        display:flex;
+  }
 
-    }
-    .story-column{
-        flex: 1;
-        padding: .5em;
-        margin:50px;
-        text-align: justify;
-    }
-      h2 {
+  #row-one {
+    display: flex;
+  }
+
+  .story-column {
+    flex: 1;
+    margin: 50px;
+    padding: 0.5em;
+    text-align: justify;
+  }
+
+  h2 {
     text-align: center;
-    }
-    
-   #row-two{
-        display: flex;
-    }
-    .town-column{
-        flex: 1;
-        margin: 0 .5em;
-    }
+  }
+
+  #row-two {
+    display: flex;
+  }
+
+  .town-column {
+    flex: 1;
+    margin: 0 0.5em;
+  }
 }
-
-
