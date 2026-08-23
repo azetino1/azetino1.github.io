@@ -3,6 +3,17 @@
 */
 
 @media only screen and (min-width: 37.5em) {
+  /*
+    Use the same centered header location
+    on every Mountain Spoke page.
+  */
+  header {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
   /* Hide the hamburger button */
   nav button {
     display: none;
@@ -20,8 +31,8 @@
   }
 
   /*
-    Use different column widths so Adventure Tours
-    has enough space to remain on one line.
+    Adventure Tours receives a wider column
+    so its label remains on one line.
   */
   #primaryNav,
   #primaryNav.hide {
@@ -51,7 +62,7 @@
     margin: 0;
   }
 
-  /* Keep every main navigation label on one line */
+  /* Keep main navigation labels on one line */
   #primaryNav > li > a {
     display: block;
     box-sizing: border-box;
@@ -102,7 +113,7 @@
     text-align: center;
   }
 
-  /* Header */
+  /* Header typography and logo */
   #site-logo {
     width: 80px;
     height: 78px;
