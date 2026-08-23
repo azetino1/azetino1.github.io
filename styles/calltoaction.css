@@ -1,47 +1,6 @@
-/* Medium and larger navigation */
-@media only screen and (min-width: 37.5em) {
-  header,
-  nav {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
-  .hamburger {
-    display: none;
-  }
-
-  .navigation {
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-  }
-
-  .navigation li {
-    display: inline-block;
-    margin-left: 0.25rem;
-  }
-
-  .navigation a {
-    display: block;
-    padding: 0.5rem;
-    color: #eee;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .navigation a:hover,
-  .navigation a:focus {
-    color: #000;
-    background-color: #777;
-  }
-}
-
 /* Signup section */
 .signup-section {
+  box-sizing: border-box;
   width: 100%;
   max-width: 600px;
   margin: 2rem auto;
@@ -50,13 +9,15 @@
 
 /* Signup form */
 #submittingemail {
+  box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
-  text-align: left;
 }
 
 /* Signup fieldset */
 #submittingemail fieldset {
+  box-sizing: border-box;
+  width: 100%;
   max-width: 500px;
   margin: 1.5rem auto;
   padding: 1.5rem;
@@ -65,7 +26,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Center the legend */
+/* Center the form heading */
 #submittingemail legend {
   margin: 0 auto;
   padding: 0.5rem 1rem;
@@ -73,31 +34,36 @@
   border-radius: 0.4rem;
   background-color: black;
   color: white;
+  font-weight: bold;
   text-align: center;
 }
 
-/* Email label */
+/* Center the Email label */
 #submittingemail label {
   display: block;
-  margin: 0 0 0.5rem;
+  width: 100%;
+  margin: 1rem auto 0.5rem;
   color: white;
   font-size: 1rem;
-  text-align: left;
+  font-weight: bold;
+  text-align: center;
 }
 
-/* Email field */
+/* Center and size the email field */
 #submittingemail input[type="email"] {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto 1rem;
   padding: 0.75rem;
   border: 1px solid #b0aaa0;
   border-radius: 5px;
   background-color: #f4f2ef;
   color: #333;
+  font-family: inherit;
   font-size: 1rem;
+  text-align: center;
 }
 
 /* Email field focus */
@@ -127,19 +93,47 @@
   width: auto;
   min-width: 140px;
   margin: 1rem auto 0;
-  padding: 0.6rem 1.5rem;
+  padding: 0.7rem 1.5rem;
   border: 1px solid orange;
   border-radius: 0.4rem;
   background-color: black;
   color: white;
-  font-size: 1.3rem;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
   box-shadow: 4px 4px 10px #666;
 }
 
-/* Button hover and keyboard focus */
+/* Sign Up button interaction */
 #submittingemail .submitBtn:hover,
 #submittingemail .submitBtn:focus {
   background-color: orange;
   color: black;
+}
+
+/* Phone layout */
+@media only screen and (max-width: 37.49em) {
+  .signup-section {
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  #submittingemail fieldset {
+    padding: 1rem;
+  }
+
+  #submittingemail .submitBtn {
+    width: 100%;
+  }
+}
+
+/* Tablet and desktop layout */
+@media only screen and (min-width: 37.5em) {
+  .signup-section,
+  #submittingemail,
+  #submittingemail fieldset {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
