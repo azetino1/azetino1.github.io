@@ -11,7 +11,58 @@
   <link href="/styles/tprojectmain.css" rel="stylesheet">
   <link href="/styles/tprojectmedium.css" rel="stylesheet">
   <link href="/styles/tprojectlarge.css" rel="stylesheet">
-  <link href="/styles/calltoaction.css" rel="stylesheet">
+
+  <style>
+    /* Contact information */
+    .contact-section {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      text-align: center;
+    }
+
+    .contact-details {
+      margin: 0 auto;
+      font-style: normal;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    .contact-details a {
+      color: #4b0082;
+      text-decoration: none;
+    }
+
+    .contact-details a:hover,
+    .contact-details a:focus {
+      color: #f39a0e;
+      text-decoration: underline;
+    }
+
+    /* Map section */
+    .map-section {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .map-section iframe {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      border: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -23,7 +74,7 @@
       </h1>
 
       <h2 id="subheading">
-        Love The Outdoors? Ride a Bike
+        Love America? Ride a bike.
       </h2>
     </div>
 
@@ -122,19 +173,22 @@
   </nav>
 
   <main>
-    <section id="row-one">
-      <div class="story-column">
-        <h2>Contact Information</h2>
+    <section class="contact-section">
+      <h2>Contact Information</h2>
 
-        <address>
-          3950 Valley Commons Dr.<br>
-          Bozeman, MT 59715<br>
-          <a href="tel:+12081234567">(208) 123-4567</a><br>
-          <a href="mailto:info@themountainspoke.com">
-            info@themountainspoke.com
-          </a>
-        </address>
-      </div>
+      <address class="contact-details">
+        3950 Valley Commons Dr.<br>
+        Bozeman, MT 59715<br>
+
+        <a href="tel:+12081234567">
+          (208) 123-4567
+        </a>
+        <br>
+
+        <a href="mailto:info@themountainspoke.com">
+          info@themountainspoke.com
+        </a>
+      </address>
     </section>
 
     <section class="map-section">
@@ -145,7 +199,6 @@
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277662133!2d-111.0929115492412!3d45.67227287900137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523849294401"
         width="600"
         height="450"
-        style="width: 100%; border: 0;"
         loading="lazy"
         allowfullscreen
       ></iframe>
