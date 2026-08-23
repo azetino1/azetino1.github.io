@@ -26,14 +26,6 @@
       text-align: center;
     }
 
-    .video-section progress {
-      display: block;
-      width: 100%;
-      max-width: 320px;
-      height: 1.5rem;
-      margin: 1rem auto;
-    }
-
     .video-section video {
       display: block;
       width: 100%;
@@ -42,7 +34,32 @@
       margin: 1rem auto;
     }
 
-    .video-message {
+    .progress-container {
+      width: 100%;
+      max-width: 640px;
+      margin: 1rem auto;
+      text-align: center;
+    }
+
+    .progress-container label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #videoProgress {
+      display: block;
+      width: 100%;
+      height: 1.5rem;
+      margin: 0 auto;
+      cursor: pointer;
+      accent-color: orange;
+    }
+
+    #videoTime {
+      display: block;
+      margin-top: 0.5rem;
       text-align: center;
     }
   </style>
@@ -154,17 +171,14 @@
 
   <main>
     <section class="video-section">
-      <p class="video-message">
-        Website project progress:
-      </p>
-
-      <progress value="2" max="2">
-        Project complete
-      </progress>
-
       <h2>My Video Explaining My Term Website</h2>
 
-      <video controls preload="metadata" playsinline>
+      <video
+        id="projectVideo"
+        controls
+        preload="metadata"
+        playsinline
+      >
         <source src="/Recording.mp4" type="video/mp4">
 
         Your browser does not support HTML video.
@@ -172,6 +186,24 @@
           Download the video
         </a>
       </video>
+
+      <div class="progress-container">
+        <label for="videoProgress">
+          Video Progress
+        </label>
+
+        <progress
+          id="videoProgress"
+          value="0"
+          max="100"
+        >
+          0%
+        </progress>
+
+        <output id="videoTime" for="projectVideo">
+          0:00 / 0:00
+        </output>
+      </div>
     </section>
   </main>
 
@@ -211,5 +243,65 @@
   <script src="/scripts/hamburger.js"></script>
   <script src="/scripts/dropdownmenu.js"></script>
   <script src="/scripts/currentdate.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const video = document.getElementById("projectVideo");
+      const progress = document.getElementById("videoProgress");
+      const videoTime = document.getElementById("videoTime");
+
+      function formatTime(seconds) {
+        if (!Number.isFinite(seconds)) {
+          return "0:00";
+        }
+
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = Math.floor(seconds % 60)
+          .toString()
+          .padStart(2, "0");
+
+        return minutes + ":" + remainingSeconds;
+      }
+
+      function updateProgress() {
+        if (!Number.isFinite(video.duration) || video.duration === 0) {
+          progress.value = 0;
+          progress.textContent = "0%";
+          videoTime.textContent = "0:00 / 0:00";
+          return;
+        }
+
+        const percentage =
+          (video.currentTime / video.duration) * 100;
+
+        progress.value = percentage;
+        progress.textContent =
+          Math.round(percentage) + "%";
+
+        videoTime.textContent =
+          formatTime(video.currentTime) +
+          " / " +
+          formatTime(video.duration);
+      }
+
+      video.addEventListener("loadedmetadata", updateProgress);
+      video.addEventListener("timeupdate", updateProgress);
+      video.addEventListener("seeked", updateProgress);
+      video.addEventListener("ended", updateProgress);
+
+      progress.addEventListener("click", function (event) {
+        if (!Number.isFinite(video.duration) || video.duration === 0) {
+          return;
+        }
+
+        const bounds = progress.getBoundingClientRect();
+        const selectedPosition =
+          (event.clientX - bounds.left) / bounds.width;
+
+        video.currentTime =
+          selectedPosition * video.duration;
+      });
+    });
+  </script>
 </body>
 </html>
