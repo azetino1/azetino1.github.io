@@ -1,5 +1,8 @@
-* { box-sizing: border-box;}  
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu');
+
+* { 
+	box-sizing: border-box;
+}  
 
   body {
     font-family: "Ubuntu", "Arial", sans-serif;
@@ -273,10 +276,25 @@ a.town-link:active{
     color: #b7b7b7;
 }
 
+/* Hide the complete mobile navigation initially */
 #primaryNav.hide {
-    display: none;
+  display: none;
 }
 
-#primaryNav li ul {
-    display: none;
+/* Show the complete navigation after clicking the hamburger */
+#primaryNav:not(.hide) {
+  display: block;
+}
+
+/* Hide nested dropdown menus initially */
+#primaryNav.dropdownMenu > li > ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Show a mobile submenu after clicking its parent */
+#primaryNav.dropdownMenu > li.submenu-open > ul {
+  display: block;
 }
