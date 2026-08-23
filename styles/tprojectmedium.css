@@ -1,32 +1,48 @@
 /*
-  Only CSS rules that need to change from
-  the small layout to the medium layout belong here.
+  Medium and larger screen styles
 */
 
 @media only screen and (min-width: 37.5em) {
-  /* Hide the hamburger button in medium and larger views */
+  /* Hide the hamburger button */
   nav button {
     display: none;
   }
 
-  /* Horizontal primary navigation */
+  /*
+    Keep the navigation and orange line aligned
+    with the six navigation tabs.
+  */
+  nav {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
   #primaryNav,
   #primaryNav.hide {
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0;
     justify-content: center;
     flex-wrap: nowrap;
-    width: 100%;
   }
 
+  /* Give all six main navigation tabs equal widths */
   #primaryNav > li {
     display: block;
     position: relative;
+    flex: 1 1 0;
     float: none;
     width: auto;
-    min-width: 120px;
+    min-width: 0;
+    margin: 0;
   }
 
-  /* Hide dropdowns initially */
+  /* Hide dropdown menus initially */
   #primaryNav > li > ul {
     display: none;
     position: absolute;
@@ -38,18 +54,21 @@
     padding: 0;
   }
 
-  /* Show only the dropdown being hovered or focused */
+  /* Show dropdowns with a mouse or keyboard */
   #primaryNav > li:hover > ul,
   #primaryNav > li:focus-within > ul {
     display: block;
   }
 
+  /* Dropdown menu items */
   #primaryNav > li > ul > li {
     display: block;
     float: none;
     width: 100%;
+    margin: 0;
   }
 
+  /* Header */
   #site-logo {
     width: 80px;
     height: 78px;
@@ -60,13 +79,13 @@
     font-size: 2em;
   }
 
-  /* Show the 10-day forecast */
+  /* Forecast */
   section.forecast {
     display: block;
   }
 
   table {
-    display: inline-block;
+    display: inline-table;
     margin: 0 auto;
     border-collapse: collapse;
   }
@@ -81,12 +100,13 @@
     color: #017792;
   }
 
+  /* Summary */
   section.summary {
     display: flex;
     justify-content: space-around;
   }
 
-  section div {
+  section.summary > div {
     flex: 1;
   }
 
@@ -95,6 +115,7 @@
     padding-bottom: 0.8em;
   }
 
+  /* Article */
   #article-content {
     display: flex;
     justify-content: space-around;
@@ -109,18 +130,19 @@
   article p img {
     max-width: 85%;
     margin: 0;
-    text-align: right;
   }
 
   /* Two-column gallery */
   .grid {
     display: grid;
-    grid-template-columns: 325px 325px;
-    column-gap: 15px;
-    width: 665px;
+    grid-template-columns: repeat(2, minmax(0, 325px));
+    gap: 15px;
+    width: 100%;
+    max-width: 665px;
     margin: 0 auto;
   }
 
+  /* Main content rows */
   #row-one {
     display: flex;
   }
@@ -136,6 +158,7 @@
     text-align: center;
   }
 
+  /* Town sections */
   #town-boxes {
     display: flex;
   }
