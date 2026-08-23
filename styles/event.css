@@ -1,111 +1,183 @@
+/* Event page content */
+.story-column {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.story-column h2 {
+  text-align: center;
+}
+
+.story-column p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* Registration section */
+#registration-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+#registration-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Registration form */
+#registration {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Form fieldsets */
+#registration fieldset {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border: 2px solid orange;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Fieldset headings */
+#registration legend {
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid orange;
+  border-radius: 0.4rem;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Form labels */
+#registration label {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 0.4rem;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Form fields */
+#registration input[type="text"],
+#registration input[type="email"],
+#registration input[type="tel"],
+#registration input[type="date"],
+#registration textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.75rem;
+  border: 1px solid #b0aaa0;
+  border-radius: 5px;
+  background-color: #f4f2ef;
+  color: #333;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* Form field focus */
+#registration input[type="text"]:focus,
+#registration input[type="email"]:focus,
+#registration input[type="tel"]:focus,
+#registration input[type="date"]:focus,
+#registration textarea:focus {
+  border-color: orange;
+  outline: 2px solid orange;
+  outline-offset: 2px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+/* Invalid required fields */
+#registration input:focus:invalid {
+  border-color: #c62828;
+  outline-color: #c62828;
+}
+
+/* Valid required fields */
+#registration input:required:valid {
+  border-color: #2e7d32;
+  background-color: white;
+}
+
+/* Comments field */
+#registration textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Send button */
+#registration .submitBtn {
+  display: block;
+  appearance: none;
+  width: auto;
+  min-width: 140px;
+  margin: 1rem auto;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid orange;
+  border-radius: 0.4rem;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px #666;
+}
+
+#registration .submitBtn:hover,
+#registration .submitBtn:focus {
+  background-color: orange;
+  color: black;
+}
+
+/* Phone layout */
+@media only screen and (max-width: 37.49em) {
+  .story-column,
+  #registration-section {
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  #registration fieldset {
+    padding: 1rem;
+  }
+
+  #registration .submitBtn {
+    width: 100%;
+  }
+}
+
+/* Tablet and desktop layout */
 @media only screen and (min-width: 37.5em) {
-header, nav { margin: 0 auto; max-width: 600px; }
-h1 { text-align: center; }
-.hamburger { display: none; }
-.navigation { background-color: #333; overflow: hidden; text-align: center; }
-.navigation li { display: inline-block; margin-left: .25rem; }
-.navigation a { display: block; color: #eee; padding: .5rem; text-align: center; text-decoration: none;}
-.navigation a:hover { color: #000; background-color: #777; }
-}
+  #registration-section {
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-form#storm-form{
-    margin:  1em auto;
-    text-align: left;
-}
+  #registration {
+    max-width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-fieldset{
-    background-color: rgba(0,0,0,0.4);
-    border-radius: .5em;
-    margin: 1.5em auto;
-    border: 2px solid orange;
-    max-width: 500px;
-    padding-left: 6%;
-
-}
-
-legend{
-    color: white;
-    margin-left: 6%;
-    border: 2px solid orange;
-    background-color: black;
-    border-radius: .4em;
-    padding: .5em;
-   
-}
-
-label{
-/*input elements are inline by default*/
-    display: block;
-    margin: .5em;
-   
-}
-
-/*to put input fields under instructions/labels and improve visual grouping*/
-label span {
-    display: block;
-    text-align: left;
-    font-size: 1em;
-    color: #ffffff;
-    padding-top: .9em;
-    padding-bottom: .2em;
-}
-
-.radio-text{
-    display: inline;
-    padding-left: .5em;
-}
-input.radio{
-    padding-bottom: .5em;
-}
-
-fieldset#comments{
-    padding: 1em 2em;
-}
-
-input.submitBtn{
-    /*override web kit on some mobile devices*/
-    -webkit-appearance: none;
-    color: #fff;
-    border: 1px solid orange;
-    border-radius: .4em;
-    width: 50%;
-    display: block;
-    margin: .5em auto;
-    font-size: 1.3em;
-    padding: .6em;
-    background: black; /*for old browsers*/
-    box-shadow: 4px 4px 10px #666;
-    
-}
-
-label input{
-    background-color: #f4f2ef;
-    color: #917a56;
-    padding: .3em .3em .3em 2em;
-    border: solid 1px #b0aaa0;
-    border-radius: 5px;
-    font-size: .9em;
-    width: 90%;
-    max-width: 500px;
-    background-image: url(../images/ico_validation.png);
-    background-repeat: no-repeat;
-    background-position:4px -11px;
-}
-
-input:focus{
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
-}
-
-input:required{
-    background-position:4px -61px; /*shows the red star*/
-}
-
-input:focus:invalid{
-    background-position:4px -111px;/*shows the yellow circle*/
-}
-
-input:required:valid{
-     background-color: #fff;
-    background-position:4px -161px; /*shows the green check*/
-    
+  #registration fieldset {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
