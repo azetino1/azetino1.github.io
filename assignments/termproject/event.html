@@ -1,431 +1,301 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>The Mountain Spoke | Event</title>
   <meta name="author" content="Alvaro Zetino">
-      
-    <link href="/styles/normalize.css" rel="stylesheet"> 
-   <!-- default styles - small/phone views -->
-    <link href="/styles/tprojectmain.css" rel="stylesheet">    
-    <!-- medium/tablet views -->
-    <link href="/styles/tprojectmedium.css" rel="stylesheet">  
-    <!-- large/wide/desktop views -->
-    <link href="/styles/tprojectlarge.css" rel="stylesheet">   
-    <link href="/styles/event.css" rel="stylesheet"> 
-	<script src="/assignments/lesson-11/lesson-2/js/jquery-2.2.1.min.js"></script>
-    
 
-	<script>
-        
-	$(function(){
-        
-        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
-        $('.dropdownMenu > li').hover(function(){
-            $(this).children("ul").slideToggle(200);
-      
-        })
-
-	})
-    </script>
-    
+  <link href="/styles/normalize.css" rel="stylesheet">
+  <link href="/styles/tprojectmain.css" rel="stylesheet">
+  <link href="/styles/tprojectmedium.css" rel="stylesheet">
+  <link href="/styles/tprojectlarge.css" rel="stylesheet">
+  <link href="/styles/event.css" rel="stylesheet">
 </head>
-    
+
 <body>
-    <header>
- <div class="column">
-     <h1 class="site-name"><span class="shadow">The Mountain</span> <span class="shadow">Spoke</span></h1>  
-     <h2 id="subheading">Love America? Ride a bike.</h2>
-</div>
-<img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
+  <header>
+    <div class="column">
+      <h1 class="site-name">
+        <span class="shadow">The Mountain</span>
+        <span class="shadow">Spoke</span>
+      </h1>
+
+      <h2 id="subheading">
+        Love America? Ride a bike.
+      </h2>
+    </div>
+
+    <img
+      id="site-logo"
+      src="/images/Bikers.jpg"
+      alt="Cyclist riding a mountain bike"
+    >
   </header>
 
-<nav> 
-<button onclick="toggleNavMenu()">&#9776;</button>
-        <ul class="dropdownMenu" class="hide">
-		<li><a href="/assignments/termproject/index2.html">Home</a></li>
-        <li><a href="/assignments/termproject/adventurestours.html">Adventures Tours</a>
-            <ul>
-				<li><a href="/assignments/termproject/halfday.html">Half-Day Bike Tour</a>
-                <li><a href="/assignments/termproject/fullday.html">Full-Day Bike Tour</a>
-			</ul>
-            </li>
-        <li><a href="/assignments/termproject/event.html">Event</a></li>
-        <li><a href="/assignments/termproject/sales.html">Sales</a>
-            <ul>
-				<li><a href="/assignments/termproject/mountainbike.html">Mountain Bike</a>
-                <li><a href="/assignments/termproject/roadbike.html">Road Bike</a>
-                <li><a href="/assignments/termproject/youthbike.html">Youth Bike</a>
-			</ul>
-            </li>
-			
-		<li><a href="/assignments/termproject/services.html">Services</a></li>
-			
-        <li><a href="/assignments/termproject/contact.html">Contact</a></li>
-      
-    </ul>
-    </nav>
-   </body>
-    
-<main> 
-         <div id="row-one"></div>
-        <div class="story-column">
-            <h2>The Cycle the Continental Divide</h2>
-            
-            <br>
-            <p><strong>Price:</strong> $525/person<br><br><strong>Trail Location:</strong> Banff, Alberta CA to Antelope Wells NM.<br><br><strong>Trail Type:</strong>100% single track mountain bike trail.<br><br><strong>Distance:</strong> 2768 miles<br><br><strong>Skill level:</strong> Advanced Skills.<br><br><strong>Duration:</strong>1 Month</p>
-             </div>
-         
-     
-        <div id="content" class="clearfix"></div>
-        <h2> Registration Form</h2>
-<form action="thanks1.html" name="registration" id="registration">
-    
-<fieldset>
-<legend><span>Personal Information:</span></legend>
- <label><span>FullName:</span><input name="fullname" type="text" value="" placeholder="fullname" pattern="[a-zA-Z -._]{3,50}" required></label>
-<label><span>Email:</span><input name="Email" type="Email" value="" placeholder="123456@gmail.com" required></label>
-<label><span>phone:</span><input name="phone" type="tel" value="" placeholder="1234567890" pattern="[0-9]{10,20}" required></label>
-<label><span>Date of Birth:</span><input name="birthdate" type="date" required></label>
-<label><span>Home State or Country:</span><input type="text" name="states" list="states" placeholder="enter home state or country" required>
-<datalist id="states">
-    <option value="Select Region" disabled>Select State</option>
-    <option value="Alabama"></option>
-	<option value="Alaska"></option>
-	<option value="Arizona"></option>
-	<option value="Arkansas"></option>
-	<option value="California"></option>
-	<option value="Colorado"></option>
-	<option value="Connecticut"></option>
-	<option value="Delaware"></option>
-	<option value="District Of Columbia"></option>
-	<option value="Florida"></option>
-	<option value="Georgia"></option>
-	<option value="Hawaii"></option>
-	<option value="Idaho"></option>
-	<option value="Illinois"></option>
-	<option value="Indiana"></option>
-	<option value="Iowa"></option>
-	<option value="Kansas"></option>
-	<option value="Kentucky"></option>
-	<option value="Louisiana"></option>
-	<option value="Maine"></option>
-	<option value="Maryland"></option>
-	<option value="Massachusetts"></option>
-	<option value="Michigan"></option>
-	<option value="Minnesota"></option>
-	<option value="Mississippi"></option>
-	<option value="Missouri"></option>
-	<option value="Montana"></option>
-	<option value="Nebraska"></option>
-	<option value="Nevada"></option>
-	<option value="New Hampshire"></option>
-	<option value="New Jersey"></option>
-	<option value="New Mexico"></option>
-	<option value="New York"></option>
-	<option value="North Carolina"></option>
-	<option value="North Dakota"></option>
-	<option value="Ohio"></option>
-	<option value="Oklahoma"></option>
-	<option value="Oregon"></option>
-	<option value="Pennsylvania"></option>
-	<option value="Rhode Island"></option>
-	<option value="South Carolina"></option>
-	<option value="South Dakota"></option>
-	<option value="Tennessee"></option>
-	<option value="Texas"></option>
-	<option value="Utah"></option>
-	<option value="Vermont"></option>
-	<option value="Virginia"></option>
-	<option value="Washington"></option>
-	<option value="West Virginia"></option>
-	<option value="Wisconsin"></option>
-	<option value="Wyoming"></option>
-    <option value="Afghanistan"></option>
-	<option value="Åland Islands"></option>
-	<option value="Albania"></option>
-	<option value="Algeria"></option>
-	<option value="American Samoa"></option>
-	<option value="Andorra"></option>
-	<option value="Angola"></option>
-	<option value="Anguilla"></option>
-	<option value="Antarctica"></option>
-	<option value="Antigua and Barbuda"></option>
-	<option value="Argentina"></option>
-	<option value="Armenia"></option>
-	<option value="Aruba"></option>
-	<option value="Australia"></option>
-	<option value="Austria"></option>
-	<option value="Azerbaijan"></option>
-	<option value="Bahamas"></option>
-	<option value="Bahrain"></option>
-	<option value="Bangladesh"></option>
-	<option value="Barbados"></option>
-	<option value="Belarus"></option>
-	<option value="Belgium"></option>
-	<option value="Belize"></option>
-	<option value="Benin"></option>
-	<option value="Bermuda"></option>
-	<option value="Bhutan"></option>
-	<option value="Bolivia, Plurinational State of"></option>
-	<option value="Bonaire, Sint Eustatius and Saba"></option>
-	<option value="Bosnia and Herzegovina"></option>
-	<option value="Botswana"></option>
-	<option value="Bouvet Island"></option>
-	<option value="Brazil"></option>
-	<option value="British Indian Ocean Territory"></option>
-	<option value="Brunei Darussalam"></option>
-	<option value="Bulgaria"></option>
-	<option value="Burkina Faso"></option>
-	<option value="Burundi"></option>
-	<option value="Cambodia"></option>
-	<option value="Cameroon"></option>
-	<option value="Canada"></option>
-	<option value="Cape Verde"></option>
-	<option value="Cayman Islands"></option>
-	<option value="Central African Republic"></option>
-	<option value="Chad"></option>
-	<option value="Chile"></option>
-	<option value="China"></option>
-	<option value="Christmas Island"></option>
-	<option value="Cocos (Keeling) Islands"></option>
-	<option value="Colombia"></option>
-	<option value="Comoros"></option>
-	<option value="Congo"></option>
-	<option value="Congo, the Democratic Republic of the"></option>
-	<option value="Cook Islands"></option>
-	<option value="Costa Rica"></option>
-	<option value="Côte d'Ivoire"></option>
-	<option value="Croatia"></option>
-	<option value="Cuba"></option>
-	<option value="Curaçao"></option>
-	<option value="Cyprus"></option>
-	<option value="Czech Republic"></option>
-	<option value="Denmark"></option>
-	<option value="Djibouti"></option>
-	<option value="Dominica"></option>
-	<option value="Dominican Republic"></option>
-	<option value="Ecuador"></option>
-	<option value="Egypt"></option>
-	<option value="El Salvador"></option>
-	<option value="Equatorial Guinea"></option>
-	<option value="Eritrea"></option>
-	<option value="Estonia"></option>
-	<option value="Ethiopia"></option>
-	<option value="Falkland Islands (Malvinas)"></option>
-	<option value="Faroe Islands"></option>
-	<option value="Fiji"></option>
-	<option value="Finland"></option>
-	<option value="France"></option>
-	<option value="French Guiana"></option>
-	<option value="French Polynesia"></option>
-	<option value="French Southern Territories"></option>
-	<option value="Gabon"></option>
-	<option value="Gambia"></option>
-	<option value="Georgia"></option>
-	<option value="Germany"></option>
-	<option value="Ghana"></option>
-	<option value="Gibraltar"></option>
-	<option value="Greece"></option>
-	<option value="Greenland"></option>
-	<option value="Grenada"></option>
-	<option value="Guadeloupe"></option>
-	<option value="Guam"></option>
-	<option value="Guatemala"></option>
-	<option value="Guernsey"></option>
-	<option value="Guinea"></option>
-	<option value="Guinea-Bissau"></option>
-	<option value="Guyana"></option>
-	<option value="Haiti"></option>
-	<option value="Heard Island and McDonald Islands"></option>
-	<option value="Holy See (Vatican City State)"></option>
-	<option value="Honduras"></option>
-	<option value="Hong Kong"></option>
-	<option value="Hungary"></option>
-	<option value="Iceland"></option>
-	<option value="India"></option>
-	<option value="Indonesia"></option>
-	<option value="Iran, Islamic Republic of"></option>
-	<option value="Iraq"></option>
-	<option value="Ireland"></option>
-	<option value="Isle of Man"></option>
-	<option value="Israel"></option>
-	<option value="Italy"></option>
-	<option value="Jamaica"></option>
-	<option value="Japan"></option>
-	<option value="Jersey"></option>
-	<option value="Jordan"></option>
-	<option value="Kazakhstan"></option>
-	<option value="Kenya"></option>
-	<option value="Kiribati"></option>
-	<option value="Korea, Democratic People's Republic of"></option>
-	<option value="Korea, Republic of"></option>
-	<option value="Kuwait"></option>
-	<option value="Kyrgyzstan"></option>
-	<option value="Lao People's Democratic Republic"></option>
-	<option value="Latvia"></option>
-	<option value="Lebanon"></option>
-	<option value="Lesotho"></option>
-	<option value="Liberia"></option>
-	<option value="Libya"></option>
-	<option value="Liechtenstein"></option>
-	<option value="Lithuania"></option>
-	<option value="Luxembourg"></option>
-	<option value="Macao"></option>
-	<option value="Macedonia, the former Yugoslav Republic of"></option>
-	<option value="Madagascar"></option>
-	<option value="Malawi"></option>
-	<option value="Malaysia"></option>
-	<option value="Maldives"></option>
-	<option value="Mali"></option>
-	<option value="Malta"></option>
-	<option value="Marshall Islands"></option>
-	<option value="Martinique"></option>
-	<option value="Mauritania"></option>
-	<option value="Mauritius"></option>
-	<option value="Mayotte"></option>
-	<option value="Mexico"></option>
-	<option value="Micronesia, Federated States of"></option>
-	<option value="Moldova, Republic of"></option>
-	<option value="Monaco"></option>
-	<option value="Mongolia"></option>
-	<option value="Montenegro"></option>
-	<option value="Montserrat"></option>
-	<option value="Morocco"></option>
-	<option value="Mozambique"></option>
-	<option value="Myanmar"></option>
-	<option value="Namibia"></option>
-	<option value="Nauru"></option>
-	<option value="Nepal"></option>
-	<option value="Netherlands"></option>
-	<option value="New Caledonia"></option>
-	<option value="New Zealand"></option>
-	<option value="Nicaragua"></option>
-	<option value="Niger"></option>
-	<option value="Nigeria"></option>
-	<option value="Niue"></option>
-	<option value="Norfolk Island"></option>
-	<option value="Northern Mariana Islands"></option>
-	<option value="Norway"></option>
-	<option value="Oman"></option>
-	<option value="Pakistan"></option>
-	<option value="Palau"></option>
-	<option value="Palestinian Territory, Occupied"></option>
-	<option value="Panama"></option>
-	<option value="Papua New Guinea"></option>
-	<option value="Paraguay"></option>
-	<option value="Peru"></option>
-	<option value="Philippines"></option>
-	<option value="Pitcairn"></option>
-	<option value="Poland"></option>
-	<option value="Portugal"></option>
-	<option value="Puerto Rico"></option>
-	<option value="Qatar"></option>
-	<option value="Réunion"></option>
-	<option value="Romania"></option>
-	<option value="Russian Federation"></option>
-	<option value="Rwanda"></option>
-	<option value="Saint Barthélemy"></option>
-	<option value="Saint Helena, Ascension and Tristan da Cunha"></option>
-	<option value="Saint Kitts and Nevis"></option>
-	<option value="Saint Lucia"></option>
-	<option value="Saint Martin (French part)"></option>
-	<option value="Saint Pierre and Miquelon"></option>
-	<option value="Saint Vincent and the Grenadines"></option>
-	<option value="Samoa"></option>
-	<option value="San Marino"></option>
-	<option value="Sao Tome and Principe"></option>
-	<option value="Saudi Arabia"></option>
-	<option value="Senegal"></option>
-	<option value="Serbia"></option>
-	<option value="Seychelles"></option>
-	<option value="Sierra Leone"></option>
-	<option value="Singapore"></option>
-	<option value="Sint Maarten (Dutch part)"></option>
-	<option value="Slovakia"></option>
-	<option value="Slovenia"></option>
-	<option value="Solomon Islands"></option>
-	<option value="Somalia"></option>
-	<option value="South Africa"></option>
-	<option value="South Georgia and the South Sandwich Islands"></option>
-	<option value="South Sudan"></option>
-	<option value="Spain"></option>
-	<option value="Sri Lanka"></option>
-	<option value="Sudan"></option>
-	<option value="Suriname"></option>
-	<option value="Svalbard and Jan Mayen"></option>
-	<option value="Swaziland"></option>
-	<option value="Sweden"></option>
-	<option value="Switzerland"></option>
-	<option value="Syrian Arab Republic"></option>
-	<option value="Taiwan, Province of China"></option>
-	<option value="Tajikistan"></option>
-	<option value="Tanzania, United Republic of"></option>
-	<option value="Thailand"></option>
-	<option value="Timor-Leste"></option>
-	<option value="Togo"></option>
-	<option value="Tokelau"></option>
-	<option value="Tonga"></option>
-	<option value="Trinidad and Tobago"></option>
-	<option value="Tunisia"></option>
-	<option value="Turkey"></option>
-	<option value="Turkmenistan"></option>
-	<option value="Turks and Caicos Islands"></option>
-	<option value="Tuvalu"></option>
-	<option value="Uganda"></option>
-	<option value="Ukraine"></option>
-	<option value="United Arab Emirates"></option>
-	<option value="United Kingdom"></option>
-	<option value="United States"></option>
-	<option value="United States Minor Outlying Islands"></option>
-	<option value="Uruguay"></option>
-	<option value="Uzbekistan"></option>
-	<option value="Vanuatu"></option>
-	<option value="Venezuela, Bolivarian Republic of"></option>
-	<option value="Viet Nam"></option>
-	<option value="Virgin Islands, British"></option>
-	<option value="Virgin Islands, U.S."></option>
-	<option value="Wallis and Futuna"></option>
-	<option value="Western Sahara"></option>
-	<option value="Yemen"></option>
-	<option value="Zambia"></option>
-	<option value="Zimbabwe"></option>
-    </datalist>
-    </label>
-    </fieldset>
-    
-<fieldset>
-<legend><span>Special Accomodations/Comments:</span></legend>
-<label>  
-<textarea rows="10" cols="100"></textarea>
-</label>
-</fieldset>
-   
-    
-<fieldset>
-<label>
-<input type="submit" value="Send!" class="submitBtn">
-<input name="subjet" type="hidden" value="registration" >
-<input name="redirect" type="hidden" value="thanks1.html">
-</label>
-</fieldset>
-    
-     <footer>
-    <aside>
-        <p><a href="index2.html" id="footer-title" class="site-name">The Mountain Spoke</a><br>
-        3950 Valley Commons Dr <br>
-        Bozeman, MT 59715 <br>
-        (208) 123-4567 <br>
-        info@themountainspoke.com<br>
-    </aside>
-    <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
-  </footer>
-    
-    <script type="text/javascript" src="/scripts/hamburger.js"></script>
-    <script type="text/javascript" src="/scripts/currentdate.js"></script>
+  <nav aria-label="Primary navigation">
+    <button
+      type="button"
+      aria-label="Toggle navigation"
+      aria-controls="primaryNav"
+      aria-expanded="false"
+      onclick="toggleNavMenu()"
+    >
+      &#9776;
+    </button>
 
-    
-</form>
-</main> 
+    <ul id="primaryNav" class="dropdownMenu hide">
+      <li>
+        <a href="/assignments/termproject/index2.html">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/adventurestours.html">
+          Adventure Tours
+        </a>
+
+        <ul>
+          <li>
+            <a href="/assignments/termproject/halfday.html">
+              Half-Day Bike Tour
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/fullday.html">
+              Full-Day Bike Tour
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="active">
+        <a
+          href="/assignments/termproject/event.html"
+          aria-current="page"
+        >
+          Event
+        </a>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/sales.html">
+          Sales
+        </a>
+
+        <ul>
+          <li>
+            <a href="/assignments/termproject/mountainbike.html">
+              Mountain Bike
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/roadbike.html">
+              Road Bike
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/kidsbike.html">
+              Kids Bike
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/services.html">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/contact.html">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="story-column">
+      <h2>Cycle the Continental Divide</h2>
+
+      <p>
+        <strong>Price:</strong>
+        $525 per person
+        <br><br>
+
+        <strong>Trail Location:</strong>
+        Banff, Alberta, Canada, to Antelope Wells, New Mexico
+        <br><br>
+
+        <strong>Trail Type:</strong>
+        Single-track mountain bike trail
+        <br><br>
+
+        <strong>Distance:</strong>
+        2,768 miles
+        <br><br>
+
+        <strong>Skill Level:</strong>
+        Advanced
+        <br><br>
+
+        <strong>Duration:</strong>
+        One month
+      </p>
+    </section>
+
+    <section id="registration-section">
+      <h2>Registration Form</h2>
+
+      <form
+        action="/assignments/termproject/thanks1.html"
+        method="get"
+        name="registration"
+        id="registration"
+      >
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">
+            Full Name:
+          </label>
+          <input
+            id="fullname"
+            name="fullname"
+            type="text"
+            placeholder="Full name"
+            minlength="3"
+            maxlength="50"
+            autocomplete="name"
+            required
+          >
+
+          <label for="email">
+            Email:
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="name@example.com"
+            autocomplete="email"
+            required
+          >
+
+          <label for="phone">
+            Phone:
+          </label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="1234567890"
+            pattern="[0-9]{10,20}"
+            autocomplete="tel"
+            required
+          >
+
+          <label for="birthdate">
+            Date of Birth:
+          </label>
+          <input
+            id="birthdate"
+            name="birthdate"
+            type="date"
+            autocomplete="bday"
+            required
+          >
+
+          <label for="location">
+            Home State or Country:
+          </label>
+          <input
+            id="location"
+            name="location"
+            type="text"
+            placeholder="Enter your state or country"
+            autocomplete="country-name"
+            required
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Special Accommodations or Comments
+          </legend>
+
+          <label for="comments">
+            Comments:
+          </label>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="8"
+            placeholder="Tell us about any accommodations you need."
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <input
+            type="submit"
+            value="Send!"
+            class="submitBtn"
+          >
+
+          <input
+            name="subject"
+            type="hidden"
+            value="registration"
+          >
+
+          <input
+            name="redirect"
+            type="hidden"
+            value="thanks1.html"
+          >
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <aside>
+      <p>
+        <a
+          href="/assignments/termproject/index2.html"
+          id="footer-title"
+          class="site-name"
+        >
+          The Mountain Spoke
+        </a>
+        <br>
+
+        3950 Valley Commons Dr.<br>
+        Bozeman, MT 59715<br>
+        (208) 123-4567<br>
+
+        <a href="mailto:info@themountainspoke.com">
+          info@themountainspoke.com
+        </a>
+      </p>
+    </aside>
+
+    <p class="footer-bar">
+      &copy; 2018 All Rights Reserved |
+      The Mountain Spoke |
+      <span id="currentdate"></span>
+    </p>
+  </footer>
+
+  <script src="/scripts/hamburger.js"></script>
+  <script src="/scripts/dropdownmenu.js"></script>
+  <script src="/scripts/currentdate.js"></script>
+</body>
 </html>
