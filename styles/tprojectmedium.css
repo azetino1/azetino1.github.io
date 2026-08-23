@@ -9,37 +9,58 @@
   }
 
   /*
-    Keep the navigation and orange line aligned
-    with the six navigation tabs.
+    Keep the navigation, tabs, and orange line
+    aligned at the same width.
   */
   nav {
     box-sizing: border-box;
     width: 100%;
-    max-width: 720px;
+    max-width: 780px;
     margin: 0 auto;
   }
 
+  /*
+    Use different column widths so Adventure Tours
+    has enough space to remain on one line.
+  */
   #primaryNav,
   #primaryNav.hide {
-    display: flex;
+    display: grid;
     box-sizing: border-box;
+    grid-template-columns:
+      0.85fr
+      1.45fr
+      0.85fr
+      0.85fr
+      1fr
+      1fr;
     width: 100%;
-    max-width: 720px;
+    max-width: 780px;
     margin: 0 auto;
     padding: 0;
-    justify-content: center;
-    flex-wrap: nowrap;
   }
 
-  /* Give all six main navigation tabs equal widths */
+  /* Main navigation tabs */
   #primaryNav > li {
     display: block;
     position: relative;
-    flex: 1 1 0;
     float: none;
-    width: auto;
+    box-sizing: border-box;
+    width: 100%;
     min-width: 0;
     margin: 0;
+  }
+
+  /* Keep every main navigation label on one line */
+  #primaryNav > li > a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
   }
 
   /* Hide dropdown menus initially */
@@ -49,7 +70,8 @@
     top: 100%;
     left: 0;
     z-index: 999;
-    width: 180px;
+    box-sizing: border-box;
+    width: 190px;
     margin: 0;
     padding: 0;
   }
@@ -64,8 +86,20 @@
   #primaryNav > li > ul > li {
     display: block;
     float: none;
+    box-sizing: border-box;
     width: 100%;
     margin: 0;
+  }
+
+  /* Keep dropdown labels on one line */
+  #primaryNav > li > ul > li > a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    white-space: nowrap;
+    text-align: center;
   }
 
   /* Header */
