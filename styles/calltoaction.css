@@ -1,112 +1,145 @@
+/* Medium and larger navigation */
 @media only screen and (min-width: 37.5em) {
-header, nav { margin: 0 auto; max-width: 600px; }
-h1 { text-align: center; }
-.hamburger { display: none; }
-.navigation { background-color: #333; overflow: hidden; text-align: center; }
-.navigation li { display: inline-block; margin-left: .25rem; }
-.navigation a { display: block; color: #eee; padding: .5rem; text-align: center; text-decoration: none;}
-.navigation a:hover { color: #000; background-color: #777; }
+  header,
+  nav {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+
+  .navigation li {
+    display: inline-block;
+    margin-left: 0.25rem;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 0.5rem;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .navigation a:hover,
+  .navigation a:focus {
+    color: #000;
+    background-color: #777;
+  }
 }
 
-form#storm-form{
-    margin:  1em auto;
-    text-align: left;
+/* Signup section */
+.signup-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
-fieldset{
-    background-color: rgba(0,0,0,0.4);
-    border-radius: .5em;
-    margin: 1.5em auto;
-    border: 2px solid orange;
-    max-width: 500px;
-    padding-left: 6%;
-
-}
-
-#submittingemail legend {
-  color: white;
+/* Signup form */
+#submittingemail {
+  width: 100%;
   margin: 0 auto;
+  text-align: left;
+}
+
+/* Signup fieldset */
+#submittingemail fieldset {
+  max-width: 500px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
   border: 2px solid orange;
-  border-radius: 0.4em;
-  padding: 0.5em;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Center the legend */
+#submittingemail legend {
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid orange;
+  border-radius: 0.4rem;
   background-color: black;
+  color: white;
   text-align: center;
 }
 
-label{
-/*input elements are inline by default*/
-    display: block;
-    margin: .5em;
-   
+/* Email label */
+#submittingemail label {
+  display: block;
+  margin: 0 0 0.5rem;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
 }
 
-/*to put input fields under instructions/labels and improve visual grouping*/
-label span {
-    display: block;
-    text-align: left;
-    font-size: 1em;
-    color: #ffffff;
-    padding-top: .9em;
-    padding-bottom: .2em;
+/* Email field */
+#submittingemail input[type="email"] {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1rem;
+  padding: 0.75rem;
+  border: 1px solid #b0aaa0;
+  border-radius: 5px;
+  background-color: #f4f2ef;
+  color: #333;
+  font-size: 1rem;
 }
 
-.radio-text{
-    display: inline;
-    padding-left: .5em;
-}
-input.radio{
-    padding-bottom: .5em;
-}
-
-fieldset#comments{
-    padding: 1em 2em;
+/* Email field focus */
+#submittingemail input[type="email"]:focus {
+  border-color: orange;
+  outline: 2px solid orange;
+  outline-offset: 2px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
-input.submitBtn{
-    /*override web kit on some mobile devices*/
-    -webkit-appearance: none;
-    color: #fff;
-    border: 1px solid orange;
-    border-radius: .4em;
-    width: 50%;
-    display: block;
-    margin: .5em auto;
-    font-size: 1.3em;
-    padding: .6em;
-    background: black; /*for old browsers*/
-    box-shadow: 4px 4px 10px #666;
-    
+/* Invalid email */
+#submittingemail input[type="email"]:focus:invalid {
+  border-color: #c62828;
+  outline-color: #c62828;
 }
 
-label input{
-    background-color: #f4f2ef;
-    color: #917a56;
-    padding: .3em .3em .3em 2em;
-    border: solid 1px #b0aaa0;
-    border-radius: 5px;
-    font-size: .9em;
-    width: 90%;
-    max-width: 500px;
-    background-image: url(../images/ico_validation.png);
-    background-repeat: no-repeat;
-    background-position:4px -11px;
+/* Valid email */
+#submittingemail input[type="email"]:required:valid {
+  border-color: #2e7d32;
+  background-color: white;
 }
 
-input:focus{
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.5) inset;
+/* Center the Sign Up button */
+#submittingemail .submitBtn {
+  display: block;
+  appearance: none;
+  width: auto;
+  min-width: 140px;
+  margin: 1rem auto 0;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid orange;
+  border-radius: 0.4rem;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px #666;
 }
 
-input:required{
-    background-position:4px -61px; /*shows the red star*/
+/* Button hover and keyboard focus */
+#submittingemail .submitBtn:hover,
+#submittingemail .submitBtn:focus {
+  background-color: orange;
+  color: black;
 }
-
-input:focus:invalid{
-    background-position:4px -111px;/*shows the yellow circle*/
-}
-
-input:required:valid{
-     background-color: #fff;
-    background-position:4px -161px; /*shows the green check*/
-    
-}
-
