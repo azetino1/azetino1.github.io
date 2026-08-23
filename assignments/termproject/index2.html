@@ -7,20 +7,11 @@
   <title>The Mountain Spoke | Home</title>
   <meta name="author" content="Alvaro Zetino">
 
-  <!-- Default small/phone styles -->
   <link href="/styles/normalize.css" rel="stylesheet">
   <link href="/styles/tprojectmain.css" rel="stylesheet">
-
-  <!-- Medium/tablet styles -->
   <link href="/styles/tprojectmedium.css" rel="stylesheet">
-
-  <!-- Large/desktop styles -->
   <link href="/styles/tprojectlarge.css" rel="stylesheet">
-
-  <!-- Optional call-to-action styles -->
-  <!--
   <link href="/styles/calltoaction.css" rel="stylesheet">
-  -->
 </head>
 
 <body>
@@ -32,7 +23,7 @@
       </h1>
 
       <h2 id="subheading">
-        Love Outdoors? Ride a bike.
+        Love the outdoors? Ride a bike.
       </h2>
     </div>
 
@@ -131,7 +122,7 @@
   </nav>
 
   <main>
-    <div id="row-one">
+    <section id="row-one">
       <div class="story-column">
         <h2>Plan Your Trip</h2>
 
@@ -142,8 +133,11 @@
           pros as they tear up the asphalt and get restless watching
           the aerial footage of the winding, rising landscapes.
           Bozeman, Montana's commitment to adventure cycling has
-          elevated the state to a premier cycling destination. For
-          travelers interested in shipping their road cycles and
+          elevated the state to a premier cycling destination.
+        </p>
+
+        <p>
+          For travelers interested in shipping their road cycles and
           packing their gear—or renting or buying locally—for an
           extended cycle tour of Bozeman, Montana, here are some of
           the top extended explorations on two wheels.
@@ -158,9 +152,9 @@
           >
         </figure>
       </div>
-    </div>
+    </section>
 
-    <div class="grid">
+    <section class="grid" aria-label="Cycling gallery">
       <figure class="responsive hover-shadow">
         <img
           class="gallery-picture"
@@ -184,24 +178,26 @@
           alt="Mountain bike adventure"
         >
       </figure>
-    </div>
+    </section>
 
-    <form
-      action="/assignments/termproject/thanks.html"
-      method="get"
-      name="submittingemail"
-      id="submittingemail"
-    >
-      <fieldset>
-        <legend>
-          <span>Get the Latest Deals &amp; More</span>
-        </legend>
+    <section class="signup-section">
+      <form
+        action="/assignments/termproject/thanks.html"
+        method="get"
+        id="submittingemail"
+        name="submittingemail"
+      >
+        <fieldset>
+          <legend>
+            Get the Latest Deals &amp; More
+          </legend>
 
-        <label for="email">
-          <span>Email:</span>
+          <label for="signup-email">
+            Email:
+          </label>
 
           <input
-            id="email"
+            id="signup-email"
             name="email"
             type="email"
             placeholder="name@example.com"
@@ -209,29 +205,21 @@
             autocomplete="email"
             required
           >
-        </label>
-      </fieldset>
 
-      <fieldset>
-        <input
-          type="submit"
-          value="Sign Up"
-          class="submitBtn"
-        >
+          <input
+            type="submit"
+            value="Sign Up"
+            class="submitBtn"
+          >
 
-        <input
-          name="subject"
-          type="hidden"
-          value="submittingemail"
-        >
-
-        <input
-          name="redirect"
-          type="hidden"
-          value="thanks.html"
-        >
-      </fieldset>
-    </form>
+          <input
+            name="subject"
+            type="hidden"
+            value="Newsletter signup"
+          >
+        </fieldset>
+      </form>
+    </section>
   </main>
 
   <footer>
@@ -258,7 +246,11 @@
 
         3950 Valley Commons Dr.<br>
         Bozeman, MT 59715<br>
-        (208) 123-4567<br>
+
+        <a href="tel:+12081234567">
+          (208) 123-4567
+        </a>
+        <br>
 
         <a href="mailto:info@themountainspoke.com">
           info@themountainspoke.com
