@@ -1,135 +1,237 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>The Mountain Spoke | Services</title>
   <meta name="author" content="Alvaro Zetino">
-      
-    <link href="/styles/normalize.css" rel="stylesheet"> 
-   <!-- default styles - small/phone views -->
-    <link href="/styles/tprojectmain.css" rel="stylesheet">    
-    <!-- medium/tablet views -->
-    <link href="/styles/tprojectmedium.css" rel="stylesheet">  
-    <!-- large/wide/desktop views -->
-    <link href="/styles/tprojectlarge.css" rel="stylesheet">   
-    
-     <link href="/styles/tablestyle.css" rel="stylesheet">
-	<script src="/assignments/lesson-11/lesson-2/js/jquery-2.2.1.min.js"></script>
-    
 
-	
- 
-	
-    
+  <link href="/styles/normalize.css" rel="stylesheet">
+  <link href="/styles/tprojectmain.css" rel="stylesheet">
+  <link href="/styles/tprojectmedium.css" rel="stylesheet">
+  <link href="/styles/tprojectlarge.css" rel="stylesheet">
+  <link href="/styles/tablestyle.css" rel="stylesheet">
 </head>
-    
 
-    <header>
- <div class="column">
-     <h1 class="site-name"><span class="shadow">The Mountain</span> <span class="shadow">Spoke</span></h1>  
-     <h2 id="subheading">Love America? Ride a bike.</h2>
-</div>
-<img id="site-logo" src="/images/Bikers.jpg" alt="The Mountain Spoke">
+<body>
+  <header>
+    <div class="column">
+      <h1 class="site-name">
+        <span class="shadow">The Mountain</span>
+        <span class="shadow">Spoke</span>
+      </h1>
+
+      <h2 id="subheading">
+        Love America? Ride a bike.
+      </h2>
+    </div>
+
+    <img
+      id="site-logo"
+      src="/images/Bikers.jpg"
+      alt="Cyclist riding a mountain bike"
+    >
   </header>
 
- <body>
-     
-   <script>
-        
-	$(function(){
-        
-        //slideToggle reveals and hides nativagation menus sames as slideDown and slideUp
-        $('.dropdownMenu > li').hover(function(){
-            $(this).children("ul").slideToggle(200);
-      
-        })
+  <nav aria-label="Primary navigation">
+    <button
+      type="button"
+      aria-label="Toggle navigation"
+      aria-controls="primaryNav"
+      aria-expanded="false"
+      onclick="toggleNavMenu()"
+    >
+      &#9776;
+    </button>
 
-	})
-    </script> 
+    <ul id="primaryNav" class="dropdownMenu hide">
+      <li>
+        <a href="/assignments/termproject/index2.html">
+          Home
+        </a>
+      </li>
 
-<nav> 
-<button onclick="toggleNavMenu()">&#9776;</button>
-        <ul class="dropdownMenu" class="hide">
-		<li><a href="/assignments/termproject/index2.html">Home</a></li>
-        <li><a href="/assignments/termproject/adventurestours.html">Adventures Tours</a>
-            <ul>
-				<li><a href="/assignments/termproject/halfday.html">Half-Day Bike Tour</a>
-                <li><a href="/assignments/termproject/fullday.html">Full-Day Bike Tour</a>
-			</ul>
-            </li>
-        <li><a href="/assignments/termproject/event.html">Event</a></li>
-        <li><a href="/assignments/termproject/sales.html">Sales</a>
-             <ul>
-				<li><a href="/assignments/termproject/mountainbike.html">Mountain Bike</a>
-                <li><a href="/assignments/termproject/roadbike.html">Road Bike</a>
-                <li><a href="/assignments/termproject/kidsbike.html">Kids Bike</a>
-			</ul> 
-            </li>
-			
-		<li><a href="/assignments/termproject/services.html">Services</a></li>
-			
-        <li><a href="/assignments/termproject/contact.html">Contact</a></li>
-      
+      <li>
+        <a href="/assignments/termproject/adventurestours.html">
+          Adventure Tours
+        </a>
+
+        <ul>
+          <li>
+            <a href="/assignments/termproject/halfday.html">
+              Half-Day Bike Tour
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/fullday.html">
+              Full-Day Bike Tour
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/event.html">
+          Event
+        </a>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/sales.html">
+          Sales
+        </a>
+
+        <ul>
+          <li>
+            <a href="/assignments/termproject/mountainbike.html">
+              Mountain Bike
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/roadbike.html">
+              Road Bike
+            </a>
+          </li>
+
+          <li>
+            <a href="/assignments/termproject/kidsbike.html">
+              Kids Bike
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="active">
+        <a
+          href="/assignments/termproject/services.html"
+          aria-current="page"
+        >
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="/assignments/termproject/contact.html">
+          Contact
+        </a>
+      </li>
     </ul>
-    </nav>
-    </body> 
-    
- 
-    <div id="row-one"></div>
-        <div class="story-column">
-            <h2>OUR WIZARDS CAN DO NEARLY ANYTHING</h2>
-            <p>The Mountain Shop is a value-based local shop that provides from bike touring to sales and service for new and used bicycles.</p>
-            <h2>FROM CLASSIC OLD VINTAGE TO THE LATEST NEW MODELS</h2>
-        </div>
-              
- 
-<table>
-    <caption>Shop Fees</caption>
-<thead> 
+  </nav>
 
-    <th>Tune-Ups</th>
-    <th>Summary of Service</th>
-    <th>Fee</th>
-</thead>
-    
-<tbody>
-  <tr>
-    <td>Safety Check</td>
-    <td>Adjust brakes,
-Adjust derailleurs, Lube drivetrain
-Grease seatpost, Check bolts</td>
-    <td>$40</td>
-  </tr>
-  <tr>
-    <td>Singlespeed/BMX Tune</td>
-    <td>Wash bike, Condition braking surfaces, Adjust brakes, Lube cables & housing, Check bolts</td>
-    <td>$40</td>
-  </tr>
-  <tr>
-    <td>Standard Tune</td>
-    <td>Wash bike, True wheels, Condition braking surfaces, Adjust brake, Lube cables & housing
-Lube drivetrain, Check bolts</td>
-    <td>$70</td>
-  </tr>
-  <tr>
-    <td>Pro Tune</td>
-    <td>Wash bike, Condition braking surfaces, Adjust brakes, Service hubs, Service headset, Install new cables & housing*
-        Lube drivetrain, Grease seatpost, Check bolts, Road bikes: Re-wrap bar tape*, Mountain bikes: Clean suspension seals</td>
-    <td>$110 + parts</td>
-  </tr>
-  <tr>
-   
-</tbody>
+  <main>
+    <section class="story-column">
+      <h2>Our Wizards Can Do Nearly Anything</h2>
 
-<tfoot>
-    <tr>
-        <td colspan="3">Compiled 4.15.2018 by TMS staff</td>
-    </tr>
-    </tfoot>
+      <p>
+        The Mountain Spoke is a value-based local shop that provides
+        bike tours, sales, and service for new and used bicycles.
+      </p>
 
-</table>
- 
-                     
-            
+      <h2>
+        From Classic Vintage Bikes to the Latest Models
+      </h2>
+    </section>
+
+    <section class="services-table">
+      <table>
+        <caption>Shop Fees</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Tune-Up</th>
+            <th scope="col">Summary of Service</th>
+            <th scope="col">Fee</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Safety Check</th>
+            <td>
+              Adjust brakes and derailleurs, lubricate the drivetrain,
+              grease the seatpost, and check bolts.
+            </td>
+            <td>$40</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Singlespeed/BMX Tune</th>
+            <td>
+              Wash the bike, condition braking surfaces, adjust
+              brakes, lubricate cables and housing, and check bolts.
+            </td>
+            <td>$40</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Standard Tune</th>
+            <td>
+              Wash the bike, true the wheels, condition braking
+              surfaces, adjust brakes, lubricate cables and housing,
+              lubricate the drivetrain, and check bolts.
+            </td>
+            <td>$70</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Pro Tune</th>
+            <td>
+              Wash the bike, condition braking surfaces, adjust
+              brakes, service the hubs and headset, install new
+              cables and housing, lubricate the drivetrain, grease
+              the seatpost, and check bolts. Road bikes include
+              rewrapped bar tape. Mountain bikes include cleaned
+              suspension seals.
+            </td>
+            <td>$110 plus parts</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              Compiled April 15, 2018, by The Mountain Spoke staff
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <aside>
+      <p>
+        <a
+          href="/assignments/termproject/index2.html"
+          id="footer-title"
+          class="site-name"
+        >
+          The Mountain Spoke
+        </a>
+        <br>
+
+        3950 Valley Commons Dr.<br>
+        Bozeman, MT 59715<br>
+        (208) 123-4567<br>
+
+        <a href="mailto:info@themountainspoke.com">
+          info@themountainspoke.com
+        </a>
+      </p>
+    </aside>
+
+    <p class="footer-bar">
+      &copy; 2018 All Rights Reserved |
+      The Mountain Spoke |
+      <span id="currentdate"></span>
+    </p>
+  </footer>
+
+  <script src="/scripts/hamburger.js"></script>
+  <script src="/scripts/dropdownmenu.js"></script>
+  <script src="/scripts/currentdate.js"></script>
+</body>
 </html>
