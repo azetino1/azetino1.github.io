@@ -4,14 +4,36 @@
 
 @media only screen and (min-width: 37.5em) {
   /*
-    Use the same centered header location
+    Center the complete header and its contents
     on every Mountain Spoke page.
   */
   header {
+    display: flex;
     box-sizing: border-box;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .column {
+    text-align: center;
+  }
+
+  #site-logo {
+    width: 80px;
+    height: 78px;
+  }
+
+  header h1,
+  h1.site-name {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #subheading {
+    text-align: center;
   }
 
   /* Hide the hamburger button */
@@ -111,17 +133,6 @@
     padding-left: 0.5rem;
     white-space: nowrap;
     text-align: center;
-  }
-
-  /* Header typography and logo */
-  #site-logo {
-    width: 80px;
-    height: 78px;
-  }
-
-  header h1,
-  h1.site-name {
-    font-size: 2em;
   }
 
   /* Forecast */
